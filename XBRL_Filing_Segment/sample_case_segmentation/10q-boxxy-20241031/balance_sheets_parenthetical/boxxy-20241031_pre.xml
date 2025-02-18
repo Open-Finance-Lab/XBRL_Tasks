@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://boxxy.com/role/BalanceSheetsParenthetical" xlink:href="boxxy-20241031.xsd#BalanceSheetsParenthetical" xlink:type="simple"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://boxxy.com/role/BalanceSheetsParenthetical" xlink:title="000003 - Statement - BALANCE SHEETS (Parenthetical)">
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StatementOfFinancialPositionAbstract" xlink:label="loc_us-gaapStatementOfFinancialPositionAbstract_42e0b1"/>
+    <link:loc xlink:type="locator" xlink:href="boxxy-20241031.xsd#boxxy_ConvertibleNotePayableNetOfNoteDiscount" xlink:label="loc_boxxyConvertibleNotePayableNetOfNoteDiscount_ab37e5"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapStatementOfFinancialPositionAbstract_42e0b1" xlink:to="loc_boxxyConvertibleNotePayableNetOfNoteDiscount_ab37e5" order="1"/>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CommonStockParOrStatedValuePerShare" xlink:label="loc_us-gaapCommonStockParOrStatedValuePerShare_6dc3f7"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapStatementOfFinancialPositionAbstract_42e0b1" xlink:to="loc_us-gaapCommonStockParOrStatedValuePerShare_6dc3f7" order="2"/>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CommonStockSharesAuthorized" xlink:label="loc_us-gaapCommonStockSharesAuthorized_3c4907"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapStatementOfFinancialPositionAbstract_42e0b1" xlink:to="loc_us-gaapCommonStockSharesAuthorized_3c4907" order="3"/>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CommonStockSharesIssued" xlink:label="loc_us-gaapCommonStockSharesIssued_f81382"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapStatementOfFinancialPositionAbstract_42e0b1" xlink:to="loc_us-gaapCommonStockSharesIssued_f81382" order="4"/>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CommonStockSharesOutstanding" xlink:label="loc_us-gaapCommonStockSharesOutstanding_de4d5a"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapStatementOfFinancialPositionAbstract_42e0b1" xlink:to="loc_us-gaapCommonStockSharesOutstanding_de4d5a" order="5"/>
+  </link:presentationLink>
+  </link:linkbase>

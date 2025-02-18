@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:lake="http://lake.com/20241031" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2024" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink"><link:schemaRef xlink:href="lake-20241031.xsd" xlink:type="simple"/>
+	<context id="AsOf2024-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-01-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+        </entity>
+        <period>
+            <instant>2024-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-10-18_lake_InvestmentAgreementMember_lake_BodytraksMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PlanNameAxis">lake:InvestmentAgreementMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">lake:BodytraksMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-10-18</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-10-31_lake_TwoThousandSeventeenPlanMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:TitleOfIndividualAxis">lake:TwoThousandSeventeenPlanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:AllowanceForDoubtfulAccountsReceivableCurrent contextRef="AsOf2024-10-31" decimals="-3" id="fid_3021" unitRef="USD">1177000</us-gaap:AllowanceForDoubtfulAccountsReceivableCurrent>
+	<us-gaap:AllowanceForDoubtfulAccountsReceivableCurrent contextRef="AsOf2024-01-31" decimals="-3" id="fid_3022" unitRef="USD">857000</us-gaap:AllowanceForDoubtfulAccountsReceivableCurrent>
+	<us-gaap:PreferredStockParOrStatedValuePerShare contextRef="AsOf2024-10-31" decimals="INF" id="ixv-9911" unitRef="USDPShares">0.01</us-gaap:PreferredStockParOrStatedValuePerShare>
+	<us-gaap:PreferredStockParOrStatedValuePerShare contextRef="AsOf2024-01-31" decimals="INF" id="fid_3023" unitRef="USDPShares">0.01</us-gaap:PreferredStockParOrStatedValuePerShare>
+	<us-gaap:PreferredStockSharesAuthorized contextRef="AsOf2024-10-31" decimals="0" id="ixv-9912" unitRef="Shares">1500000</us-gaap:PreferredStockSharesAuthorized>
+	<us-gaap:PreferredStockSharesAuthorized contextRef="AsOf2024-01-31" decimals="0" id="fid_3025" unitRef="Shares">1500000</us-gaap:PreferredStockSharesAuthorized>
+	<us-gaap:PreferredStockSharesIssued contextRef="AsOf2024-01-31" decimals="0" id="ixv-9913" unitRef="Shares">0</us-gaap:PreferredStockSharesIssued>
+	<us-gaap:PreferredStockSharesIssued contextRef="AsOf2024-10-31" decimals="0" id="ixv-9914" unitRef="Shares">0</us-gaap:PreferredStockSharesIssued>
+	<us-gaap:PreferredStockSharesIssued contextRef="AsOf2021-10-18_lake_InvestmentAgreementMember_lake_BodytraksMember" decimals="0" id="fid_2618" unitRef="Shares">508905</us-gaap:PreferredStockSharesIssued>
+	<us-gaap:CommonStockParOrStatedValuePerShare contextRef="AsOf2024-10-31" decimals="INF" id="ixv-9915" unitRef="USDPShares">0.01</us-gaap:CommonStockParOrStatedValuePerShare>
+	<us-gaap:CommonStockParOrStatedValuePerShare contextRef="AsOf2024-01-31" decimals="INF" id="fid_3029" unitRef="USDPShares">0.01</us-gaap:CommonStockParOrStatedValuePerShare>
+	<us-gaap:CommonStockSharesAuthorized contextRef="AsOf2024-10-31" decimals="0" id="ixv-9916" unitRef="Shares">20000000</us-gaap:CommonStockSharesAuthorized>
+	<us-gaap:CommonStockSharesAuthorized contextRef="AsOf2024-01-31" decimals="0" id="fid_3031" unitRef="Shares">20000000</us-gaap:CommonStockSharesAuthorized>
+	<us-gaap:CommonStockSharesAuthorized contextRef="AsOf2024-10-31_lake_TwoThousandSeventeenPlanMember" decimals="0" id="fid_3465" unitRef="Shares">1240000</us-gaap:CommonStockSharesAuthorized>
+	<us-gaap:CommonStockSharesIssued contextRef="AsOf2024-10-31" decimals="0" id="fid_3033" unitRef="Shares">8763812</us-gaap:CommonStockSharesIssued>
+	<us-gaap:CommonStockSharesIssued contextRef="AsOf2024-01-31" decimals="0" id="fid_3034" unitRef="Shares">8722965</us-gaap:CommonStockSharesIssued>
+	<us-gaap:CommonStockSharesOutstanding contextRef="AsOf2024-10-31" decimals="0" id="fid_3035" unitRef="Shares">7405604</us-gaap:CommonStockSharesOutstanding>
+	<us-gaap:CommonStockSharesOutstanding contextRef="AsOf2024-01-31" decimals="0" id="fid_3036" unitRef="Shares">7364757</us-gaap:CommonStockSharesOutstanding>
+	<us-gaap:TreasuryStockCommonShares contextRef="AsOf2024-10-31" decimals="0" id="ixv-9917" unitRef="Shares">1358208</us-gaap:TreasuryStockCommonShares>
+	<us-gaap:TreasuryStockCommonShares contextRef="AsOf2024-01-31" decimals="0" id="fid_3037" unitRef="Shares">1358208</us-gaap:TreasuryStockCommonShares>
+	</xbrl>
+

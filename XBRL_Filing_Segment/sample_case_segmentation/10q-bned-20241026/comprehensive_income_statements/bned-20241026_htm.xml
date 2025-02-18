@@ -1,0 +1,642 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:bned="http://www.bned.com/20241026" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:ecd="http://xbrl.sec.gov/ecd/2024" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2024" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en-US"><link:schemaRef xlink:href="bned-20241026.xsd" xlink:type="simple"/>
+	<context id="c-3">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+        </entity>
+        <period>
+            <startDate>2024-07-28</startDate>
+            <endDate>2024-10-26</endDate>
+        </period>
+    </context>
+	<context id="c-4">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+        </entity>
+        <period>
+            <startDate>2023-07-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-1">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+        </entity>
+        <period>
+            <startDate>2024-04-28</startDate>
+            <endDate>2024-10-26</endDate>
+        </period>
+    </context>
+	<context id="c-5">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+        </entity>
+        <period>
+            <startDate>2023-04-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-69">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:TimingOfTransferOfGoodOrServiceAxis">us-gaap:TransferredAtPointInTimeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-07-28</startDate>
+            <endDate>2024-10-26</endDate>
+        </period>
+    </context>
+	<context id="c-70">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:TimingOfTransferOfGoodOrServiceAxis">us-gaap:TransferredAtPointInTimeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-07-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-71">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:TimingOfTransferOfGoodOrServiceAxis">us-gaap:TransferredAtPointInTimeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-04-28</startDate>
+            <endDate>2024-10-26</endDate>
+        </period>
+    </context>
+	<context id="c-72">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:TimingOfTransferOfGoodOrServiceAxis">us-gaap:TransferredAtPointInTimeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-04-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-6">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+        </entity>
+        <period>
+            <startDate>2022-07-31</startDate>
+            <endDate>2022-10-29</endDate>
+        </period>
+    </context>
+	<context id="c-57">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">bned:CourseMaterialsProductMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-07-28</startDate>
+            <endDate>2024-10-26</endDate>
+        </period>
+    </context>
+	<context id="c-58">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">bned:CourseMaterialsProductMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-07-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-59">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">bned:CourseMaterialsProductMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-04-28</startDate>
+            <endDate>2024-10-26</endDate>
+        </period>
+    </context>
+	<context id="c-60">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">bned:CourseMaterialsProductMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-04-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-61">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">bned:GeneralMerchandiseProductMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-07-28</startDate>
+            <endDate>2024-10-26</endDate>
+        </period>
+    </context>
+	<context id="c-62">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">bned:GeneralMerchandiseProductMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-07-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-63">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">bned:GeneralMerchandiseProductMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-04-28</startDate>
+            <endDate>2024-10-26</endDate>
+        </period>
+    </context>
+	<context id="c-64">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">bned:GeneralMerchandiseProductMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-04-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-65">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">bned:ServiceandOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-07-28</startDate>
+            <endDate>2024-10-26</endDate>
+        </period>
+    </context>
+	<context id="c-66">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">bned:ServiceandOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-07-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-67">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">bned:ServiceandOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-04-28</startDate>
+            <endDate>2024-10-26</endDate>
+        </period>
+    </context>
+	<context id="c-68">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">bned:ServiceandOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-04-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-7">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+        </entity>
+        <period>
+            <startDate>2022-05-01</startDate>
+            <endDate>2022-10-29</endDate>
+        </period>
+    </context>
+	<context id="c-134">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:RestructuringCostAndReserveAxis">us-gaap:EmployeeSeveranceMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-04-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-121">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:CreditFacilityAxis">bned:NewCreditFacilityMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-07-28</startDate>
+            <endDate>2024-10-26</endDate>
+        </period>
+    </context>
+	<context id="c-122">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:CreditFacilityAxis">bned:NewCreditFacilityMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-07-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-123">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:CreditFacilityAxis">bned:NewCreditFacilityMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-04-28</startDate>
+            <endDate>2024-10-26</endDate>
+        </period>
+    </context>
+	<context id="c-124">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:CreditFacilityAxis">bned:NewCreditFacilityMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-04-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-125">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">bned:TermLoanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-07-28</startDate>
+            <endDate>2024-10-26</endDate>
+        </period>
+    </context>
+	<context id="c-126">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">bned:TermLoanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-07-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-127">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">bned:TermLoanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-04-28</startDate>
+            <endDate>2024-10-26</endDate>
+        </period>
+    </context>
+	<context id="c-128">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">bned:TermLoanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-04-30</startDate>
+            <endDate>2023-10-28</endDate>
+        </period>
+    </context>
+	<context id="c-18">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+        </entity>
+        <period>
+            <startDate>2023-04-30</startDate>
+            <endDate>2023-07-29</endDate>
+        </period>
+    </context>
+	<context id="c-38">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001634117</identifier>
+        </entity>
+        <period>
+            <startDate>2024-04-28</startDate>
+            <endDate>2024-07-27</endDate>
+        </period>
+    </context>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="store">
+        <measure>bned:Store</measure>
+    </unit>
+	<unit id="person">
+        <measure>bned:Person</measure>
+    </unit>
+	<unit id="segment">
+        <measure>bned:segment</measure>
+    </unit>
+	<unit id="rate">
+        <measure>utr:Rate</measure>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<bned:Productsalesandother contextRef="c-3" decimals="-3" id="f-30" unitRef="usd">559674000</bned:Productsalesandother>
+	<bned:Productsalesandother contextRef="c-4" decimals="-3" id="f-31" unitRef="usd">569698000</bned:Productsalesandother>
+	<bned:Productsalesandother contextRef="c-1" decimals="-3" id="f-32" unitRef="usd">810600000</bned:Productsalesandother>
+	<bned:Productsalesandother contextRef="c-5" decimals="-3" id="f-33" unitRef="usd">822348000</bned:Productsalesandother>
+	<bned:Productsalesandother contextRef="c-69" decimals="-3" id="f-507" unitRef="usd">559674000</bned:Productsalesandother>
+	<bned:Productsalesandother contextRef="c-70" decimals="-3" id="f-508" unitRef="usd">569698000</bned:Productsalesandother>
+	<bned:Productsalesandother contextRef="c-71" decimals="-3" id="f-509" unitRef="usd">810600000</bned:Productsalesandother>
+	<bned:Productsalesandother contextRef="c-72" decimals="-3" id="f-510" unitRef="usd">822348000</bned:Productsalesandother>
+	<bned:RentalIncomeOperating contextRef="c-3" decimals="-3" id="f-34" unitRef="usd">42448000</bned:RentalIncomeOperating>
+	<bned:RentalIncomeOperating contextRef="c-4" decimals="-3" id="f-35" unitRef="usd">40681000</bned:RentalIncomeOperating>
+	<bned:RentalIncomeOperating contextRef="c-1" decimals="-3" id="f-36" unitRef="usd">54953000</bned:RentalIncomeOperating>
+	<bned:RentalIncomeOperating contextRef="c-5" decimals="-3" id="f-37" unitRef="usd">52192000</bned:RentalIncomeOperating>
+	<bned:RentalIncomeOperating contextRef="c-3" decimals="-3" id="f-511" unitRef="usd">42448000</bned:RentalIncomeOperating>
+	<bned:RentalIncomeOperating contextRef="c-4" decimals="-3" id="f-512" unitRef="usd">40681000</bned:RentalIncomeOperating>
+	<bned:RentalIncomeOperating contextRef="c-1" decimals="-3" id="f-513" unitRef="usd">54953000</bned:RentalIncomeOperating>
+	<bned:RentalIncomeOperating contextRef="c-5" decimals="-3" id="f-514" unitRef="usd">52192000</bned:RentalIncomeOperating>
+	<us-gaap:Revenues contextRef="c-3" decimals="-3" id="f-38" unitRef="usd">602122000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-6" decimals="-3" id="f-39" unitRef="usd">610379000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-1" decimals="-3" id="f-40" unitRef="usd">865553000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-5" decimals="-3" id="f-41" unitRef="usd">874540000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-57" decimals="-3" id="f-495" unitRef="usd">431443000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-58" decimals="-3" id="f-496" unitRef="usd">435370000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-59" decimals="-3" id="f-497" unitRef="usd">583595000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-60" decimals="-3" id="f-498" unitRef="usd">573906000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-61" decimals="-3" id="f-499" unitRef="usd">99659000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-62" decimals="-3" id="f-500" unitRef="usd">105022000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-63" decimals="-3" id="f-501" unitRef="usd">176202000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-64" decimals="-3" id="f-502" unitRef="usd">193702000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-65" decimals="-3" id="f-503" unitRef="usd">28572000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-66" decimals="-3" id="f-504" unitRef="usd">29306000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-67" decimals="-3" id="f-505" unitRef="usd">50803000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-68" decimals="-3" id="f-506" unitRef="usd">54740000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-3" decimals="-3" id="f-515" unitRef="usd">602122000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-4" decimals="-3" id="f-516" unitRef="usd">610379000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-1" decimals="-3" id="f-517" unitRef="usd">865553000</us-gaap:Revenues>
+	<us-gaap:Revenues contextRef="c-5" decimals="-3" id="f-518" unitRef="usd">874540000</us-gaap:Revenues>
+	<bned:Bned_CostofProductandOtherCostofSales contextRef="c-3" decimals="-3" id="f-42" unitRef="usd">442092000</bned:Bned_CostofProductandOtherCostofSales>
+	<bned:Bned_CostofProductandOtherCostofSales contextRef="c-4" decimals="-3" id="f-43" unitRef="usd">451953000</bned:Bned_CostofProductandOtherCostofSales>
+	<bned:Bned_CostofProductandOtherCostofSales contextRef="c-1" decimals="-3" id="f-44" unitRef="usd">651517000</bned:Bned_CostofProductandOtherCostofSales>
+	<bned:Bned_CostofProductandOtherCostofSales contextRef="c-5" decimals="-3" id="f-45" unitRef="usd">658967000</bned:Bned_CostofProductandOtherCostofSales>
+	<bned:CostOfRentalSalesAndOccupancyCosts contextRef="c-3" decimals="-3" id="f-46" unitRef="usd">22387000</bned:CostOfRentalSalesAndOccupancyCosts>
+	<bned:CostOfRentalSalesAndOccupancyCosts contextRef="c-4" decimals="-3" id="f-47" unitRef="usd">22184000</bned:CostOfRentalSalesAndOccupancyCosts>
+	<bned:CostOfRentalSalesAndOccupancyCosts contextRef="c-1" decimals="-3" id="f-48" unitRef="usd">29187000</bned:CostOfRentalSalesAndOccupancyCosts>
+	<bned:CostOfRentalSalesAndOccupancyCosts contextRef="c-5" decimals="-3" id="f-49" unitRef="usd">28697000</bned:CostOfRentalSalesAndOccupancyCosts>
+	<us-gaap:CostOfGoodsAndServicesSold contextRef="c-3" decimals="-3" id="f-50" unitRef="usd">464479000</us-gaap:CostOfGoodsAndServicesSold>
+	<us-gaap:CostOfGoodsAndServicesSold contextRef="c-4" decimals="-3" id="f-51" unitRef="usd">474137000</us-gaap:CostOfGoodsAndServicesSold>
+	<us-gaap:CostOfGoodsAndServicesSold contextRef="c-1" decimals="-3" id="f-52" unitRef="usd">680704000</us-gaap:CostOfGoodsAndServicesSold>
+	<us-gaap:CostOfGoodsAndServicesSold contextRef="c-5" decimals="-3" id="f-53" unitRef="usd">687664000</us-gaap:CostOfGoodsAndServicesSold>
+	<us-gaap:GrossProfit contextRef="c-3" decimals="-3" id="f-54" unitRef="usd">137643000</us-gaap:GrossProfit>
+	<us-gaap:GrossProfit contextRef="c-4" decimals="-3" id="f-55" unitRef="usd">136242000</us-gaap:GrossProfit>
+	<us-gaap:GrossProfit contextRef="c-1" decimals="-3" id="f-56" unitRef="usd">184849000</us-gaap:GrossProfit>
+	<us-gaap:GrossProfit contextRef="c-5" decimals="-3" id="f-57" unitRef="usd">186876000</us-gaap:GrossProfit>
+	<us-gaap:SellingGeneralAndAdministrativeExpense contextRef="c-3" decimals="-3" id="f-58" unitRef="usd">72940000</us-gaap:SellingGeneralAndAdministrativeExpense>
+	<us-gaap:SellingGeneralAndAdministrativeExpense contextRef="c-4" decimals="-3" id="f-59" unitRef="usd">85961000</us-gaap:SellingGeneralAndAdministrativeExpense>
+	<us-gaap:SellingGeneralAndAdministrativeExpense contextRef="c-1" decimals="-3" id="f-60" unitRef="usd">139963000</us-gaap:SellingGeneralAndAdministrativeExpense>
+	<us-gaap:SellingGeneralAndAdministrativeExpense contextRef="c-5" decimals="-3" id="f-61" unitRef="usd">163437000</us-gaap:SellingGeneralAndAdministrativeExpense>
+	<us-gaap:DepreciationAndAmortization contextRef="c-3" decimals="-3" id="f-62" unitRef="usd">8530000</us-gaap:DepreciationAndAmortization>
+	<us-gaap:DepreciationAndAmortization contextRef="c-4" decimals="-3" id="f-63" unitRef="usd">10175000</us-gaap:DepreciationAndAmortization>
+	<us-gaap:DepreciationAndAmortization contextRef="c-1" decimals="-3" id="f-64" unitRef="usd">21587000</us-gaap:DepreciationAndAmortization>
+	<us-gaap:DepreciationAndAmortization contextRef="c-5" decimals="-3" id="f-65" unitRef="usd">20428000</us-gaap:DepreciationAndAmortization>
+	<us-gaap:DepreciationAndAmortization contextRef="c-1" decimals="-3" id="f-257" unitRef="usd">21587000</us-gaap:DepreciationAndAmortization>
+	<us-gaap:DepreciationAndAmortization contextRef="c-5" decimals="-3" id="f-258" unitRef="usd">20428000</us-gaap:DepreciationAndAmortization>
+	<us-gaap:GainsLossesOnExtinguishmentOfDebt contextRef="c-3" decimals="-3" id="f-66" unitRef="usd">0</us-gaap:GainsLossesOnExtinguishmentOfDebt>
+	<us-gaap:GainsLossesOnExtinguishmentOfDebt contextRef="c-4" decimals="-3" id="f-67" unitRef="usd">0</us-gaap:GainsLossesOnExtinguishmentOfDebt>
+	<us-gaap:GainsLossesOnExtinguishmentOfDebt contextRef="c-1" decimals="-3" id="f-68" unitRef="usd">55233000</us-gaap:GainsLossesOnExtinguishmentOfDebt>
+	<us-gaap:GainsLossesOnExtinguishmentOfDebt contextRef="c-7" decimals="-3" id="f-69" unitRef="usd">0</us-gaap:GainsLossesOnExtinguishmentOfDebt>
+	<us-gaap:GainsLossesOnExtinguishmentOfDebt contextRef="c-1" decimals="-3" id="f-261" unitRef="usd">55233000</us-gaap:GainsLossesOnExtinguishmentOfDebt>
+	<us-gaap:GainsLossesOnExtinguishmentOfDebt contextRef="c-5" decimals="-3" id="f-262" unitRef="usd">0</us-gaap:GainsLossesOnExtinguishmentOfDebt>
+	<us-gaap:GainsLossesOnExtinguishmentOfDebt contextRef="c-1" decimals="-3" id="f-571" unitRef="usd">55233000</us-gaap:GainsLossesOnExtinguishmentOfDebt>
+	<us-gaap:GainsLossesOnExtinguishmentOfDebt contextRef="c-1" decimals="-3" id="f-724" unitRef="usd">55233000</us-gaap:GainsLossesOnExtinguishmentOfDebt>
+	<us-gaap:RestructuringCharges contextRef="c-3" decimals="-3" id="f-70" unitRef="usd">-150000</us-gaap:RestructuringCharges>
+	<us-gaap:RestructuringCharges contextRef="c-4" decimals="-3" id="f-71" unitRef="usd">4274000</us-gaap:RestructuringCharges>
+	<us-gaap:RestructuringCharges contextRef="c-1" decimals="-3" id="f-72" unitRef="usd">3468000</us-gaap:RestructuringCharges>
+	<us-gaap:RestructuringCharges contextRef="c-5" decimals="-3" id="f-73" unitRef="usd">8907000</us-gaap:RestructuringCharges>
+	<us-gaap:RestructuringCharges contextRef="c-3" decimals="-3" id="f-813" unitRef="usd">-150000</us-gaap:RestructuringCharges>
+	<us-gaap:RestructuringCharges contextRef="c-1" decimals="-3" id="f-814" unitRef="usd">3468000</us-gaap:RestructuringCharges>
+	<us-gaap:RestructuringCharges contextRef="c-4" decimals="-3" id="f-819" unitRef="usd">4274000</us-gaap:RestructuringCharges>
+	<us-gaap:RestructuringCharges contextRef="c-5" decimals="-3" id="f-820" unitRef="usd">8907000</us-gaap:RestructuringCharges>
+	<us-gaap:RestructuringCharges contextRef="c-134" decimals="-3" id="f-822" unitRef="usd">1080000</us-gaap:RestructuringCharges>
+	<us-gaap:OperatingIncomeLoss contextRef="c-3" decimals="-3" id="f-74" unitRef="usd">56323000</us-gaap:OperatingIncomeLoss>
+	<us-gaap:OperatingIncomeLoss contextRef="c-4" decimals="-3" id="f-75" unitRef="usd">35832000</us-gaap:OperatingIncomeLoss>
+	<us-gaap:OperatingIncomeLoss contextRef="c-1" decimals="-3" id="f-76" unitRef="usd">-35402000</us-gaap:OperatingIncomeLoss>
+	<us-gaap:OperatingIncomeLoss contextRef="c-5" decimals="-3" id="f-77" unitRef="usd">-5896000</us-gaap:OperatingIncomeLoss>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-3" decimals="-3" id="f-78" unitRef="usd">-5463000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-4" decimals="-3" id="f-79" unitRef="usd">-10664000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-1" decimals="-3" id="f-80" unitRef="usd">-13081000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-5" decimals="-3" id="f-81" unitRef="usd">-18918000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-121" decimals="-3" id="f-742" unitRef="usd">-4834000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-122" decimals="-3" id="f-743" unitRef="usd">-6824000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-123" decimals="-3" id="f-744" unitRef="usd">-9618000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-124" decimals="-3" id="f-745" unitRef="usd">-12539000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-125" decimals="-3" id="f-746" unitRef="usd">0</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-126" decimals="-3" id="f-747" unitRef="usd">-861000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-127" decimals="-3" id="f-748" unitRef="usd">-453000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-128" decimals="-3" id="f-749" unitRef="usd">-2167000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-3" decimals="-3" id="f-770" unitRef="usd">-5463000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-4" decimals="-3" id="f-771" unitRef="usd">-10664000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-1" decimals="-3" id="f-772" unitRef="usd">-13081000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:InterestIncomeExpenseNet contextRef="c-5" decimals="-3" id="f-773" unitRef="usd">-18918000</us-gaap:InterestIncomeExpenseNet>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest contextRef="c-3" decimals="-3" id="f-82" unitRef="usd">50860000</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest contextRef="c-4" decimals="-3" id="f-83" unitRef="usd">25168000</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest contextRef="c-1" decimals="-3" id="f-84" unitRef="usd">-48483000</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest contextRef="c-5" decimals="-3" id="f-85" unitRef="usd">-24814000</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest contextRef="c-3" decimals="-3" id="f-883" unitRef="usd">50860000</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest contextRef="c-4" decimals="-3" id="f-886" unitRef="usd">25168000</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest contextRef="c-1" decimals="-3" id="f-889" unitRef="usd">-48483000</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest contextRef="c-5" decimals="-3" id="f-892" unitRef="usd">-24814000</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="c-3" decimals="-3" id="f-86" unitRef="usd">1125000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="c-4" decimals="-3" id="f-87" unitRef="usd">314000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="c-1" decimals="-3" id="f-88" unitRef="usd">1261000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="c-5" decimals="-3" id="f-89" unitRef="usd">303000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="c-3" decimals="-3" id="f-882" unitRef="usd">1125000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="c-4" decimals="-3" id="f-885" unitRef="usd">314000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="c-1" decimals="-3" id="f-888" unitRef="usd">1261000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="c-5" decimals="-3" id="f-891" unitRef="usd">303000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeLossFromContinuingOperations contextRef="c-3" decimals="-3" id="f-90" unitRef="usd">49735000</us-gaap:IncomeLossFromContinuingOperations>
+	<us-gaap:IncomeLossFromContinuingOperations contextRef="c-4" decimals="-3" id="f-91" unitRef="usd">24854000</us-gaap:IncomeLossFromContinuingOperations>
+	<us-gaap:IncomeLossFromContinuingOperations contextRef="c-1" decimals="-3" id="f-92" unitRef="usd">-49744000</us-gaap:IncomeLossFromContinuingOperations>
+	<us-gaap:IncomeLossFromContinuingOperations contextRef="c-5" decimals="-3" id="f-93" unitRef="usd">-25117000</us-gaap:IncomeLossFromContinuingOperations>
+	<us-gaap:IncomeLossFromContinuingOperations contextRef="c-1" decimals="-3" id="f-255" unitRef="usd">-49744000</us-gaap:IncomeLossFromContinuingOperations>
+	<us-gaap:IncomeLossFromContinuingOperations contextRef="c-5" decimals="-3" id="f-256" unitRef="usd">-25117000</us-gaap:IncomeLossFromContinuingOperations>
+	<us-gaap:IncomeLossFromContinuingOperations contextRef="c-3" decimals="-3" id="f-583" unitRef="usd">49735000</us-gaap:IncomeLossFromContinuingOperations>
+	<us-gaap:IncomeLossFromContinuingOperations contextRef="c-4" decimals="-3" id="f-584" unitRef="usd">24854000</us-gaap:IncomeLossFromContinuingOperations>
+	<us-gaap:IncomeLossFromContinuingOperations contextRef="c-1" decimals="-3" id="f-585" unitRef="usd">-49744000</us-gaap:IncomeLossFromContinuingOperations>
+	<us-gaap:IncomeLossFromContinuingOperations contextRef="c-5" decimals="-3" id="f-586" unitRef="usd">-25117000</us-gaap:IncomeLossFromContinuingOperations>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-3" decimals="-3" id="f-104" unitRef="usd">0</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-4" decimals="-3" id="f-105" unitRef="usd">-674000</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-1" decimals="-3" id="f-106" unitRef="usd">0</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-5" decimals="-3" id="f-107" unitRef="usd">-1091000</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-1" decimals="-3" id="f-253" unitRef="usd">0</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-5" decimals="-3" id="f-254" unitRef="usd">-1091000</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-4" decimals="-3" id="f-474" unitRef="usd">-674000</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-5" decimals="-3" id="f-475" unitRef="usd">-1091000</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-3" decimals="-3" id="f-595" unitRef="usd">0</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-4" decimals="-3" id="f-596" unitRef="usd">-674000</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-1" decimals="-3" id="f-597" unitRef="usd">0</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-5" decimals="-3" id="f-598" unitRef="usd">-1091000</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-3" decimals="-3" id="f-619" unitRef="usd">0</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-4" decimals="-3" id="f-620" unitRef="usd">-674000</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-1" decimals="-3" id="f-621" unitRef="usd">0</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity contextRef="c-5" decimals="-3" id="f-622" unitRef="usd">-1091000</us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity>
+	<us-gaap:NetIncomeLoss contextRef="c-3" decimals="-3" id="f-108" unitRef="usd">49735000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-4" decimals="-3" id="f-109" unitRef="usd">24180000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-1" decimals="-3" id="f-110" unitRef="usd">-49744000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-5" decimals="-3" id="f-111" unitRef="usd">-26208000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-1" decimals="-3" id="f-251" unitRef="usd">-49744000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-5" decimals="-3" id="f-252" unitRef="usd">-26208000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-18" decimals="-3" id="f-353" unitRef="usd">-50388000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-18" decimals="-3" id="f-354" unitRef="usd">-50388000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-4" decimals="-3" id="f-371" unitRef="usd">24180000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-4" decimals="-3" id="f-372" unitRef="usd">24180000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-38" decimals="-3" id="f-415" unitRef="usd">-99479000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-38" decimals="-3" id="f-416" unitRef="usd">-99479000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-3" decimals="-3" id="f-436" unitRef="usd">49735000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-3" decimals="-3" id="f-437" unitRef="usd">49735000</us-gaap:NetIncomeLoss>
+	<us-gaap:IncomeLossFromContinuingOperationsPerBasicShare contextRef="c-3" decimals="2" id="f-112" unitRef="usdPerShare">1.87</us-gaap:IncomeLossFromContinuingOperationsPerBasicShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerBasicShare contextRef="c-4" decimals="2" id="f-113" unitRef="usdPerShare">9.36</us-gaap:IncomeLossFromContinuingOperationsPerBasicShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerBasicShare contextRef="c-1" decimals="2" id="f-114" unitRef="usdPerShare">-2.48</us-gaap:IncomeLossFromContinuingOperationsPerBasicShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerBasicShare contextRef="c-5" decimals="2" id="f-115" unitRef="usdPerShare">-9.47</us-gaap:IncomeLossFromContinuingOperationsPerBasicShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerBasicShare contextRef="c-3" decimals="2" id="f-651" unitRef="usdPerShare">1.87</us-gaap:IncomeLossFromContinuingOperationsPerBasicShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerBasicShare contextRef="c-4" decimals="2" id="f-652" unitRef="usdPerShare">9.36</us-gaap:IncomeLossFromContinuingOperationsPerBasicShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerBasicShare contextRef="c-1" decimals="2" id="f-653" unitRef="usdPerShare">-2.48</us-gaap:IncomeLossFromContinuingOperationsPerBasicShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerBasicShare contextRef="c-5" decimals="2" id="f-654" unitRef="usdPerShare">-9.47</us-gaap:IncomeLossFromContinuingOperationsPerBasicShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare contextRef="c-3" decimals="2" id="f-116" unitRef="usdPerShare">0</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare contextRef="c-4" decimals="2" id="f-117" unitRef="usdPerShare">-0.25</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare contextRef="c-1" decimals="2" id="f-118" unitRef="usdPerShare">0</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare contextRef="c-5" decimals="2" id="f-119" unitRef="usdPerShare">-0.41</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare contextRef="c-3" decimals="2" id="f-655" unitRef="usdPerShare">0</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare contextRef="c-4" decimals="2" id="f-656" unitRef="usdPerShare">-0.25</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare contextRef="c-1" decimals="2" id="f-657" unitRef="usdPerShare">0</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare contextRef="c-5" decimals="2" id="f-658" unitRef="usdPerShare">-0.41</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare>
+	<us-gaap:EarningsPerShareBasic contextRef="c-3" decimals="2" id="f-120" unitRef="usdPerShare">1.87</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareBasic contextRef="c-4" decimals="2" id="f-121" unitRef="usdPerShare">9.11</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareBasic contextRef="c-1" decimals="2" id="f-122" unitRef="usdPerShare">-2.48</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareBasic contextRef="c-5" decimals="2" id="f-123" unitRef="usdPerShare">-9.88</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareBasic contextRef="c-3" decimals="2" id="f-659" unitRef="usdPerShare">1.87</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareBasic contextRef="c-4" decimals="2" id="f-660" unitRef="usdPerShare">9.11</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareBasic contextRef="c-1" decimals="2" id="f-661" unitRef="usdPerShare">-2.48</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareBasic contextRef="c-5" decimals="2" id="f-662" unitRef="usdPerShare">-9.88</us-gaap:EarningsPerShareBasic>
+	<us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare contextRef="c-3" decimals="2" id="f-128" unitRef="usdPerShare">1.87</us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare contextRef="c-4" decimals="2" id="f-129" unitRef="usdPerShare">9.36</us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare contextRef="c-1" decimals="2" id="f-130" unitRef="usdPerShare">-2.48</us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare contextRef="c-5" decimals="2" id="f-131" unitRef="usdPerShare">-9.47</us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare contextRef="c-3" decimals="2" id="f-663" unitRef="usdPerShare">1.87</us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare contextRef="c-4" decimals="2" id="f-664" unitRef="usdPerShare">9.36</us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare contextRef="c-1" decimals="2" id="f-665" unitRef="usdPerShare">-2.48</us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare contextRef="c-5" decimals="2" id="f-666" unitRef="usdPerShare">-9.47</us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare contextRef="c-3" decimals="2" id="f-132" unitRef="usdPerShare">0</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare contextRef="c-4" decimals="2" id="f-133" unitRef="usdPerShare">-0.25</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare contextRef="c-1" decimals="2" id="f-134" unitRef="usdPerShare">0</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare contextRef="c-5" decimals="2" id="f-135" unitRef="usdPerShare">-0.41</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare contextRef="c-3" decimals="2" id="f-667" unitRef="usdPerShare">0</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare contextRef="c-4" decimals="2" id="f-668" unitRef="usdPerShare">-0.25</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare contextRef="c-1" decimals="2" id="f-669" unitRef="usdPerShare">0</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare>
+	<us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare contextRef="c-5" decimals="2" id="f-670" unitRef="usdPerShare">-0.41</us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare>
+	<us-gaap:EarningsPerShareDiluted contextRef="c-3" decimals="2" id="f-136" unitRef="usdPerShare">1.87</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="c-4" decimals="2" id="f-137" unitRef="usdPerShare">9.11</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="c-1" decimals="2" id="f-138" unitRef="usdPerShare">-2.48</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="c-5" decimals="2" id="f-139" unitRef="usdPerShare">-9.88</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="c-3" decimals="2" id="f-671" unitRef="usdPerShare">1.87</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="c-4" decimals="2" id="f-672" unitRef="usdPerShare">9.11</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="c-1" decimals="2" id="f-673" unitRef="usdPerShare">-2.48</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="c-5" decimals="2" id="f-674" unitRef="usdPerShare">-9.88</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="c-3" decimals="-3" id="f-140" unitRef="shares">26542000</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="c-4" decimals="-3" id="f-141" unitRef="shares">2655000</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="c-1" decimals="-3" id="f-142" unitRef="shares">20019000</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="c-5" decimals="-3" id="f-143" unitRef="shares">2651000</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="c-3" decimals="-3" id="f-647" unitRef="shares">26542000</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="c-4" decimals="-3" id="f-648" unitRef="shares">2655000</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="c-1" decimals="-3" id="f-649" unitRef="shares">20019000</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="c-5" decimals="-3" id="f-650" unitRef="shares">2651000</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="c-3" decimals="-3" id="f-124" unitRef="shares">26527000</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="c-4" decimals="-3" id="f-125" unitRef="shares">2655000</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="c-1" decimals="-3" id="f-126" unitRef="shares">20019000</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="c-5" decimals="-3" id="f-127" unitRef="shares">2651000</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="c-3" decimals="-3" id="f-627" unitRef="shares">26527000</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="c-4" decimals="-3" id="f-628" unitRef="shares">2655000</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="c-1" decimals="-3" id="f-629" unitRef="shares">20019000</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="c-5" decimals="-3" id="f-630" unitRef="shares">2651000</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="c-3" decimals="-3" id="f-631" unitRef="shares">26527000</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="c-4" decimals="-3" id="f-632" unitRef="shares">2655000</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="c-1" decimals="-3" id="f-633" unitRef="shares">20019000</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="c-5" decimals="-3" id="f-634" unitRef="shares">2651000</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation contextRef="c-3" decimals="-3" id="f-94" unitRef="usd">0</us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation>
+	<us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation contextRef="c-1" decimals="-3" id="f-95" unitRef="usd">0</us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation>
+	<us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation contextRef="c-4" decimals="-3" id="f-96" unitRef="usd">0</us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation>
+	<us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation contextRef="c-3" decimals="-3" id="f-97" unitRef="usd">0</us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation>
+	<us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation contextRef="c-1" decimals="-3" id="f-98" unitRef="usd">0</us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation>
+	<us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation contextRef="c-4" decimals="-3" id="f-99" unitRef="usd">0</us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation>
+	<us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation contextRef="c-3" decimals="-3" id="f-100" unitRef="usd">0</us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation>
+	<us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation contextRef="c-1" decimals="-3" id="f-101" unitRef="usd">0</us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation>
+	<us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation contextRef="c-4" decimals="-3" id="f-102" unitRef="usd">0</us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation>
+	<us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation contextRef="c-5" decimals="-3" id="f-103" unitRef="usd">20000</us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation>
+	<us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation contextRef="c-4" decimals="-3" id="f-472" unitRef="usd">0</us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation>
+	<us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation contextRef="c-5" decimals="-3" id="f-473" unitRef="usd">20000</us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation>
+	</xbrl>
+

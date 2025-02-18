@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:blin="http://www.bridgelinedigital.com/20230930" xmlns:country="http://xbrl.sec.gov/country/2023" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:thunderdome="http://www.RDGFilings.com" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="blin-20230930.xsd" xlink:type="simple"/>
+	<context id="d_2022-10-01_2023-09-30">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_ProductOrServiceAxis-SubscriptionAndPerpetualLicensesMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">blin:SubscriptionAndPerpetualLicensesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_ProductOrServiceAxis-SubscriptionAndPerpetualLicensesMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">blin:SubscriptionAndPerpetualLicensesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_ProductOrServiceAxis-DigitalEngagementServicesMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">blin:DigitalEngagementServicesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_ProductOrServiceAxis-DigitalEngagementServicesMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">blin:DigitalEngagementServicesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_StatementGeographicalAxis-US">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:StatementGeographicalAxis">country:US</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_StatementGeographicalAxis-US">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:StatementGeographicalAxis">country:US</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_StatementGeographicalAxis-NonUsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:StatementGeographicalAxis">us-gaap:NonUsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_StatementGeographicalAxis-NonUsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:StatementGeographicalAxis">us-gaap:NonUsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_ProductOrServiceAxis-ServiceMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">us-gaap:ServiceMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_ProductOrServiceAxis-ServiceMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">us-gaap:ServiceMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_ProductOrServiceAxis-SubscriptionAndCirculationMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">us-gaap:SubscriptionAndCirculationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_ProductOrServiceAxis-SubscriptionAndCirculationMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">us-gaap:SubscriptionAndCirculationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_ProductOrServiceAxis-PerpetualLicensesMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">blin:PerpetualLicensesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_ProductOrServiceAxis-PerpetualLicensesMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">blin:PerpetualLicensesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_ProductOrServiceAxis-MaintenanceMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">us-gaap:MaintenanceMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_ProductOrServiceAxis-MaintenanceMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">us-gaap:MaintenanceMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_ProductOrServiceAxis-HostingMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">blin:HostingMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_ProductOrServiceAxis-HostingMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">blin:HostingMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Share">
+        <measure>shares</measure>
+    </unit>
+	<unit id="NonApplicable">
+        <measure>thunderdome:item</measure>
+    </unit>
+	<unit id="USDPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Year">
+        <measure>utr:Y</measure>
+    </unit>
+	<unit id="Day">
+        <measure>utr:D</measure>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<unit id="Month">
+        <measure>utr:M</measure>
+    </unit>
+	<unit id="Rate">
+        <measure>utr:Rate</measure>
+    </unit>
+	<blin:InterestIncomeExpenseAndOther contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742422" unitRef="USD">-189000</blin:InterestIncomeExpenseAndOther>
+	<blin:InterestIncomeExpenseAndOther contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742423" unitRef="USD">417000</blin:InterestIncomeExpenseAndOther>
+	<blin:RestructuringAndAcquisitionRelatedExpenses contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742416" unitRef="USD">132000</blin:RestructuringAndAcquisitionRelatedExpenses>
+	<blin:RestructuringAndAcquisitionRelatedExpenses contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742417" unitRef="USD">164000</blin:RestructuringAndAcquisitionRelatedExpenses>
+	<us-gaap:CostOfGoodsAndServicesSold contextRef="d_2022-10-01_2023-09-30_ProductOrServiceAxis-SubscriptionAndPerpetualLicensesMember" decimals="-3" id="c105742397" unitRef="USD">3364000</us-gaap:CostOfGoodsAndServicesSold>
+	<us-gaap:CostOfGoodsAndServicesSold contextRef="d_2021-10-01_2022-09-30_ProductOrServiceAxis-SubscriptionAndPerpetualLicensesMember" decimals="-3" id="c105742398" unitRef="USD">3358000</us-gaap:CostOfGoodsAndServicesSold>
+	<us-gaap:CostOfGoodsAndServicesSold contextRef="d_2022-10-01_2023-09-30_ProductOrServiceAxis-DigitalEngagementServicesMember" decimals="-4" id="c105742399" unitRef="USD">1650000</us-gaap:CostOfGoodsAndServicesSold>
+	<us-gaap:CostOfGoodsAndServicesSold contextRef="d_2021-10-01_2022-09-30_ProductOrServiceAxis-DigitalEngagementServicesMember" decimals="-3" id="c105742400" unitRef="USD">1759000</us-gaap:CostOfGoodsAndServicesSold>
+	<us-gaap:CostOfGoodsAndServicesSold contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742401" unitRef="USD">5014000</us-gaap:CostOfGoodsAndServicesSold>
+	<us-gaap:CostOfGoodsAndServicesSold contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742402" unitRef="USD">5117000</us-gaap:CostOfGoodsAndServicesSold>
+	<us-gaap:DepreciationDepletionAndAmortization contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742412" unitRef="USD">1528000</us-gaap:DepreciationDepletionAndAmortization>
+	<us-gaap:DepreciationDepletionAndAmortization contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742413" unitRef="USD">1599000</us-gaap:DepreciationDepletionAndAmortization>
+	<us-gaap:EarningsPerShareBasic contextRef="d_2022-10-01_2023-09-30" decimals="INF" id="c105742433" unitRef="USDPerShare">-0.91</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareBasic contextRef="d_2021-10-01_2022-09-30" decimals="INF" id="c105742434" unitRef="USDPerShare">0.21</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareBasic contextRef="d_2022-10-01_2023-09-30" decimals="INF" id="c105743712" unitRef="USDPerShare">-0.91</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareBasic contextRef="d_2021-10-01_2022-09-30" decimals="INF" id="c105743713" unitRef="USDPerShare">0.21</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareDiluted contextRef="d_2022-10-01_2023-09-30" decimals="INF" id="c105742435" unitRef="USDPerShare">-0.91</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="d_2021-10-01_2022-09-30" decimals="INF" id="c105742436" unitRef="USDPerShare">0.2</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="d_2022-10-01_2023-09-30" decimals="INF" id="c105743714" unitRef="USDPerShare">-0.91</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="d_2021-10-01_2022-09-30" decimals="INF" id="c105743715" unitRef="USDPerShare">0.2</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:FairValueAdjustmentOfWarrants contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742424" unitRef="USD">-575000</us-gaap:FairValueAdjustmentOfWarrants>
+	<us-gaap:FairValueAdjustmentOfWarrants contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742425" unitRef="USD">-3655000</us-gaap:FairValueAdjustmentOfWarrants>
+	<us-gaap:FairValueAdjustmentOfWarrants contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742595" unitRef="USD">-575000</us-gaap:FairValueAdjustmentOfWarrants>
+	<us-gaap:FairValueAdjustmentOfWarrants contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742596" unitRef="USD">-3655000</us-gaap:FairValueAdjustmentOfWarrants>
+	<us-gaap:FairValueAdjustmentOfWarrants contextRef="d_2022-10-01_2023-09-30" decimals="-5" id="c105742982" unitRef="USD">-600000</us-gaap:FairValueAdjustmentOfWarrants>
+	<us-gaap:FairValueAdjustmentOfWarrants contextRef="d_2021-10-01_2022-09-30" decimals="-5" id="c105742983" unitRef="USD">-3700000</us-gaap:FairValueAdjustmentOfWarrants>
+	<us-gaap:GeneralAndAdministrativeExpense contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742408" unitRef="USD">3173000</us-gaap:GeneralAndAdministrativeExpense>
+	<us-gaap:GeneralAndAdministrativeExpense contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742409" unitRef="USD">3387000</us-gaap:GeneralAndAdministrativeExpense>
+	<us-gaap:GoodwillImpairmentLoss contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742414" unitRef="USD">7517000</us-gaap:GoodwillImpairmentLoss>
+	<us-gaap:GoodwillImpairmentLoss contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742415" unitRef="USD">0</us-gaap:GoodwillImpairmentLoss>
+	<us-gaap:GoodwillImpairmentLoss contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742601" unitRef="USD">7517000</us-gaap:GoodwillImpairmentLoss>
+	<us-gaap:GoodwillImpairmentLoss contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742602" unitRef="USD">0</us-gaap:GoodwillImpairmentLoss>
+	<us-gaap:GoodwillImpairmentLoss contextRef="d_2022-10-01_2023-09-30" decimals="-5" id="c105743122" unitRef="USD">7500000</us-gaap:GoodwillImpairmentLoss>
+	<us-gaap:GoodwillImpairmentLoss contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105743134" unitRef="USD">7517000</us-gaap:GoodwillImpairmentLoss>
+	<us-gaap:GoodwillImpairmentLoss contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105743135" unitRef="USD">-0</us-gaap:GoodwillImpairmentLoss>
+	<us-gaap:GrossProfit contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742403" unitRef="USD">10871000</us-gaap:GrossProfit>
+	<us-gaap:GrossProfit contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742404" unitRef="USD">11702000</us-gaap:GrossProfit>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742426" unitRef="USD">-9529000</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742427" unitRef="USD">2175000</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742428" unitRef="USD">-94000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="d_2021-10-01_2022-09-30" decimals="-4" id="c105742429" unitRef="USD">30000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105743870" unitRef="USD">-94000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="d_2021-10-01_2022-09-30" decimals="-4" id="c105743871" unitRef="USD">30000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105743888" unitRef="USD">-94000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="d_2021-10-01_2022-09-30" decimals="-4" id="c105743889" unitRef="USD">30000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742430" unitRef="USD">-9435000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742431" unitRef="USD">2145000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742446" unitRef="USD">-9435000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742447" unitRef="USD">2145000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742526" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-3" id="c105742528" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember" decimals="-3" id="c105742529" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-RetainedEarningsMember" decimals="-3" id="c105742530" unitRef="USD">2145000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="c105742531" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742532" unitRef="USD">2145000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742557" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742558" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-3" id="c105742559" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-3" id="c105742560" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember" decimals="-3" id="c105742561" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-RetainedEarningsMember" decimals="-3" id="c105742562" unitRef="USD">-9435000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="c105742563" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742564" unitRef="USD">-9435000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742586" unitRef="USD">-9435000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742587" unitRef="USD">2145000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105743693" unitRef="USD">-9435000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105743694" unitRef="USD">2145000</us-gaap:NetIncomeLoss>
+	<us-gaap:OperatingExpenses contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742418" unitRef="USD">20786000</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingExpenses contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742419" unitRef="USD">13599000</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingIncomeLoss contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742420" unitRef="USD">-9915000</us-gaap:OperatingIncomeLoss>
+	<us-gaap:OperatingIncomeLoss contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742421" unitRef="USD">-1897000</us-gaap:OperatingIncomeLoss>
+	<us-gaap:ResearchAndDevelopmentExpense contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742410" unitRef="USD">3679000</us-gaap:ResearchAndDevelopmentExpense>
+	<us-gaap:ResearchAndDevelopmentExpense contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742411" unitRef="USD">3217000</us-gaap:ResearchAndDevelopmentExpense>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2022-10-01_2023-09-30_ProductOrServiceAxis-SubscriptionAndPerpetualLicensesMember" decimals="-3" id="c105742390" unitRef="USD">12742000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2021-10-01_2022-09-30_ProductOrServiceAxis-SubscriptionAndPerpetualLicensesMember" decimals="-4" id="c105742391" unitRef="USD">13560000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2022-10-01_2023-09-30_ProductOrServiceAxis-DigitalEngagementServicesMember" decimals="-3" id="c105742392" unitRef="USD">3143000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2021-10-01_2022-09-30_ProductOrServiceAxis-DigitalEngagementServicesMember" decimals="-3" id="c105742393" unitRef="USD">3259000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742394" unitRef="USD">15885000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742395" unitRef="USD">16819000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2022-10-01_2023-09-30_StatementGeographicalAxis-US" decimals="-3" id="c105743756" unitRef="USD">12828000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2021-10-01_2022-09-30_StatementGeographicalAxis-US" decimals="-3" id="c105743757" unitRef="USD">13202000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2022-10-01_2023-09-30_StatementGeographicalAxis-NonUsMember" decimals="-3" id="c105743758" unitRef="USD">3057000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2021-10-01_2022-09-30_StatementGeographicalAxis-NonUsMember" decimals="-3" id="c105743759" unitRef="USD">3617000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105743760" unitRef="USD">15885000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105743761" unitRef="USD">16819000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2022-10-01_2023-09-30_ProductOrServiceAxis-ServiceMember" decimals="-3" id="c105743766" unitRef="USD">3146000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2021-10-01_2022-09-30_ProductOrServiceAxis-ServiceMember" decimals="-3" id="c105743767" unitRef="USD">3259000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2022-10-01_2023-09-30_ProductOrServiceAxis-SubscriptionAndCirculationMember" decimals="-3" id="c105743768" unitRef="USD">11182000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2021-10-01_2022-09-30_ProductOrServiceAxis-SubscriptionAndCirculationMember" decimals="-3" id="c105743769" unitRef="USD">11995000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2022-10-01_2023-09-30_ProductOrServiceAxis-PerpetualLicensesMember" decimals="-3" id="c105743770" unitRef="USD">0</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2021-10-01_2022-09-30_ProductOrServiceAxis-PerpetualLicensesMember" decimals="-3" id="c105743771" unitRef="USD">136000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2022-10-01_2023-09-30_ProductOrServiceAxis-MaintenanceMember" decimals="-3" id="c105743772" unitRef="USD">541000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2021-10-01_2022-09-30_ProductOrServiceAxis-MaintenanceMember" decimals="-3" id="c105743773" unitRef="USD">501000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2022-10-01_2023-09-30_ProductOrServiceAxis-HostingMember" decimals="-3" id="c105743774" unitRef="USD">1016000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2021-10-01_2022-09-30_ProductOrServiceAxis-HostingMember" decimals="-3" id="c105743775" unitRef="USD">928000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105743776" unitRef="USD">15885000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105743777" unitRef="USD">16819000</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+	<us-gaap:SellingAndMarketingExpense contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742406" unitRef="USD">4757000</us-gaap:SellingAndMarketingExpense>
+	<us-gaap:SellingAndMarketingExpense contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742407" unitRef="USD">5232000</us-gaap:SellingAndMarketingExpense>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="d_2022-10-01_2023-09-30" decimals="INF" id="c105742440" unitRef="Share">10424187</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="d_2021-10-01_2022-09-30" decimals="INF" id="c105742441" unitRef="Share">10366907</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="d_2022-10-01_2023-09-30" decimals="INF" id="c105743710" unitRef="Share">10424187</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="d_2021-10-01_2022-09-30" decimals="INF" id="c105743711" unitRef="Share">10366907</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="d_2022-10-01_2023-09-30" decimals="INF" id="c105742438" unitRef="Share">10417609</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="d_2021-10-01_2022-09-30" decimals="INF" id="c105742439" unitRef="Share">10232862</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="d_2022-10-01_2023-09-30" decimals="INF" id="c105743701" unitRef="Share">10417609</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="d_2021-10-01_2022-09-30" decimals="INF" id="c105743702" unitRef="Share">10232862</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	</xbrl>
+

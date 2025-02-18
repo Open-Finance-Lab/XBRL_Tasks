@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel" roleURI="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <link:roleRef xlink:type="simple" roleURI="http://www.xbrl.org/2009/role/negatedPeriodEndLabel" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodEndLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodStartLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodStartLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel" roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedNetLabel" roleURI="http://www.xbrl.org/2009/role/negatedNetLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel" roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel" roleURI="http://www.xbrl.org/2009/role/netLabel"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link"><link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_SharesIssued" xlink:label="us-gaap_SharesIssued"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_SharesIssued" xlink:to="us-gaap_SharesIssued_lbl_ca20e6" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_SharesIssued" xlink:to="us-gaap_SharesIssued_lbl_3" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_SharesIssued" xlink:to="us-gaap_SharesIssued_lbl_a5b530" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:label="us-gaap_SharesIssued_lbl_ca20e6" xml:lang="en-US">Balance, shares</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_SharesIssued_lbl_3" xml:lang="en-US">[Shares, Issued]</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:label="us-gaap_SharesIssued_lbl_a5b530" xml:lang="en-US">Balance, shares</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StatementEquityComponentsAxis" xlink:label="us-gaap_StatementEquityComponentsAxis"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StatementEquityComponentsAxis" xlink:to="us-gaap_StatementEquityComponentsAxis_lbl_6c1d24" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_StatementEquityComponentsAxis_lbl_6c1d24" xml:lang="en-US">Equity Components [Axis]</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_Dividends" xlink:label="us-gaap_Dividends"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_Dividends" xlink:to="us-gaap_Dividends_lbl_44037c" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_Dividends_lbl_44037c" xml:lang="en-US">Dividends</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AccumulatedOtherComprehensiveIncomeMember" xlink:label="us-gaap_AccumulatedOtherComprehensiveIncomeMember"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_AccumulatedOtherComprehensiveIncomeMember" xlink:to="us-gaap_AccumulatedOtherComprehensiveIncomeMember_lbl_93fe13" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_AccumulatedOtherComprehensiveIncomeMember" xlink:to="us-gaap_AccumulatedOtherComprehensiveIncomeMember_lbl_26" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xlink:label="us-gaap_AccumulatedOtherComprehensiveIncomeMember_lbl_93fe13" xml:lang="en-US">Accumulated other comprehensive loss</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_AccumulatedOtherComprehensiveIncomeMember_lbl_26" xml:lang="en-US">AOCI Attributable to Parent [Member]</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CommonStockMember" xlink:label="us-gaap_CommonStockMember"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_CommonStockMember" xlink:to="us-gaap_CommonStockMember_lbl_b018c8" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_CommonStockMember_lbl_b018c8" xml:lang="en-US">Common Stock [Member]</link:label>
+    <link:loc xlink:type="locator" xlink:href="lake-20241031.xsd#lake_ReturnOfSharesInLieuOfPayrollWithholding" xlink:label="lake_ReturnOfSharesInLieuOfPayrollWithholding"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lake_ReturnOfSharesInLieuOfPayrollWithholding" xlink:to="lake_ReturnOfSharesInLieuOfPayrollWithholding_lbl_c00a2b" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lake_ReturnOfSharesInLieuOfPayrollWithholding_lbl_c00a2b" xml:lang="en-US">Return of shares in lieu of payroll withholding</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StatementTable" xlink:label="us-gaap_StatementTable"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StatementTable" xlink:to="us-gaap_StatementTable_lbl_36ada5" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_StatementTable_lbl_36ada5" xml:lang="en-US">Statement [Table]</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetIncomeLoss" xlink:label="us-gaap_NetIncomeLoss"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_NetIncomeLoss" xlink:to="us-gaap_NetIncomeLoss_lbl_a9a99a" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_NetIncomeLoss" xlink:to="us-gaap_NetIncomeLoss_lbl_11" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_NetIncomeLoss" xlink:to="us-gaap_NetIncomeLoss_lbl_a066d7" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_NetIncomeLoss" xlink:to="us-gaap_NetIncomeLoss_lbl_92f02c" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xlink:label="us-gaap_NetIncomeLoss_lbl_a9a99a" xml:lang="en-US">Net income</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_NetIncomeLoss_lbl_11" xml:lang="en-US">[Net Income (Loss) Attributable to Parent]</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xlink:label="us-gaap_NetIncomeLoss_lbl_a066d7" xml:lang="en-US">Net income (loss)</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xlink:label="us-gaap_NetIncomeLoss_lbl_92f02c" xml:lang="en-US">Net income</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_RetainedEarningsMember" xlink:label="us-gaap_RetainedEarningsMember"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_RetainedEarningsMember" xlink:to="us-gaap_RetainedEarningsMember_lbl_0cc3bb" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_RetainedEarningsMember_lbl_0cc3bb" xml:lang="en-US">Retained Earnings (Accumulated Deficit)</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AdditionalPaidInCapitalMember" xlink:label="us-gaap_AdditionalPaidInCapitalMember"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_AdditionalPaidInCapitalMember" xlink:to="us-gaap_AdditionalPaidInCapitalMember_lbl_ade2d4" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_AdditionalPaidInCapitalMember_lbl_ade2d4" xml:lang="en-US">Additional Paid-In Capital</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent" xlink:label="us-gaap_OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent" xlink:to="us-gaap_OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent_lbl_152b3f" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent_lbl_152b3f" xml:lang="en-US">Other comprehensive loss</link:label>
+    <link:loc xlink:type="locator" xlink:href="lake-20241031.xsd#lake_RestrictedStockIssuedAmount" xlink:label="lake_RestrictedStockIssuedAmount"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lake_RestrictedStockIssuedAmount" xlink:to="lake_RestrictedStockIssuedAmount_lbl_6df525" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lake_RestrictedStockIssuedAmount_lbl_6df525" xml:lang="en-US">Restricted stock issued, amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StockIssuedDuringPeriodValueRestrictedStockAwardGross" xlink:label="us-gaap_StockIssuedDuringPeriodValueRestrictedStockAwardGross"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StockIssuedDuringPeriodValueRestrictedStockAwardGross" xlink:to="us-gaap_StockIssuedDuringPeriodValueRestrictedStockAwardGross_lbl_cd873c" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_StockIssuedDuringPeriodValueRestrictedStockAwardGross_lbl_cd873c" xml:lang="en-US">Restricted stock plan</link:label>
+    <link:loc xlink:type="locator" xlink:href="lake-20241031.xsd#lake_TreasuryStocksMember" xlink:label="lake_TreasuryStocksMember"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lake_TreasuryStocksMember" xlink:to="lake_TreasuryStocksMember_lbl_e15f6f" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lake_TreasuryStocksMember_lbl_e15f6f" xml:lang="en-US">Treasury Stock</link:label>
+    <link:loc xlink:type="locator" xlink:href="lake-20241031.xsd#lake_TreasuryStockPurchasedShares" xlink:label="lake_TreasuryStockPurchasedShares"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lake_TreasuryStockPurchasedShares" xlink:to="lake_TreasuryStockPurchasedShares_lbl_c96c4b" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lake_TreasuryStockPurchasedShares_lbl_c96c4b" xml:lang="en-US">Treasury stock purchased, shares</link:label>
+    <link:loc xlink:type="locator" xlink:href="lake-20241031.xsd#lake_RestrictedStockIssuedShares" xlink:label="lake_RestrictedStockIssuedShares"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lake_RestrictedStockIssuedShares" xlink:to="lake_RestrictedStockIssuedShares_lbl_cf9a16" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lake_RestrictedStockIssuedShares_lbl_cf9a16" xml:lang="en-US">Restricted stock issued, shares</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StatementLineItems" xlink:label="us-gaap_StatementLineItems"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StatementLineItems_lbl_171f7e" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_StatementLineItems_lbl_171f7e" xml:lang="en-US">Statement [Line Items]</link:label>
+    <link:loc xlink:type="locator" xlink:href="lake-20241031.xsd#lake_TreasuryStockPurchasedAmount" xlink:label="lake_TreasuryStockPurchasedAmount"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lake_TreasuryStockPurchasedAmount" xlink:to="lake_TreasuryStockPurchasedAmount_lbl_af894f" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lake_TreasuryStockPurchasedAmount_lbl_af894f" xml:lang="en-US">Treasury stock purchased, amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StockholdersEquity" xlink:label="us-gaap_StockholdersEquity"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StockholdersEquity" xlink:to="us-gaap_StockholdersEquity_lbl_976603" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StockholdersEquity" xlink:to="us-gaap_StockholdersEquity_lbl_40" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StockholdersEquity" xlink:to="us-gaap_StockholdersEquity_lbl_343fee" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StockholdersEquity" xlink:to="us-gaap_StockholdersEquity_lbl_7aa40f" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xlink:label="us-gaap_StockholdersEquity_lbl_976603" xml:lang="en-US">Total stockholders' equity</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_StockholdersEquity_lbl_40" xml:lang="en-US">[Equity, Attributable to Parent]</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:label="us-gaap_StockholdersEquity_lbl_343fee" xml:lang="en-US">Balance, amount</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:label="us-gaap_StockholdersEquity_lbl_7aa40f" xml:lang="en-US">Balance, amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StatementOfStockholdersEquityAbstract" xlink:label="us-gaap_StatementOfStockholdersEquityAbstract"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StatementOfStockholdersEquityAbstract" xlink:to="us-gaap_StatementOfStockholdersEquityAbstract_lbl_597c32" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_StatementOfStockholdersEquityAbstract_lbl_597c32" xml:lang="en-US">CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS EQUITY (UNAUDITED)</link:label>
+    </link:labelLink>
+</link:linkbase>
+

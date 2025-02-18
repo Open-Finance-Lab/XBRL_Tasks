@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel" roleURI="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <link:roleRef xlink:type="simple" roleURI="http://www.xbrl.org/2009/role/negatedPeriodEndLabel" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodEndLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodStartLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodStartLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel" roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedNetLabel" roleURI="http://www.xbrl.org/2009/role/negatedNetLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel" roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel" roleURI="http://www.xbrl.org/2009/role/netLabel"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link"><link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OperatingExpenses" xlink:label="us-gaap_OperatingExpenses"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OperatingExpenses" xlink:to="us-gaap_OperatingExpenses_lbl_8ec141" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OperatingExpenses" xlink:to="us-gaap_OperatingExpenses_lbl_6" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xlink:label="us-gaap_OperatingExpenses_lbl_8ec141" xml:lang="en-US">Total Operating Expenses</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_OperatingExpenses_lbl_6" xml:lang="en-US">[Operating Expenses]</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_SalariesAndWages" xlink:label="us-gaap_SalariesAndWages"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_SalariesAndWages" xlink:to="us-gaap_SalariesAndWages_lbl_787b14" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_SalariesAndWages" xlink:to="us-gaap_SalariesAndWages_lbl_c5aa0e" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_SalariesAndWages_lbl_787b14" xml:lang="en-US">Management salaries</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xlink:label="us-gaap_SalariesAndWages_lbl_c5aa0e" xml:lang="en-US">Salary for management</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OtherNonoperatingIncomeExpenseAbstract" xlink:label="us-gaap_OtherNonoperatingIncomeExpenseAbstract"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OtherNonoperatingIncomeExpenseAbstract" xlink:to="us-gaap_OtherNonoperatingIncomeExpenseAbstract_lbl_16eb06" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_OtherNonoperatingIncomeExpenseAbstract_lbl_16eb06" xml:lang="en-US">OTHER EXPENSES</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncomeTaxExpenseBenefit" xlink:label="us-gaap_IncomeTaxExpenseBenefit"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_IncomeTaxExpenseBenefit" xlink:to="us-gaap_IncomeTaxExpenseBenefit_lbl_4f5f5d" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_IncomeTaxExpenseBenefit_lbl_4f5f5d" xml:lang="en-US">Provision for income taxes</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OperatingIncomeLoss" xlink:label="us-gaap_OperatingIncomeLoss"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OperatingIncomeLoss" xlink:to="us-gaap_OperatingIncomeLoss_lbl_698b46" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OperatingIncomeLoss" xlink:to="us-gaap_OperatingIncomeLoss_lbl_7" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xlink:label="us-gaap_OperatingIncomeLoss_lbl_698b46" xml:lang="en-US">Loss from operations</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_OperatingIncomeLoss_lbl_7" xml:lang="en-US">[Operating Income (Loss)]</link:label>
+    <link:loc xlink:type="locator" xlink:href="boxxy-20241031.xsd#boxxy_AmortizationOnMiningPropertyRights" xlink:label="boxxy_AmortizationOnMiningPropertyRights"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="boxxy_AmortizationOnMiningPropertyRights" xlink:to="boxxy_AmortizationOnMiningPropertyRights_lbl_dcf776" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="boxxy_AmortizationOnMiningPropertyRights" xlink:to="boxxy_AmortizationOnMiningPropertyRights_lbl_eea495" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="boxxy_AmortizationOnMiningPropertyRights_lbl_dcf776" xml:lang="en-US">Amortization on mining property rights</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xlink:label="boxxy_AmortizationOnMiningPropertyRights_lbl_eea495" xml:lang="en-US">Amortization on mining property rights</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OperatingExpensesAbstract" xlink:label="us-gaap_OperatingExpensesAbstract"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OperatingExpensesAbstract" xlink:to="us-gaap_OperatingExpensesAbstract_lbl_2c10fe" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_OperatingExpensesAbstract_lbl_2c10fe" xml:lang="en-US">OPERATING EXPENSES</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_InterestExpense" xlink:label="us-gaap_InterestExpense"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_InterestExpense" xlink:to="us-gaap_InterestExpense_lbl_c012d4" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_InterestExpense" xlink:to="us-gaap_InterestExpense_lbl_9" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xlink:label="us-gaap_InterestExpense_lbl_c012d4" xml:lang="en-US">Interest expense</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_InterestExpense_lbl_9" xml:lang="en-US">[Interest Expense, Operating and Nonoperating]</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetIncomeLoss" xlink:label="us-gaap_NetIncomeLoss"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_NetIncomeLoss" xlink:to="us-gaap_NetIncomeLoss_lbl_4975f6" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_NetIncomeLoss" xlink:to="us-gaap_NetIncomeLoss_lbl_13" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_NetIncomeLoss" xlink:to="us-gaap_NetIncomeLoss_lbl_8275f0" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_NetIncomeLoss" xlink:to="us-gaap_NetIncomeLoss_lbl_f3c523" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xlink:label="us-gaap_NetIncomeLoss_lbl_4975f6" xml:lang="en-US">NET LOSS</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_NetIncomeLoss_lbl_13" xml:lang="en-US">[Net Income (Loss) Attributable to Parent]</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xlink:label="us-gaap_NetIncomeLoss_lbl_8275f0" xml:lang="en-US">Net loss</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xlink:label="us-gaap_NetIncomeLoss_lbl_f3c523" xml:lang="en-US">Net loss</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_EarningsPerShareDiluted" xlink:label="us-gaap_EarningsPerShareDiluted"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_EarningsPerShareDiluted" xlink:to="us-gaap_EarningsPerShareDiluted_lbl_48d16b" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_EarningsPerShareDiluted_lbl_48d16b" xml:lang="en-US">NET LOSS PER SHARE: BASIC AND DILUTED</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest" xlink:label="us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest" xlink:to="us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest_lbl_16b029" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest" xlink:to="us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest_lbl_11" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xlink:label="us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest_lbl_16b029" xml:lang="en-US">Loss before income taxes</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest_lbl_11" xml:lang="en-US">[Income (Loss) from Continuing Operations before Income Taxes, Noncontrolling Interest]</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/srt/2024/elts/srt-2024.xsd#srt_DirectorMember" xlink:label="srt_DirectorMember"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="srt_DirectorMember" xlink:to="srt_DirectorMember_lbl_668be1" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="srt_DirectorMember_lbl_668be1" xml:lang="en-US">Director [Member]</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_RelatedPartyTransactionsByRelatedPartyAxis" xlink:label="us-gaap_RelatedPartyTransactionsByRelatedPartyAxis"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_RelatedPartyTransactionsByRelatedPartyAxis" xlink:to="us-gaap_RelatedPartyTransactionsByRelatedPartyAxis_lbl_de2926" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_RelatedPartyTransactionsByRelatedPartyAxis_lbl_de2926" xml:lang="en-US">Related Party Transactions By Related Party Axis</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding" xlink:label="us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding" xlink:to="us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding_lbl_8c844d" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding_lbl_8c844d" xml:lang="en-US">WEIGHTED AVERAGE NUMBER OF SHARES OUTSTANDING: BASIC AND DILUTED</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OtherNonoperatingIncomeExpense" xlink:label="us-gaap_OtherNonoperatingIncomeExpense"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OtherNonoperatingIncomeExpense" xlink:to="us-gaap_OtherNonoperatingIncomeExpense_lbl_100a1f" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OtherNonoperatingIncomeExpense" xlink:to="us-gaap_OtherNonoperatingIncomeExpense_lbl_10" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xlink:label="us-gaap_OtherNonoperatingIncomeExpense_lbl_100a1f" xml:lang="en-US">Other expenses, net</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_OtherNonoperatingIncomeExpense_lbl_10" xml:lang="en-US">[Other Nonoperating Income (Expense)]</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_SellingGeneralAndAdministrativeExpense" xlink:label="us-gaap_SellingGeneralAndAdministrativeExpense"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_SellingGeneralAndAdministrativeExpense" xlink:to="us-gaap_SellingGeneralAndAdministrativeExpense_lbl_ea856d" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_SellingGeneralAndAdministrativeExpense_lbl_ea856d" xml:lang="en-US">General and administrative expenses</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncomeStatementAbstract" xlink:label="us-gaap_IncomeStatementAbstract"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_IncomeStatementAbstract" xlink:to="us-gaap_IncomeStatementAbstract_lbl_93f906" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_IncomeStatementAbstract_lbl_93f906" xml:lang="en-US">STATEMENTS OF OPERATIONS (Unaudited)</link:label>
+    </link:labelLink>
+</link:linkbase>
+

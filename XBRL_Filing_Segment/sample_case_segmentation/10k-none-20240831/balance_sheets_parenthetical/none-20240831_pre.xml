@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://e-smart.io/role/BalanceSheetsParenthetical" xlink:href="none-20240831.xsd#BalanceSheetsParenthetical" xlink:type="simple"/>
+    <link:presentationLink xlink:type="extended" xlink:role="http://e-smart.io/role/BalanceSheetsParenthetical" xlink:title="00000003 - Statement - BALANCE SHEETS (Parenthetical)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StatementOfFinancialPositionAbstract" xlink:label="loc_us-gaapStatementOfFinancialPositionAbstract"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CommonStockParOrStatedValuePerShare" xlink:label="loc_us-gaapCommonStockParOrStatedValuePerShare"/>
+      <link:presentationArc order="0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapStatementOfFinancialPositionAbstract" xlink:to="loc_us-gaapCommonStockParOrStatedValuePerShare" xlink:type="arc"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CommonStockSharesAuthorized" xlink:label="loc_us-gaapCommonStockSharesAuthorized"/>
+      <link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapStatementOfFinancialPositionAbstract" xlink:to="loc_us-gaapCommonStockSharesAuthorized" xlink:type="arc"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CommonStockSharesIssued" xlink:label="loc_us-gaapCommonStockSharesIssued"/>
+      <link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapStatementOfFinancialPositionAbstract" xlink:to="loc_us-gaapCommonStockSharesIssued" xlink:type="arc"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CommonStockSharesOutstanding" xlink:label="loc_us-gaapCommonStockSharesOutstanding"/>
+      <link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapStatementOfFinancialPositionAbstract" xlink:to="loc_us-gaapCommonStockSharesOutstanding" xlink:type="arc"/>
+    </link:presentationLink>
+    </link:linkbase>

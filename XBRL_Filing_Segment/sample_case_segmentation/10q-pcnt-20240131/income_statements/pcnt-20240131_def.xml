@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"/>
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"/>
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"/>
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all"/>
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#notAll" arcroleURI="http://xbrl.org/int/dim/arcrole/notAll"/>
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"/>
+    <link:roleRef roleURI="http://pointofcarenano.com/role/CondensedStatementsOfOperations" xlink:href="pcnt-20240131.xsd#CondensedStatementsOfOperations" xlink:type="simple"/>
+    <link:definitionLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/CondensedStatementsOfOperations" xlink:title="00000004 - Statement - CONDENSED STATEMENTS OF OPERATIONS (Unaudited)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_StatementLineItems" xlink:label="loc_us-gaapStatementLineItems"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_StatementTable" xlink:label="loc_us-gaapStatementTable"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xbrldt:contextElement="segment" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapStatementTable" xlink:type="arc" order="10" xbrldt:closed="true"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_StatementEquityComponentsAxis" xlink:label="loc_us-gaapStatementEquityComponentsAxis"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_us-gaapStatementTable" xlink:to="loc_us-gaapStatementEquityComponentsAxis" xlink:type="arc" order="1"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_EquityComponentDomain" xlink:label="loc_us-gaapEquityComponentDomain"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_us-gaapStatementEquityComponentsAxis" xlink:to="loc_us-gaapEquityComponentDomain" xlink:type="arc" order="20"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_EquityComponentDomain" xlink:label="loc_us-gaapEquityComponentDomain_10"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xbrldt:contextElement="segment" xlink:from="loc_us-gaapStatementEquityComponentsAxis" xlink:to="loc_us-gaapEquityComponentDomain_10" xlink:type="arc" order="30"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_PreferredStockMember" xlink:label="loc_us-gaapPreferredStockMember_40"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapEquityComponentDomain" xlink:to="loc_us-gaapPreferredStockMember_40" xlink:type="arc" order="41"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_CommonStockMember" xlink:label="loc_us-gaapCommonStockMember_50"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapEquityComponentDomain" xlink:to="loc_us-gaapCommonStockMember_50" xlink:type="arc" order="51"/>
+      <link:loc xlink:type="locator" xlink:href="pcnt-20240131.xsd#pcnt_ShareSubscriptionReceivedMember" xlink:label="loc_pcntShareSubscriptionReceivedMember_60"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapEquityComponentDomain" xlink:to="loc_pcntShareSubscriptionReceivedMember_60" xlink:type="arc" order="61"/>
+      <link:loc xlink:type="locator" xlink:href="pcnt-20240131.xsd#pcnt_UnissuedCommonStockMember" xlink:label="loc_pcntUnissuedCommonStockMember_70"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapEquityComponentDomain" xlink:to="loc_pcntUnissuedCommonStockMember_70" xlink:type="arc" order="71"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_TreasuryStockCommonMember" xlink:label="loc_us-gaapTreasuryStockCommonMember_80"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapEquityComponentDomain" xlink:to="loc_us-gaapTreasuryStockCommonMember_80" xlink:type="arc" order="81"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_AdditionalPaidInCapitalMember" xlink:label="loc_us-gaapAdditionalPaidInCapitalMember_90"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapEquityComponentDomain" xlink:to="loc_us-gaapAdditionalPaidInCapitalMember_90" xlink:type="arc" order="91"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_RetainedEarningsMember" xlink:label="loc_us-gaapRetainedEarningsMember_100"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapEquityComponentDomain" xlink:to="loc_us-gaapRetainedEarningsMember_100" xlink:type="arc" order="101"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_OperatingExpensesAbstract" xlink:label="loc_us-gaapOperatingExpensesAbstract_830"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapOperatingExpensesAbstract_830" xlink:type="arc" order="0"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_DepreciationAndAmortization" xlink:label="loc_us-gaapDepreciationAndAmortization_830"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapOperatingExpensesAbstract_830" xlink:to="loc_us-gaapDepreciationAndAmortization_830" xlink:type="arc" order="1"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_GeneralAndAdministrativeExpense" xlink:label="loc_us-gaapGeneralAndAdministrativeExpense_830"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapOperatingExpensesAbstract_830" xlink:to="loc_us-gaapGeneralAndAdministrativeExpense_830" xlink:type="arc" order="2"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ProfessionalFees" xlink:label="loc_us-gaapProfessionalFees_830"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapOperatingExpensesAbstract_830" xlink:to="loc_us-gaapProfessionalFees_830" xlink:type="arc" order="3"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_OperatingExpenses" xlink:label="loc_us-gaapOperatingExpenses_830"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapOperatingExpensesAbstract_830" xlink:to="loc_us-gaapOperatingExpenses_830" xlink:type="arc" order="4"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_OperatingIncomeLoss" xlink:label="loc_us-gaapOperatingIncomeLoss_830"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapOperatingIncomeLoss_830" xlink:type="arc" order="5"/>
+      <link:loc xlink:type="locator" xlink:href="pcnt-20240131.xsd#pcnt_EarningsPerShareBasicAndDiluted1" xlink:label="loc_pcntEarningsPerShareBasicAndDiluted1_830"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_pcntEarningsPerShareBasicAndDiluted1_830" xlink:type="arc" order="6"/>
+      <link:loc xlink:type="locator" xlink:href="pcnt-20240131.xsd#pcnt_WeightedAverageNumberOfShareOutstandingBasicAndDiluted1" xlink:label="loc_pcntWeightedAverageNumberOfShareOutstandingBasicAndDiluted1_830"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_pcntWeightedAverageNumberOfShareOutstandingBasicAndDiluted1_830" xlink:type="arc" order="7"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_StockholdersEquity" xlink:label="loc_us-gaapStockholdersEquity_830"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapStockholdersEquity_830" xlink:type="arc" order="8"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_SharesOutstanding" xlink:label="loc_us-gaapSharesOutstanding_830"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapSharesOutstanding_830" xlink:type="arc" order="9"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_NetIncomeLoss" xlink:label="loc_us-gaapNetIncomeLoss_830"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapNetIncomeLoss_830" xlink:type="arc" order="10"/>
+      <link:loc xlink:type="locator" xlink:href="pcnt-20240131.xsd#pcnt_ShareSubscriptionReceived" xlink:label="loc_pcntShareSubscriptionReceived_830"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_pcntShareSubscriptionReceived_830" xlink:type="arc" order="13"/>
+    </link:definitionLink>
+    </link:linkbase>

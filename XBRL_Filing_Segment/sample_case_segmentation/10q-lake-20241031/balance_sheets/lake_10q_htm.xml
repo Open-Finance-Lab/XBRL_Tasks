@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:lake="http://lake.com/20241031" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2024" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink"><link:schemaRef xlink:href="lake-20241031.xsd" xlink:type="simple"/>
+	<context id="AsOf2024-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-01-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+        </entity>
+        <period>
+            <instant>2024-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-01-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+        </entity>
+        <period>
+            <instant>2023-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-07-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-01-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-01-31_lake_TreasuryStocksMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">lake:TreasuryStocksMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-01-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-01-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-01-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-10-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-10-31_lake_TreasuryStocksMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">lake:TreasuryStocksMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-10-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-10-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-10-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-07-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-07-31_lake_TreasuryStocksMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">lake:TreasuryStocksMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-07-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-07-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-07-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-01-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-01-31_lake_TreasuryStocksMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">lake:TreasuryStocksMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-01-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-01-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-01-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-10-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-10-31_lake_TreasuryStocksMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">lake:TreasuryStocksMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-10-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-10-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-10-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-07-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-07-31_lake_TreasuryStocksMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">lake:TreasuryStocksMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-07-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-07-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-07-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-07-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2024-10-31" decimals="-3" id="fid_2709" unitRef="USD">15839000</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2024-01-31" decimals="-3" id="fid_2710" unitRef="USD">25222000</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2024-01-31" decimals="-3" id="fid_3099" unitRef="USD">25222000</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2023-01-31" decimals="-3" id="fid_3100" unitRef="USD">24639000</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2024-10-31" decimals="-3" id="fid_3389" unitRef="USD">15839000</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2023-10-31" decimals="-3" id="fid_3102" unitRef="USD">26425000</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:AccountsReceivableNetCurrent contextRef="AsOf2024-10-31" decimals="-3" id="fid_2711" unitRef="USD">26563000</us-gaap:AccountsReceivableNetCurrent>
+	<us-gaap:AccountsReceivableNetCurrent contextRef="AsOf2024-01-31" decimals="-3" id="fid_2712" unitRef="USD">19169000</us-gaap:AccountsReceivableNetCurrent>
+	<us-gaap:InventoryNet contextRef="AsOf2024-10-31" decimals="-3" id="fid_2713" unitRef="USD">72721000</us-gaap:InventoryNet>
+	<us-gaap:InventoryNet contextRef="AsOf2024-01-31" decimals="-3" id="fid_2714" unitRef="USD">51250000</us-gaap:InventoryNet>
+	<us-gaap:InventoryNet contextRef="AsOf2024-10-31" decimals="-3" id="fid_2520" unitRef="USD">72721000</us-gaap:InventoryNet>
+	<us-gaap:InventoryNet contextRef="AsOf2024-01-31" decimals="-3" id="fid_2519" unitRef="USD">51250000</us-gaap:InventoryNet>
+	<us-gaap:PrepaidTaxes contextRef="AsOf2024-10-31" decimals="-3" id="fid_2715" unitRef="USD">2815000</us-gaap:PrepaidTaxes>
+	<us-gaap:PrepaidTaxes contextRef="AsOf2024-01-31" decimals="-3" id="fid_2716" unitRef="USD">2753000</us-gaap:PrepaidTaxes>
+	<us-gaap:DeferredIncomeTaxesAndOtherTaxReceivableCurrent contextRef="AsOf2024-10-31" decimals="-3" id="fid_2717" unitRef="USD">7358000</us-gaap:DeferredIncomeTaxesAndOtherTaxReceivableCurrent>
+	<us-gaap:DeferredIncomeTaxesAndOtherTaxReceivableCurrent contextRef="AsOf2024-01-31" decimals="-3" id="fid_2718" unitRef="USD">3111000</us-gaap:DeferredIncomeTaxesAndOtherTaxReceivableCurrent>
+	<us-gaap:AssetsCurrent contextRef="AsOf2024-10-31" decimals="-3" id="fid_2719" unitRef="USD">125296000</us-gaap:AssetsCurrent>
+	<us-gaap:AssetsCurrent contextRef="AsOf2024-01-31" decimals="-3" id="fid_2720" unitRef="USD">101505000</us-gaap:AssetsCurrent>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="AsOf2024-10-31" decimals="-3" id="fid_2721" unitRef="USD">12681000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="AsOf2024-01-31" decimals="-3" id="fid_2722" unitRef="USD">10685000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:OperatingLeaseRightOfUseAsset contextRef="AsOf2024-10-31" decimals="-3" id="fid_2723" unitRef="USD">14424000</us-gaap:OperatingLeaseRightOfUseAsset>
+	<us-gaap:OperatingLeaseRightOfUseAsset contextRef="AsOf2024-01-31" decimals="-3" id="fid_2724" unitRef="USD">10969000</us-gaap:OperatingLeaseRightOfUseAsset>
+	<us-gaap:DeferredIncomeTaxAssetsNet contextRef="AsOf2024-10-31" decimals="-3" id="fid_2725" unitRef="USD">3319000</us-gaap:DeferredIncomeTaxAssetsNet>
+	<us-gaap:DeferredIncomeTaxAssetsNet contextRef="AsOf2024-01-31" decimals="-3" id="fid_2726" unitRef="USD">3097000</us-gaap:DeferredIncomeTaxAssetsNet>
+	<us-gaap:OtherAssets contextRef="AsOf2024-10-31" decimals="-3" id="fid_2727" unitRef="USD">121000</us-gaap:OtherAssets>
+	<us-gaap:OtherAssets contextRef="AsOf2024-01-31" decimals="-3" id="fid_2728" unitRef="USD">110000</us-gaap:OtherAssets>
+	<us-gaap:Goodwill contextRef="AsOf2023-01-31" decimals="0" id="ixv-9921" unitRef="USD">8473000</us-gaap:Goodwill>
+	<us-gaap:Goodwill contextRef="AsOf2023-07-31" decimals="0" id="ixv-9922" unitRef="USD">8473000</us-gaap:Goodwill>
+	<us-gaap:Goodwill contextRef="AsOf2023-10-31" decimals="0" id="ixv-9923" unitRef="USD">843000</us-gaap:Goodwill>
+	<us-gaap:Goodwill contextRef="AsOf2024-10-31" decimals="-3" id="fid_2729" unitRef="USD">22397000</us-gaap:Goodwill>
+	<us-gaap:Goodwill contextRef="AsOf2024-01-31" decimals="-3" id="fid_2730" unitRef="USD">13669000</us-gaap:Goodwill>
+	<us-gaap:Goodwill contextRef="AsOf2024-01-31" decimals="-3" id="fid_3358" unitRef="USD">13669000</us-gaap:Goodwill>
+	<us-gaap:Goodwill contextRef="AsOf2024-10-31" decimals="-3" id="fid_3372" unitRef="USD">22397000</us-gaap:Goodwill>
+	<us-gaap:IntangibleAssetsNetExcludingGoodwill contextRef="AsOf2023-10-31" decimals="0" id="ixv-9924" unitRef="USD">5736000</us-gaap:IntangibleAssetsNetExcludingGoodwill>
+	<us-gaap:IntangibleAssetsNetExcludingGoodwill contextRef="AsOf2024-10-31" decimals="-3" id="fid_2731" unitRef="USD">15528000</us-gaap:IntangibleAssetsNetExcludingGoodwill>
+	<us-gaap:IntangibleAssetsNetExcludingGoodwill contextRef="AsOf2024-01-31" decimals="-3" id="fid_2732" unitRef="USD">6830000</us-gaap:IntangibleAssetsNetExcludingGoodwill>
+	<us-gaap:IntangibleAssetsNetExcludingGoodwill contextRef="AsOf2024-01-31" decimals="-3" id="fid_2487" unitRef="USD">6830000</us-gaap:IntangibleAssetsNetExcludingGoodwill>
+	<us-gaap:IntangibleAssetsNetExcludingGoodwill contextRef="AsOf2024-10-31" decimals="-3" id="fid_3382" unitRef="USD">15528000</us-gaap:IntangibleAssetsNetExcludingGoodwill>
+	<us-gaap:Investments contextRef="AsOf2024-10-31" decimals="-3" id="fid_2733" unitRef="USD">4379000</us-gaap:Investments>
+	<us-gaap:Investments contextRef="AsOf2024-01-31" decimals="-3" id="fid_2734" unitRef="USD">4719000</us-gaap:Investments>
+	<lake:ConvertibleDebtInstruments contextRef="AsOf2024-10-31" decimals="-3" id="fid_2735" unitRef="USD">3068000</lake:ConvertibleDebtInstruments>
+	<lake:ConvertibleDebtInstruments contextRef="AsOf2024-01-31" decimals="-3" id="fid_2736" unitRef="USD">2161000</lake:ConvertibleDebtInstruments>
+	<us-gaap:Assets contextRef="AsOf2024-10-31" decimals="-3" id="fid_2737" unitRef="USD">201213000</us-gaap:Assets>
+	<us-gaap:Assets contextRef="AsOf2024-01-31" decimals="-3" id="fid_2738" unitRef="USD">153745000</us-gaap:Assets>
+	<us-gaap:AccountsPayableCurrent contextRef="AsOf2024-10-31" decimals="-3" id="fid_2741" unitRef="USD">16711000</us-gaap:AccountsPayableCurrent>
+	<us-gaap:AccountsPayableCurrent contextRef="AsOf2024-01-31" decimals="-3" id="fid_2742" unitRef="USD">7378000</us-gaap:AccountsPayableCurrent>
+	<us-gaap:EmployeeRelatedLiabilitiesCurrent contextRef="AsOf2024-10-31" decimals="-3" id="fid_2743" unitRef="USD">4534000</us-gaap:EmployeeRelatedLiabilitiesCurrent>
+	<us-gaap:EmployeeRelatedLiabilitiesCurrent contextRef="AsOf2024-01-31" decimals="-3" id="fid_2744" unitRef="USD">3922000</us-gaap:EmployeeRelatedLiabilitiesCurrent>
+	<us-gaap:OtherAccruedLiabilitiesCurrent contextRef="AsOf2024-10-31" decimals="-3" id="fid_2745" unitRef="USD">4939000</us-gaap:OtherAccruedLiabilitiesCurrent>
+	<us-gaap:OtherAccruedLiabilitiesCurrent contextRef="AsOf2024-01-31" decimals="-3" id="fid_2746" unitRef="USD">2487000</us-gaap:OtherAccruedLiabilitiesCurrent>
+	<us-gaap:TaxesPayableCurrent contextRef="AsOf2024-10-31" decimals="-3" id="fid_2747" unitRef="USD">0</us-gaap:TaxesPayableCurrent>
+	<us-gaap:TaxesPayableCurrent contextRef="AsOf2024-01-31" decimals="-3" id="fid_2748" unitRef="USD">1454000</us-gaap:TaxesPayableCurrent>
+	<us-gaap:ShortTermBorrowings contextRef="AsOf2024-10-31" decimals="-3" id="fid_2749" unitRef="USD">0</us-gaap:ShortTermBorrowings>
+	<us-gaap:ShortTermBorrowings contextRef="AsOf2024-01-31" decimals="-3" id="fid_2750" unitRef="USD">298000</us-gaap:ShortTermBorrowings>
+	<lake:AccruedEarnoutAgreementCurrent contextRef="AsOf2024-10-31" decimals="-3" id="fid_2751" unitRef="USD">0</lake:AccruedEarnoutAgreementCurrent>
+	<lake:AccruedEarnoutAgreementCurrent contextRef="AsOf2024-01-31" decimals="-3" id="fid_2752" unitRef="USD">643000</lake:AccruedEarnoutAgreementCurrent>
+	<us-gaap:OperatingLeaseLiabilityCurrent contextRef="AsOf2024-10-31" decimals="-3" id="fid_2753" unitRef="USD">3453000</us-gaap:OperatingLeaseLiabilityCurrent>
+	<us-gaap:OperatingLeaseLiabilityCurrent contextRef="AsOf2024-01-31" decimals="-3" id="fid_2754" unitRef="USD">2164000</us-gaap:OperatingLeaseLiabilityCurrent>
+	<us-gaap:LiabilitiesCurrent contextRef="AsOf2024-10-31" decimals="-3" id="fid_2755" unitRef="USD">29637000</us-gaap:LiabilitiesCurrent>
+	<us-gaap:LiabilitiesCurrent contextRef="AsOf2024-01-31" decimals="-3" id="fid_2756" unitRef="USD">18346000</us-gaap:LiabilitiesCurrent>
+	<us-gaap:DeferredIncomeTaxLiabilitiesNet contextRef="AsOf2024-10-31" decimals="-3" id="fid_2757" unitRef="USD">4499000</us-gaap:DeferredIncomeTaxLiabilitiesNet>
+	<us-gaap:DeferredIncomeTaxLiabilitiesNet contextRef="AsOf2024-01-31" decimals="-3" id="fid_2758" unitRef="USD">2097000</us-gaap:DeferredIncomeTaxLiabilitiesNet>
+	<us-gaap:LongTermLoansPayable contextRef="AsOf2024-10-31" decimals="-3" id="fid_2759" unitRef="USD">31051000</us-gaap:LongTermLoansPayable>
+	<us-gaap:LongTermLoansPayable contextRef="AsOf2024-01-31" decimals="-3" id="fid_2760" unitRef="USD">731000</us-gaap:LongTermLoansPayable>
+	<us-gaap:OperatingLeaseLiabilityNoncurrent contextRef="AsOf2024-10-31" decimals="-3" id="fid_2761" unitRef="USD">11339000</us-gaap:OperatingLeaseLiabilityNoncurrent>
+	<us-gaap:OperatingLeaseLiabilityNoncurrent contextRef="AsOf2024-01-31" decimals="-3" id="fid_2762" unitRef="USD">9121000</us-gaap:OperatingLeaseLiabilityNoncurrent>
+	<us-gaap:Liabilities contextRef="AsOf2024-10-31" decimals="-3" id="fid_2763" unitRef="USD">76526000</us-gaap:Liabilities>
+	<us-gaap:Liabilities contextRef="AsOf2024-01-31" decimals="-3" id="fid_2764" unitRef="USD">30294000</us-gaap:Liabilities>
+	<us-gaap:PreferredStockValue contextRef="AsOf2024-10-31" decimals="-3" id="fid_2767" unitRef="USD">0</us-gaap:PreferredStockValue>
+	<us-gaap:PreferredStockValue contextRef="AsOf2024-01-31" decimals="-3" id="fid_2768" unitRef="USD">0</us-gaap:PreferredStockValue>
+	<us-gaap:CommonStockValue contextRef="AsOf2024-10-31" decimals="-3" id="fid_2769" unitRef="USD">88000</us-gaap:CommonStockValue>
+	<us-gaap:CommonStockValue contextRef="AsOf2024-01-31" decimals="-3" id="fid_2770" unitRef="USD">87000</us-gaap:CommonStockValue>
+	<us-gaap:TreasuryStockValue contextRef="AsOf2024-10-31" decimals="-3" id="fid_2771" unitRef="USD">19979000</us-gaap:TreasuryStockValue>
+	<us-gaap:TreasuryStockValue contextRef="AsOf2024-01-31" decimals="-3" id="fid_2772" unitRef="USD">19979000</us-gaap:TreasuryStockValue>
+	<us-gaap:AdditionalPaidInCapital contextRef="AsOf2024-10-31" decimals="-3" id="fid_2773" unitRef="USD">80054000</us-gaap:AdditionalPaidInCapital>
+	<us-gaap:AdditionalPaidInCapital contextRef="AsOf2024-01-31" decimals="-3" id="fid_2774" unitRef="USD">79420000</us-gaap:AdditionalPaidInCapital>
+	<us-gaap:RetainedEarningsAccumulatedDeficit contextRef="AsOf2024-10-31" decimals="-3" id="fid_2775" unitRef="USD">68981000</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:RetainedEarningsAccumulatedDeficit contextRef="AsOf2024-01-31" decimals="-3" id="fid_2776" unitRef="USD">69282000</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax contextRef="AsOf2024-10-31" decimals="-3" id="fid_2777" unitRef="USD">-4457000</us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax contextRef="AsOf2024-01-31" decimals="-3" id="fid_2778" unitRef="USD">-5360000</us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31" decimals="-3" id="fid_2779" unitRef="USD">124687000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-01-31" decimals="-3" id="fid_2780" unitRef="USD">123450000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-01-31_us-gaap_CommonStockMember" decimals="-3" id="fid_4091" unitRef="USD">87000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-01-31_lake_TreasuryStocksMember" decimals="-3" id="fid_3997" unitRef="USD">-19646000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-01-31_us-gaap_AdditionalPaidInCapitalMember" decimals="-3" id="fid_3999" unitRef="USD">78475000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-01-31_us-gaap_RetainedEarningsMember" decimals="-3" id="fid_4000" unitRef="USD">64765000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-01-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="fid_4001" unitRef="USD">-3691000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-01-31" decimals="-3" id="fid_3916" unitRef="USD">119990000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31_us-gaap_CommonStockMember" decimals="-3" id="fid_3918" unitRef="USD">87000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31_lake_TreasuryStocksMember" decimals="-3" id="fid_3923" unitRef="USD">-19979000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31_us-gaap_AdditionalPaidInCapitalMember" decimals="-3" id="fid_3928" unitRef="USD">78802000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31_us-gaap_RetainedEarningsMember" decimals="-3" id="fid_3933" unitRef="USD">70480000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="fid_3938" unitRef="USD">-5801000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31" decimals="-3" id="fid_3943" unitRef="USD">123589000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-07-31_us-gaap_CommonStockMember" decimals="-3" id="fid_3820" unitRef="USD">87000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-07-31_lake_TreasuryStocksMember" decimals="-3" id="fid_4022" unitRef="USD">-19979000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-07-31_us-gaap_AdditionalPaidInCapitalMember" decimals="-3" id="fid_4023" unitRef="USD">78511000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-07-31_us-gaap_RetainedEarningsMember" decimals="-3" id="fid_4024" unitRef="USD">68084000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-07-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="fid_4025" unitRef="USD">-5318000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-07-31" decimals="-3" id="fid_3970" unitRef="USD">121385000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31_us-gaap_CommonStockMember" decimals="-3" id="fid_4132" unitRef="USD">87000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31_lake_TreasuryStocksMember" decimals="-3" id="fid_3813" unitRef="USD">-19979000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31_us-gaap_AdditionalPaidInCapitalMember" decimals="-3" id="fid_3814" unitRef="USD">78802000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31_us-gaap_RetainedEarningsMember" decimals="-3" id="fid_3815" unitRef="USD">70480000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="fid_3816" unitRef="USD">-5801000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31" decimals="-3" id="fid_3978" unitRef="USD">123589000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-01-31_us-gaap_CommonStockMember" decimals="-3" id="fid_3848" unitRef="USD">87000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-01-31_lake_TreasuryStocksMember" decimals="-3" id="fid_4044" unitRef="USD">-19979000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-01-31_us-gaap_AdditionalPaidInCapitalMember" decimals="-3" id="fid_3849" unitRef="USD">79420000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-01-31_us-gaap_RetainedEarningsMember" decimals="-3" id="fid_4045" unitRef="USD">69282000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-01-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="fid_4046" unitRef="USD">-5360000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-01-31" decimals="-3" id="fid_3981" unitRef="USD">123450000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31_us-gaap_CommonStockMember" decimals="-3" id="fid_3889" unitRef="USD">88000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31_lake_TreasuryStocksMember" decimals="-3" id="fid_3894" unitRef="USD">-19979000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31_us-gaap_AdditionalPaidInCapitalMember" decimals="-3" id="fid_3899" unitRef="USD">80054000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31_us-gaap_RetainedEarningsMember" decimals="-3" id="fid_4089" unitRef="USD">68981000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="fid_3909" unitRef="USD">-4457000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31" decimals="-3" id="fid_3914" unitRef="USD">124687000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-07-31_us-gaap_CommonStockMember" decimals="-3" id="fid_3958" unitRef="USD">87000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-07-31_lake_TreasuryStocksMember" decimals="-3" id="fid_4062" unitRef="USD">-19979000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-07-31_us-gaap_AdditionalPaidInCapitalMember" decimals="-3" id="fid_4064" unitRef="USD">79743000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-07-31_us-gaap_RetainedEarningsMember" decimals="-3" id="fid_4065" unitRef="USD">69117000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-07-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="fid_4066" unitRef="USD">-4252000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-07-31" decimals="-3" id="fid_3891" unitRef="USD">124716000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31_us-gaap_CommonStockMember" decimals="-3" id="fid_3872" unitRef="USD">88000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31_lake_TreasuryStocksMember" decimals="-3" id="fid_4067" unitRef="USD">-19979000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31_us-gaap_AdditionalPaidInCapitalMember" decimals="-3" id="fid_3873" unitRef="USD">80054000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31_us-gaap_RetainedEarningsMember" decimals="-3" id="fid_4133" unitRef="USD">68981000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="fid_4090" unitRef="USD">-4457000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31" decimals="-3" id="fid_4134" unitRef="USD">124687000</us-gaap:StockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity contextRef="AsOf2024-10-31" decimals="-3" id="fid_2781" unitRef="USD">201213000</us-gaap:LiabilitiesAndStockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity contextRef="AsOf2024-01-31" decimals="-3" id="fid_2782" unitRef="USD">153745000</us-gaap:LiabilitiesAndStockholdersEquity>
+	</xbrl>
+

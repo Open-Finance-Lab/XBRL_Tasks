@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+    <!-- Field: Doc-Info; Name: Generator; Value: GoFiler Complete; Version: 5.24b -->
+    <!-- Field: Doc-Info; Name: VendorURI; Value: https://www.novaworks.com -->
+    <!-- Field: Doc-Info; Name: Status; Value: 0x00000000 -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <link:roleRef roleURI="http://pointofcarenano.com/role/Cover" xlink:href="pcnt-20240131.xsd#Cover" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/CondensedBalanceSheets" xlink:href="pcnt-20240131.xsd#CondensedBalanceSheets" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/CondensedBalanceSheetsParenthetical" xlink:href="pcnt-20240131.xsd#CondensedBalanceSheetsParenthetical" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/CondensedStatementsOfOperations" xlink:href="pcnt-20240131.xsd#CondensedStatementsOfOperations" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/CondensedStatementsOfCashFlows" xlink:href="pcnt-20240131.xsd#CondensedStatementsOfCashFlows" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/CompanyAndBackground" xlink:href="pcnt-20240131.xsd#CompanyAndBackground" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/ControlByPrincipalOwners" xlink:href="pcnt-20240131.xsd#ControlByPrincipalOwners" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/InterimReporting" xlink:href="pcnt-20240131.xsd#InterimReporting" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/AccountingPolicies" xlink:href="pcnt-20240131.xsd#AccountingPolicies" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/CommonAndPreferredStock" xlink:href="pcnt-20240131.xsd#CommonAndPreferredStock" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/SettlementAgreement" xlink:href="pcnt-20240131.xsd#SettlementAgreement" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/LicensePurchasedAndIntangibleAssets" xlink:href="pcnt-20240131.xsd#LicensePurchasedAndIntangibleAssets" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/ExclusiveSalesSub-licensingAgreement" xlink:href="pcnt-20240131.xsd#ExclusiveSalesSub-licensingAgreement" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/SubsequentEvents" xlink:href="pcnt-20240131.xsd#SubsequentEvents" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/AccountingPoliciesPolicies" xlink:href="pcnt-20240131.xsd#AccountingPoliciesPolicies" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/LicensePurchasedAndIntangibleAssetsTables" xlink:href="pcnt-20240131.xsd#LicensePurchasedAndIntangibleAssetsTables" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/CompanyAndBackgroundDetailsNarrative" xlink:href="pcnt-20240131.xsd#CompanyAndBackgroundDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/CommonAndPreferredStockDetailsNarrative" xlink:href="pcnt-20240131.xsd#CommonAndPreferredStockDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/LicensePurchasedAndIntangibleAssetsDetails" xlink:href="pcnt-20240131.xsd#LicensePurchasedAndIntangibleAssetsDetails" xlink:type="simple" />
+    <link:roleRef roleURI="http://pointofcarenano.com/role/SubsequentEventsDetailsNarrative" xlink:href="pcnt-20240131.xsd#SubsequentEventsDetailsNarrative" xlink:type="simple" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/Cover" xlink:title="00000001 - Document - Cover" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/CondensedBalanceSheets" xlink:title="00000002 - Statement - CONDENSED BALANCE SHEETS (Unaudited)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_Assets" xlink:label="loc_us-gaapAssets" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_IntangibleAssetsNetExcludingGoodwill" xlink:label="loc_us-gaapIntangibleAssetsNetExcludingGoodwill" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssets" xlink:to="loc_us-gaapIntangibleAssetsNetExcludingGoodwill" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_Liabilities" xlink:label="loc_us-gaapLiabilities" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_AccountsPayableCurrent" xlink:label="loc_us-gaapAccountsPayableCurrent" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilities" xlink:to="loc_us-gaapAccountsPayableCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_StockholdersEquity" xlink:label="loc_us-gaapStockholdersEquity" />
+      <link:loc xlink:type="locator" xlink:href="pcnt-20240131.xsd#pcnt_UnissuedCommonStock" xlink:label="loc_pcntUnissuedCommonStock" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_pcntUnissuedCommonStock" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="pcnt-20240131.xsd#pcnt_ShareSubscriptionsReceived" xlink:label="loc_pcntShareSubscriptionsReceived" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_pcntShareSubscriptionsReceived" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_AdditionalPaidInCapital" xlink:label="loc_us-gaapAdditionalPaidInCapital" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapAdditionalPaidInCapital" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_RetainedEarningsAccumulatedDeficit" xlink:label="loc_us-gaapRetainedEarningsAccumulatedDeficit" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapRetainedEarningsAccumulatedDeficit" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_LiabilitiesAndStockholdersEquity" xlink:label="loc_us-gaapLiabilitiesAndStockholdersEquity" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesAndStockholdersEquity" xlink:to="loc_us-gaapLiabilities" xlink:type="arc" weight="1" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesAndStockholdersEquity" xlink:to="loc_us-gaapStockholdersEquity" xlink:type="arc" weight="1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/CondensedBalanceSheetsParenthetical" xlink:title="00000003 - Statement - CONDENSED BALANCE SHEETS (Unaudited) (Parenthetical)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/CondensedStatementsOfOperations" xlink:title="00000004 - Statement - CONDENSED STATEMENTS OF OPERATIONS (Unaudited)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_OperatingExpenses" xlink:label="loc_us-gaapOperatingExpenses" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_DepreciationAndAmortization" xlink:label="loc_us-gaapDepreciationAndAmortization" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingExpenses" xlink:to="loc_us-gaapDepreciationAndAmortization" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_GeneralAndAdministrativeExpense" xlink:label="loc_us-gaapGeneralAndAdministrativeExpense" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingExpenses" xlink:to="loc_us-gaapGeneralAndAdministrativeExpense" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ProfessionalFees" xlink:label="loc_us-gaapProfessionalFees" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingExpenses" xlink:to="loc_us-gaapProfessionalFees" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_OperatingIncomeLoss" xlink:label="loc_us-gaapOperatingIncomeLoss" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingIncomeLoss" xlink:to="loc_us-gaapOperatingExpenses" xlink:type="arc" weight="-1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/CondensedStatementsOfCashFlows" xlink:title="00000005 - Statement - CONDENSED STATEMENTS OF CASH FLOWS (Unaudited)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivities" xlink:label="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_NetIncomeLoss" xlink:label="loc_us-gaapNetIncomeLoss" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapNetIncomeLoss" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_DepreciationAndAmortization" xlink:label="loc_us-gaapDepreciationAndAmortization" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapDepreciationAndAmortization" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_IncreaseDecreaseInAccountsPayable" xlink:label="loc_us-gaapIncreaseDecreaseInAccountsPayable" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapIncreaseDecreaseInAccountsPayable" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_IncreaseDecreaseInPrepaidExpense" xlink:label="loc_us-gaapIncreaseDecreaseInPrepaidExpense" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapIncreaseDecreaseInPrepaidExpense" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivities" xlink:label="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" />
+      <link:loc xlink:type="locator" xlink:href="pcnt-20240131.xsd#pcnt_ShareSubscriptionReceived" xlink:label="loc_pcntShareSubscriptionReceived" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_pcntShareSubscriptionReceived" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect" xlink:label="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect" xlink:to="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:type="arc" weight="1" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect" xlink:to="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:type="arc" weight="1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/CompanyAndBackground" xlink:title="00000006 - Disclosure - COMPANY AND BACKGROUND" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/ControlByPrincipalOwners" xlink:title="00000007 - Disclosure - CONTROL BY PRINCIPAL OWNERS" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/InterimReporting" xlink:title="00000008 - Disclosure - INTERIM REPORTING" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/AccountingPolicies" xlink:title="00000009 - Disclosure - ACCOUNTING POLICIES" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/CommonAndPreferredStock" xlink:title="00000010 - Disclosure - COMMON and PREFERRED STOCK" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/SettlementAgreement" xlink:title="00000011 - Disclosure - SETTLEMENT AGREEMENT" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/LicensePurchasedAndIntangibleAssets" xlink:title="00000012 - Disclosure - LICENSE PURCHASED and INTANGIBLE ASSETS" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/ExclusiveSalesSub-licensingAgreement" xlink:title="00000013 - Disclosure - EXCLUSIVE SALES SUB-LICENSING AGREEMENT" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/SubsequentEvents" xlink:title="00000014 - Disclosure - SUBSEQUENT EVENTS" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/AccountingPoliciesPolicies" xlink:title="00000015 - Disclosure - ACCOUNTING POLICIES (Policies)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/LicensePurchasedAndIntangibleAssetsTables" xlink:title="00000016 - Disclosure - LICENSE PURCHASED and INTANGIBLE ASSETS (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/CompanyAndBackgroundDetailsNarrative" xlink:title="00000017 - Disclosure - COMPANY AND BACKGROUND (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/CommonAndPreferredStockDetailsNarrative" xlink:title="00000018 - Disclosure - COMMON and PREFERRED STOCK (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/LicensePurchasedAndIntangibleAssetsDetails" xlink:title="00000019 - Disclosure - LICENSE PURCHASED and INTANGIBLE ASSETS (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://pointofcarenano.com/role/SubsequentEventsDetailsNarrative" xlink:title="00000020 - Disclosure - SUBSEQUENT EVENTS (Details Narrative)" />
+</link:linkbase>

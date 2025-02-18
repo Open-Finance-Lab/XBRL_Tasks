@@ -1,0 +1,583 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:odc="http://www.oildri.com/20241031" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en-US"><link:schemaRef xlink:href="odc-20241031.xsd" xlink:type="simple"/>
+	<context id="c-4">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-5">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="c-58">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BusinessAcquisitionAxis">odc:UltraPetMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-98">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">odc:BusinesstoBusinessSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-99">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">odc:BusinesstoBusinessSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-100">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">odc:RetailAndWholesaleSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-101">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">odc:RetailAndWholesaleSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-102">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-103">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-124">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">srt:DirectorMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-125">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">srt:DirectorMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-6">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-7">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-8">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonClassBMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-9">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonClassBMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-116">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-117">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedTranslationAdjustmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-120">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-121">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedTranslationAdjustmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-15">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="c-17">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="c-18">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="c-16">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockCommonMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="c-19">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="c-20">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="c-26">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="c-28">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="c-29">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="c-27">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockCommonMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="c-30">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="c-32">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-34">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-35">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-33">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockCommonMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-36">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-42">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-44">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-45">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-43">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockCommonMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-46">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>odc:segment</measure>
+    </unit>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue contextRef="c-4" decimals="-3" id="f-34" unitRef="usd">12506000</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue contextRef="c-5" decimals="-3" id="f-35" unitRef="usd">23481000</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue contextRef="c-4" decimals="-3" id="f-397" unitRef="usd">12506000</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue contextRef="c-31" decimals="-3" id="f-398" unitRef="usd">29579000</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:ReceivablesNetCurrent contextRef="c-4" decimals="-3" id="f-38" unitRef="usd">70544000</us-gaap:ReceivablesNetCurrent>
+	<us-gaap:ReceivablesNetCurrent contextRef="c-5" decimals="-3" id="f-39" unitRef="usd">62171000</us-gaap:ReceivablesNetCurrent>
+	<us-gaap:InventoryNet contextRef="c-4" decimals="-3" id="f-40" unitRef="usd">56025000</us-gaap:InventoryNet>
+	<us-gaap:InventoryNet contextRef="c-5" decimals="-3" id="f-41" unitRef="usd">54236000</us-gaap:InventoryNet>
+	<us-gaap:InventoryNet contextRef="c-4" decimals="-3" id="f-506" unitRef="usd">56025000</us-gaap:InventoryNet>
+	<us-gaap:InventoryNet contextRef="c-5" decimals="-3" id="f-507" unitRef="usd">54236000</us-gaap:InventoryNet>
+	<us-gaap:OtherPrepaidExpenseCurrent contextRef="c-4" decimals="-3" id="f-42" unitRef="usd">5040000</us-gaap:OtherPrepaidExpenseCurrent>
+	<us-gaap:OtherPrepaidExpenseCurrent contextRef="c-5" decimals="-3" id="f-43" unitRef="usd">7270000</us-gaap:OtherPrepaidExpenseCurrent>
+	<us-gaap:AssetsCurrent contextRef="c-4" decimals="-3" id="f-44" unitRef="usd">144115000</us-gaap:AssetsCurrent>
+	<us-gaap:AssetsCurrent contextRef="c-5" decimals="-3" id="f-45" unitRef="usd">147158000</us-gaap:AssetsCurrent>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="c-4" decimals="-3" id="f-46" unitRef="usd">137947000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="c-5" decimals="-3" id="f-47" unitRef="usd">137796000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="c-4" decimals="-3" id="f-419" unitRef="usd">137947000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="c-5" decimals="-3" id="f-420" unitRef="usd">137796000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:Goodwill contextRef="c-4" decimals="-3" id="f-48" unitRef="usd">15674000</us-gaap:Goodwill>
+	<us-gaap:Goodwill contextRef="c-5" decimals="-3" id="f-49" unitRef="usd">15443000</us-gaap:Goodwill>
+	<us-gaap:Goodwill contextRef="c-58" decimals="-5" id="f-521" unitRef="usd">11800000</us-gaap:Goodwill>
+	<odc:Trademarksandpatentsnet contextRef="c-4" decimals="-3" id="f-52" unitRef="usd">6632000</odc:Trademarksandpatentsnet>
+	<odc:Trademarksandpatentsnet contextRef="c-5" decimals="-3" id="f-53" unitRef="usd">6662000</odc:Trademarksandpatentsnet>
+	<us-gaap:FiniteLivedIntangibleAssetsNet contextRef="c-4" decimals="-3" id="f-56" unitRef="usd">19754000</us-gaap:FiniteLivedIntangibleAssetsNet>
+	<us-gaap:FiniteLivedIntangibleAssetsNet contextRef="c-5" decimals="-3" id="f-57" unitRef="usd">20036000</us-gaap:FiniteLivedIntangibleAssetsNet>
+	<us-gaap:FiniteLivedIntangibleAssetsNet contextRef="c-58" decimals="-5" id="f-519" unitRef="usd">20400000</us-gaap:FiniteLivedIntangibleAssetsNet>
+	<us-gaap:DeferredIncomeTaxAssetsNet contextRef="c-4" decimals="-3" id="f-58" unitRef="usd">1075000</us-gaap:DeferredIncomeTaxAssetsNet>
+	<us-gaap:DeferredIncomeTaxAssetsNet contextRef="c-5" decimals="-3" id="f-59" unitRef="usd">1537000</us-gaap:DeferredIncomeTaxAssetsNet>
+	<us-gaap:OperatingLeaseRightOfUseAsset contextRef="c-4" decimals="-3" id="f-60" unitRef="usd">17552000</us-gaap:OperatingLeaseRightOfUseAsset>
+	<us-gaap:OperatingLeaseRightOfUseAsset contextRef="c-5" decimals="-3" id="f-61" unitRef="usd">18667000</us-gaap:OperatingLeaseRightOfUseAsset>
+	<odc:OtherNoncurrentAssets contextRef="c-4" decimals="-3" id="f-62" unitRef="usd">7422000</odc:OtherNoncurrentAssets>
+	<odc:OtherNoncurrentAssets contextRef="c-5" decimals="-3" id="f-63" unitRef="usd">7306000</odc:OtherNoncurrentAssets>
+	<us-gaap:OtherAssetsNoncurrent contextRef="c-4" decimals="-3" id="f-64" unitRef="usd">206056000</us-gaap:OtherAssetsNoncurrent>
+	<us-gaap:OtherAssetsNoncurrent contextRef="c-5" decimals="-3" id="f-65" unitRef="usd">207447000</us-gaap:OtherAssetsNoncurrent>
+	<us-gaap:Assets contextRef="c-4" decimals="-3" id="f-66" unitRef="usd">350171000</us-gaap:Assets>
+	<us-gaap:Assets contextRef="c-5" decimals="-3" id="f-67" unitRef="usd">354605000</us-gaap:Assets>
+	<us-gaap:Assets contextRef="c-98" decimals="-3" id="f-638" unitRef="usd">100325000</us-gaap:Assets>
+	<us-gaap:Assets contextRef="c-99" decimals="-3" id="f-639" unitRef="usd">92300000</us-gaap:Assets>
+	<us-gaap:Assets contextRef="c-100" decimals="-3" id="f-640" unitRef="usd">200545000</us-gaap:Assets>
+	<us-gaap:Assets contextRef="c-101" decimals="-3" id="f-641" unitRef="usd">200187000</us-gaap:Assets>
+	<us-gaap:Assets contextRef="c-102" decimals="-3" id="f-642" unitRef="usd">49301000</us-gaap:Assets>
+	<us-gaap:Assets contextRef="c-103" decimals="-3" id="f-643" unitRef="usd">62118000</us-gaap:Assets>
+	<us-gaap:Assets contextRef="c-4" decimals="-3" id="f-644" unitRef="usd">350171000</us-gaap:Assets>
+	<us-gaap:Assets contextRef="c-5" decimals="-3" id="f-645" unitRef="usd">354605000</us-gaap:Assets>
+	<us-gaap:SeniorNotesCurrent contextRef="c-4" decimals="-3" id="f-68" unitRef="usd">1000000</us-gaap:SeniorNotesCurrent>
+	<us-gaap:SeniorNotesCurrent contextRef="c-5" decimals="-3" id="f-69" unitRef="usd">1000000</us-gaap:SeniorNotesCurrent>
+	<us-gaap:AccountsPayableCurrent contextRef="c-4" decimals="-3" id="f-70" unitRef="usd">13824000</us-gaap:AccountsPayableCurrent>
+	<us-gaap:AccountsPayableCurrent contextRef="c-5" decimals="-3" id="f-71" unitRef="usd">15009000</us-gaap:AccountsPayableCurrent>
+	<us-gaap:AccountsPayableCurrent contextRef="c-124" decimals="-5" id="f-710" unitRef="usd">100000</us-gaap:AccountsPayableCurrent>
+	<us-gaap:AccountsPayableCurrent contextRef="c-125" decimals="-5" id="f-711" unitRef="usd">100000</us-gaap:AccountsPayableCurrent>
+	<us-gaap:DividendsPayableCurrent contextRef="c-4" decimals="-3" id="f-72" unitRef="usd">2098000</us-gaap:DividendsPayableCurrent>
+	<us-gaap:DividendsPayableCurrent contextRef="c-5" decimals="-3" id="f-73" unitRef="usd">2096000</us-gaap:DividendsPayableCurrent>
+	<us-gaap:OperatingLeaseLiabilityCurrent contextRef="c-4" decimals="-3" id="f-74" unitRef="usd">4476000</us-gaap:OperatingLeaseLiabilityCurrent>
+	<us-gaap:OperatingLeaseLiabilityCurrent contextRef="c-5" decimals="-3" id="f-75" unitRef="usd">4556000</us-gaap:OperatingLeaseLiabilityCurrent>
+	<us-gaap:AccruedLiabilitiesCurrent contextRef="c-4" decimals="-3" id="f-76" unitRef="usd">33443000</us-gaap:AccruedLiabilitiesCurrent>
+	<us-gaap:AccruedLiabilitiesCurrent contextRef="c-5" decimals="-3" id="f-77" unitRef="usd">44016000</us-gaap:AccruedLiabilitiesCurrent>
+	<us-gaap:AccruedLiabilitiesCurrent contextRef="c-4" decimals="-3" id="f-548" unitRef="usd">33443000</us-gaap:AccruedLiabilitiesCurrent>
+	<us-gaap:AccruedLiabilitiesCurrent contextRef="c-5" decimals="-3" id="f-549" unitRef="usd">44016000</us-gaap:AccruedLiabilitiesCurrent>
+	<us-gaap:LiabilitiesCurrent contextRef="c-4" decimals="-3" id="f-78" unitRef="usd">54841000</us-gaap:LiabilitiesCurrent>
+	<us-gaap:LiabilitiesCurrent contextRef="c-5" decimals="-3" id="f-79" unitRef="usd">66677000</us-gaap:LiabilitiesCurrent>
+	<us-gaap:SeniorLongTermNotes contextRef="c-4" decimals="-3" id="f-82" unitRef="usd">44777000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="c-5" decimals="-3" id="f-83" unitRef="usd">49774000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:DeferredCompensationLiabilityClassifiedNoncurrent contextRef="c-4" decimals="-3" id="f-84" unitRef="usd">5664000</us-gaap:DeferredCompensationLiabilityClassifiedNoncurrent>
+	<us-gaap:DeferredCompensationLiabilityClassifiedNoncurrent contextRef="c-5" decimals="-3" id="f-85" unitRef="usd">5667000</us-gaap:DeferredCompensationLiabilityClassifiedNoncurrent>
+	<us-gaap:OperatingLeaseLiabilityNoncurrent contextRef="c-4" decimals="-3" id="f-86" unitRef="usd">14294000</us-gaap:OperatingLeaseLiabilityNoncurrent>
+	<us-gaap:OperatingLeaseLiabilityNoncurrent contextRef="c-5" decimals="-3" id="f-87" unitRef="usd">15391000</us-gaap:OperatingLeaseLiabilityNoncurrent>
+	<us-gaap:OtherLiabilitiesNoncurrent contextRef="c-4" decimals="-3" id="f-88" unitRef="usd">6603000</us-gaap:OtherLiabilitiesNoncurrent>
+	<us-gaap:OtherLiabilitiesNoncurrent contextRef="c-5" decimals="-3" id="f-89" unitRef="usd">6508000</us-gaap:OtherLiabilitiesNoncurrent>
+	<us-gaap:LiabilitiesNoncurrent contextRef="c-4" decimals="-3" id="f-90" unitRef="usd">71338000</us-gaap:LiabilitiesNoncurrent>
+	<us-gaap:LiabilitiesNoncurrent contextRef="c-5" decimals="-3" id="f-91" unitRef="usd">77340000</us-gaap:LiabilitiesNoncurrent>
+	<us-gaap:Liabilities contextRef="c-4" decimals="-3" id="f-92" unitRef="usd">126179000</us-gaap:Liabilities>
+	<us-gaap:Liabilities contextRef="c-5" decimals="-3" id="f-93" unitRef="usd">144017000</us-gaap:Liabilities>
+	<us-gaap:CommonStockValue contextRef="c-6" decimals="-3" id="f-98" unitRef="usd">888000</us-gaap:CommonStockValue>
+	<us-gaap:CommonStockValue contextRef="c-7" decimals="-3" id="f-99" unitRef="usd">884000</us-gaap:CommonStockValue>
+	<us-gaap:CommonStockValue contextRef="c-8" decimals="-3" id="f-104" unitRef="usd">252000</us-gaap:CommonStockValue>
+	<us-gaap:CommonStockValue contextRef="c-9" decimals="-3" id="f-105" unitRef="usd">252000</us-gaap:CommonStockValue>
+	<us-gaap:AdditionalPaidInCapitalCommonStock contextRef="c-4" decimals="-3" id="f-106" unitRef="usd">62601000</us-gaap:AdditionalPaidInCapitalCommonStock>
+	<us-gaap:AdditionalPaidInCapitalCommonStock contextRef="c-5" decimals="-3" id="f-107" unitRef="usd">60877000</us-gaap:AdditionalPaidInCapitalCommonStock>
+	<us-gaap:RetainedEarningsAccumulatedDeficit contextRef="c-4" decimals="-3" id="f-108" unitRef="usd">246525000</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:RetainedEarningsAccumulatedDeficit contextRef="c-5" decimals="-3" id="f-109" unitRef="usd">232247000</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax contextRef="c-4" decimals="-3" id="f-110" unitRef="usd">727000</us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax contextRef="c-5" decimals="-3" id="f-111" unitRef="usd">769000</us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax contextRef="c-116" decimals="-3" id="f-692" unitRef="usd">1076000</us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax contextRef="c-117" decimals="-3" id="f-693" unitRef="usd">-307000</us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax contextRef="c-5" decimals="-3" id="f-694" unitRef="usd">769000</us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax contextRef="c-120" decimals="-3" id="f-704" unitRef="usd">1055000</us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax contextRef="c-121" decimals="-3" id="f-705" unitRef="usd">-328000</us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax contextRef="c-4" decimals="-3" id="f-706" unitRef="usd">727000</us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:TreasuryStockValue contextRef="c-4" decimals="-3" id="f-116" unitRef="usd">87001000</us-gaap:TreasuryStockValue>
+	<us-gaap:TreasuryStockValue contextRef="c-5" decimals="-3" id="f-117" unitRef="usd">84441000</us-gaap:TreasuryStockValue>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-4" decimals="-3" id="f-118" unitRef="usd">223992000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-5" decimals="-3" id="f-119" unitRef="usd">210588000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-15" decimals="-3" id="f-232" unitRef="usd">1115000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-17" decimals="-3" id="f-233" unitRef="usd">55624000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-18" decimals="-3" id="f-234" unitRef="usd">200796000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-16" decimals="-3" id="f-235" unitRef="usd">-81207000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-19" decimals="-3" id="f-236" unitRef="usd">748000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-20" decimals="-3" id="f-237" unitRef="usd">177076000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-26" decimals="-3" id="f-279" unitRef="usd">1133000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-28" decimals="-3" id="f-280" unitRef="usd">56746000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-29" decimals="-3" id="f-281" unitRef="usd">209585000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-27" decimals="-3" id="f-282" unitRef="usd">-82111000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-30" decimals="-3" id="f-283" unitRef="usd">563000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-31" decimals="-3" id="f-284" unitRef="usd">185916000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-32" decimals="-3" id="f-287" unitRef="usd">1136000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-34" decimals="-3" id="f-288" unitRef="usd">60877000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-35" decimals="-3" id="f-289" unitRef="usd">232247000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-33" decimals="-3" id="f-290" unitRef="usd">-84441000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-36" decimals="-3" id="f-291" unitRef="usd">769000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-5" decimals="-3" id="f-292" unitRef="usd">210588000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-42" decimals="-3" id="f-335" unitRef="usd">1140000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-44" decimals="-3" id="f-336" unitRef="usd">62601000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-45" decimals="-3" id="f-337" unitRef="usd">246525000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-43" decimals="-3" id="f-338" unitRef="usd">-87001000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-46" decimals="-3" id="f-339" unitRef="usd">727000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest contextRef="c-4" decimals="-3" id="f-340" unitRef="usd">223992000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+	<us-gaap:LiabilitiesAndStockholdersEquity contextRef="c-4" decimals="-3" id="f-120" unitRef="usd">350171000</us-gaap:LiabilitiesAndStockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity contextRef="c-5" decimals="-3" id="f-121" unitRef="usd">354605000</us-gaap:LiabilitiesAndStockholdersEquity>
+	</xbrl>
+

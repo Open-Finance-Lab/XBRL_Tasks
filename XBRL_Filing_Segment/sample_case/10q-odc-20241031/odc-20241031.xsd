@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with the Workiva Platform-->
+<!--Copyright 2024 Workiva-->
+<!--r:c01ff745-ed45-4bdf-9691-93b5db0230e2,g:8b41afcd-d71c-464e-a519-50080595619f-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:odc="http://www.oildri.com/20241031" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types1="http://www.xbrl.org/dtr/type/2020-01-21" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2022-03-31" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.oildri.com/20241031">
+  <xs:import namespace="http://fasb.org/srt/2023" schemaLocation="https://xbrl.fasb.org/srt/2023/elts/srt-2023.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2023" schemaLocation="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2020-01-21" schemaLocation="https://www.xbrl.org/dtr/type/2020-01-21/types.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2022-03-31" schemaLocation="https://www.xbrl.org/dtr/type/2022-03-31/types.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2023" schemaLocation="https://xbrl.sec.gov/dei/2023/dei-2023.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="odc-20241031_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="odc-20241031_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="odc-20241031_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="odc-20241031_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="CoverPage" roleURI="http://www.oildri.com/role/CoverPage">
+        <link:definition>0000001 - Document - Cover Page</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedBalanceSheets" roleURI="http://www.oildri.com/role/CondensedConsolidatedBalanceSheets">
+        <link:definition>0000002 - Statement - Condensed Consolidated Balance Sheets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedBalanceSheetParenthetical" roleURI="http://www.oildri.com/role/CondensedConsolidatedBalanceSheetParenthetical">
+        <link:definition>0000003 - Statement - Condensed Consolidated Balance Sheet Parenthetical</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofIncome" roleURI="http://www.oildri.com/role/CondensedConsolidatedStatementsofIncome">
+        <link:definition>0000004 - Statement - Condensed Consolidated Statements of Income</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofComprehensiveIncome" roleURI="http://www.oildri.com/role/CondensedConsolidatedStatementsofComprehensiveIncome">
+        <link:definition>0000005 - Statement - Condensed Consolidated Statements of Comprehensive Income</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofStockholdersEquityStatement" roleURI="http://www.oildri.com/role/ConsolidatedStatementsofStockholdersEquityStatement">
+        <link:definition>0000006 - Statement - Consolidated Statements of Stockholders Equity Statement</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofCashFlows" roleURI="http://www.oildri.com/role/CondensedConsolidatedStatementsofCashFlows">
+        <link:definition>0000007 - Statement - Condensed Consolidated Statements of Cash Flows</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BasisofStatementPresentation" roleURI="http://www.oildri.com/role/BasisofStatementPresentation">
+        <link:definition>0000008 - Disclosure - Basis of Statement Presentation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShare" roleURI="http://www.oildri.com/role/EarningsPerShare">
+        <link:definition>0000009 - Disclosure - Earnings Per Share</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Inventories" roleURI="http://www.oildri.com/role/Inventories">
+        <link:definition>0000010 - Disclosure - Inventories</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurements" roleURI="http://www.oildri.com/role/FairValueMeasurements">
+        <link:definition>0000011 - Disclosure - Fair Value Measurements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangibles" roleURI="http://www.oildri.com/role/GoodwillandOtherIntangibles">
+        <link:definition>0000012 - Disclosure - Goodwill and Other Intangibles</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccruedExpenses" roleURI="http://www.oildri.com/role/AccruedExpenses">
+        <link:definition>0000013 - Disclosure - Accrued Expenses</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OtherContingencies" roleURI="http://www.oildri.com/role/OtherContingencies">
+        <link:definition>0000014 - Disclosure - Other Contingencies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Debt" roleURI="http://www.oildri.com/role/Debt">
+        <link:definition>0000015 - Disclosure - Debt</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Leases" roleURI="http://www.oildri.com/role/Leases">
+        <link:definition>0000016 - Disclosure - Leases</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionandOtherPostretirementBenefits" roleURI="http://www.oildri.com/role/PensionandOtherPostretirementBenefits">
+        <link:definition>0000017 - Disclosure - Pension and Other Postretirement Benefits</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OperatingSegments" roleURI="http://www.oildri.com/role/OperatingSegments">
+        <link:definition>0000018 - Disclosure - Operating Segments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockBasedCompensation" roleURI="http://www.oildri.com/role/StockBasedCompensation">
+        <link:definition>0000019 - Disclosure - Stock-Based Compensation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccumulatedOtherComprehensiveLossIncome" roleURI="http://www.oildri.com/role/AccumulatedOtherComprehensiveLossIncome">
+        <link:definition>0000020 - Disclosure - Accumulated Other Comprehensive (Loss) Income</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RelatedPartyTransactions" roleURI="http://www.oildri.com/role/RelatedPartyTransactions">
+        <link:definition>0000021 - Disclosure - Related Party Transactions</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubsequentEvents" roleURI="http://www.oildri.com/role/SubsequentEvents">
+        <link:definition>0000022 - Disclosure - Subsequent Events</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShare_1" roleURI="http://www.oildri.com/role/EarningsPerShare_1">
+        <link:definition>0000023 - Disclosure - Earnings Per Share</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BasisofStatementPresentationLevel2Policies" roleURI="http://www.oildri.com/role/BasisofStatementPresentationLevel2Policies">
+        <link:definition>9954471 - Disclosure - Basis of Statement Presentation Level 2 (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerSharePolicies" roleURI="http://www.oildri.com/role/EarningsPerSharePolicies">
+        <link:definition>9954472 - Disclosure - Earnings Per Share (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InventoriesLevel2Policies" roleURI="http://www.oildri.com/role/InventoriesLevel2Policies">
+        <link:definition>9954473 - Disclosure - Inventories Level 2 (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsFairValueMeasurementsPolicies" roleURI="http://www.oildri.com/role/FairValueMeasurementsFairValueMeasurementsPolicies">
+        <link:definition>9954474 - Disclosure - Fair Value Measurements Fair Value Measurements (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OperatingSegmentsLevel2Policies" roleURI="http://www.oildri.com/role/OperatingSegmentsLevel2Policies">
+        <link:definition>9954475 - Disclosure - Operating Segments Level 2 (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BasisofStatementPresentationLevel3Tables" roleURI="http://www.oildri.com/role/BasisofStatementPresentationLevel3Tables">
+        <link:definition>9954476 - Disclosure - Basis of Statement Presentation Level 3 (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareTables" roleURI="http://www.oildri.com/role/EarningsPerShareTables">
+        <link:definition>9954477 - Disclosure - Earnings Per Share (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InventoriesLevel3Tables" roleURI="http://www.oildri.com/role/InventoriesLevel3Tables">
+        <link:definition>9954478 - Disclosure - Inventories Level 3 (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccruedExpensesTables" roleURI="http://www.oildri.com/role/AccruedExpensesTables">
+        <link:definition>9954479 - Disclosure - Accrued Expenses (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentandContingenciesTables" roleURI="http://www.oildri.com/role/CommitmentandContingenciesTables">
+        <link:definition>9954480 - Disclosure - Commitment and Contingencies (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesTables" roleURI="http://www.oildri.com/role/LeasesTables">
+        <link:definition>9954481 - Disclosure - Leases (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionandOtherPostretirementBenefitsTables" roleURI="http://www.oildri.com/role/PensionandOtherPostretirementBenefitsTables">
+        <link:definition>9954482 - Disclosure - Pension and Other Postretirement Benefits (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OperatingSegmentsTables" roleURI="http://www.oildri.com/role/OperatingSegmentsTables">
+        <link:definition>9954483 - Disclosure - Operating Segments (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockBasedCompensationTables" roleURI="http://www.oildri.com/role/StockBasedCompensationTables">
+        <link:definition>9954484 - Disclosure - Stock-Based Compensation (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccumulatedOtherComprehensiveLossIncomeTables" roleURI="http://www.oildri.com/role/AccumulatedOtherComprehensiveLossIncomeTables">
+        <link:definition>9954485 - Disclosure - Accumulated Other Comprehensive (Loss) Income (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubsequentEventsTables" roleURI="http://www.oildri.com/role/SubsequentEventsTables">
+        <link:definition>9954486 - Disclosure - Subsequent Events (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareTables_1" roleURI="http://www.oildri.com/role/EarningsPerShareTables_1">
+        <link:definition>9954487 - Disclosure - Earnings Per Share (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BasisofStatementPresentationPropertyPlantEquipmentDetails" roleURI="http://www.oildri.com/role/BasisofStatementPresentationPropertyPlantEquipmentDetails">
+        <link:definition>9954488 - Disclosure - Basis of Statement Presentation Property, Plant, &amp; Equipment (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BasisofStatementPresentationRevenueRecognitionDetails" roleURI="http://www.oildri.com/role/BasisofStatementPresentationRevenueRecognitionDetails">
+        <link:definition>9954489 - Disclosure - Basis of Statement Presentation Revenue Recognition (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BasisofStatementPresentationOtherNoncurrentLiabilitiesDetails" roleURI="http://www.oildri.com/role/BasisofStatementPresentationOtherNoncurrentLiabilitiesDetails">
+        <link:definition>9954490 - Disclosure - Basis of Statement Presentation Other Noncurrent Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareDetails" roleURI="http://www.oildri.com/role/EarningsPerShareDetails">
+        <link:definition>9954491 - Disclosure - Earnings Per Share (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InventoriesDetails" roleURI="http://www.oildri.com/role/InventoriesDetails">
+        <link:definition>9954492 - Disclosure - Inventories (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InventoriesNarrativeDetails" roleURI="http://www.oildri.com/role/InventoriesNarrativeDetails">
+        <link:definition>9954493 - Disclosure - Inventories Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsNarrativeDetails" roleURI="http://www.oildri.com/role/FairValueMeasurementsNarrativeDetails">
+        <link:definition>9954494 - Disclosure - Fair Value Measurements Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangiblesNarrativeDetails" roleURI="http://www.oildri.com/role/GoodwillandOtherIntangiblesNarrativeDetails">
+        <link:definition>9954495 - Disclosure - Goodwill and Other Intangibles Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccruedExpensesDetails" roleURI="http://www.oildri.com/role/AccruedExpensesDetails">
+        <link:definition>9954496 - Disclosure - Accrued Expenses (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentandContingenciesDetails" roleURI="http://www.oildri.com/role/CommitmentandContingenciesDetails">
+        <link:definition>9954497 - Disclosure - Commitment and Contingencies (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtDetails" roleURI="http://www.oildri.com/role/DebtDetails">
+        <link:definition>9954498 - Disclosure - Debt (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesDetails" roleURI="http://www.oildri.com/role/LeasesDetails">
+        <link:definition>9954499 - Disclosure - Leases (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionandOtherPostretirementBenefitsDetails" roleURI="http://www.oildri.com/role/PensionandOtherPostretirementBenefitsDetails">
+        <link:definition>9954500 - Disclosure - Pension and Other Postretirement Benefits (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionandOtherPostretirementBenefitsNarrativeDetails" roleURI="http://www.oildri.com/role/PensionandOtherPostretirementBenefitsNarrativeDetails">
+        <link:definition>9954501 - Disclosure - Pension and Other Postretirement Benefits Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OperatingSegmentsDisaggregationofRevenueDetails" roleURI="http://www.oildri.com/role/OperatingSegmentsDisaggregationofRevenueDetails">
+        <link:definition>9954502 - Disclosure - Operating Segments Disaggregation of Revenue (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OperatingSegmentsDetails" roleURI="http://www.oildri.com/role/OperatingSegmentsDetails">
+        <link:definition>9954503 - Disclosure - Operating Segments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OperatingSegmentsNarrativeDetails" roleURI="http://www.oildri.com/role/OperatingSegmentsNarrativeDetails">
+        <link:definition>9954504 - Disclosure - Operating Segments Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockBasedCompensationSummaryofRestrictedStockTransactionsDetails" roleURI="http://www.oildri.com/role/StockBasedCompensationSummaryofRestrictedStockTransactionsDetails">
+        <link:definition>9954505 - Disclosure - Stock-Based Compensation Summary of Restricted Stock Transactions (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockBasedCompensationNarrativeDetails" roleURI="http://www.oildri.com/role/StockBasedCompensationNarrativeDetails">
+        <link:definition>9954506 - Disclosure - Stock-Based Compensation Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccumulatedOtherComprehensiveLossIncomeDetails" roleURI="http://www.oildri.com/role/AccumulatedOtherComprehensiveLossIncomeDetails">
+        <link:definition>9954507 - Disclosure - Accumulated Other Comprehensive (Loss) Income (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RelatedPartyTransactionsDetails" roleURI="http://www.oildri.com/role/RelatedPartyTransactionsDetails">
+        <link:definition>9954508 - Disclosure - Related Party Transactions (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubsequentEventsDetails" roleURI="http://www.oildri.com/role/SubsequentEventsDetails">
+        <link:definition>9954509 - Disclosure - Subsequent Events (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareDetails_1" roleURI="http://www.oildri.com/role/EarningsPerShareDetails_1">
+        <link:definition>9954510 - Disclosure - Earnings Per Share (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="odc_Trademarksandpatentsnet" abstract="false" name="Trademarksandpatentsnet" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="odc_OtherNoncurrentAssets" abstract="false" name="OtherNoncurrentAssets" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="odc_CondensedConsolidatedBalanceSheetParentheticalAbstract" abstract="true" name="CondensedConsolidatedBalanceSheetParentheticalAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="odc_TrademarksandpatentsaccumulatedAmortization" abstract="false" name="TrademarksandpatentsaccumulatedAmortization" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="odc_WeightedAverageSharesOutstandingAbstract" abstract="true" name="WeightedAverageSharesOutstandingAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="odc_CondensedConsolidatedStatementsOfComprehensiveIncomeAbstract" abstract="true" name="CondensedConsolidatedStatementsOfComprehensiveIncomeAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="odc_ConsolidatedStatementsofStockholdersEquityAbstract" abstract="true" name="ConsolidatedStatementsofStockholdersEquityAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="odc_ChangeInCapitalExpendituresInAccountsPayable" abstract="false" name="ChangeInCapitalExpendituresInAccountsPayable" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="odc_ChangeInCapitalExpendituresInAccruedExpenses" abstract="false" name="ChangeInCapitalExpendituresInAccruedExpenses" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="odc_AccumulatedOtherComprehensiveLossIncomeAbstract" abstract="true" name="AccumulatedOtherComprehensiveLossIncomeAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="odc_OverburdenRemovalAndMiningCostsPolicyTextBlock" abstract="false" name="OverburdenRemovalAndMiningCostsPolicyTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="odc_DividendDistributionPercentage" abstract="false" name="DividendDistributionPercentage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="odc_DividendDistributionPercentageIncrease" abstract="false" name="DividendDistributionPercentageIncrease" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="odc_UltraPetMember" abstract="true" name="UltraPetMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="odc_AccruedPayables" abstract="false" name="AccruedPayables" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="odc_AccruedFreight" abstract="false" name="AccruedFreight" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="odc_GeorgiaLandfillModificationReserve" abstract="false" name="GeorgiaLandfillModificationReserve" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="odc_SeriesBSeniorNotesMember" abstract="true" name="SeriesBSeniorNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="odc_SeriesCSeniorNotesMember" abstract="true" name="SeriesCSeniorNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="odc_SeriesDSeniorNotesMember" abstract="true" name="SeriesDSeniorNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="odc_ShelfNotes" abstract="false" name="ShelfNotes" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="odc_ShelfNoteExpirationDate" abstract="false" name="ShelfNoteExpirationDate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:dateItemType"/>
+  <xs:element id="odc_LineOfCreditFacilityAccordionProvisionIncreaseLimit" abstract="false" name="LineOfCreditFacilityAccordionProvisionIncreaseLimit" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="odc_PermittedAcquisitionsThreshold" abstract="false" name="PermittedAcquisitionsThreshold" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="odc_BusinesstoBusinessSegmentMember" abstract="true" name="BusinesstoBusinessSegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="odc_RetailAndWholesaleSegmentMember" abstract="true" name="RetailAndWholesaleSegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="odc_CatLitterMember" abstract="true" name="CatLitterMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="odc_IndustrialandSportsMember" abstract="true" name="IndustrialandSportsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="odc_AgriculturalandHorticulturalMember" abstract="true" name="AgriculturalandHorticulturalMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="odc_BleachingClayandFluidsPurificationMember" abstract="true" name="BleachingClayandFluidsPurificationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="odc_AnimalHealthandNutritionMember" abstract="true" name="AnimalHealthandNutritionMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="odc_SegmentReportingInformationOperatingIncomeForReportableSegment" abstract="false" name="SegmentReportingInformationOperatingIncomeForReportableSegment" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="odc_CorporateExpenses" abstract="false" name="CorporateExpenses" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="odc_A2006PlanMember" abstract="true" name="A2006PlanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+</xs:schema>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:none="http://e-smart.io/20240831" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="none-20240831.xsd" xlink:type="simple"/>
+	<context id="From2023-09-01to2024-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+        </entity>
+        <period>
+            <startDate>2023-09-01</startDate>
+            <endDate>2024-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2023-06-072023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+        </entity>
+        <period>
+            <startDate>2023-06-07</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<context id="AsOf2023-06-06">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+        </entity>
+        <period>
+            <instant>2023-06-06</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+        </entity>
+        <period>
+            <instant>2024-08-31</instant>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<us-gaap:ProfitLoss contextRef="From2023-09-01to2024-08-31" decimals="0" id="Fact000180" unitRef="USD">-41236</us-gaap:ProfitLoss>
+	<us-gaap:ProfitLoss contextRef="From2023-06-072023-08-31" decimals="0" id="Fact000181" unitRef="USD">-979</us-gaap:ProfitLoss>
+	<us-gaap:ProfitLoss contextRef="From2023-09-01to2024-08-31" decimals="0" id="Fact000233" unitRef="USD">-41236</us-gaap:ProfitLoss>
+	<us-gaap:ProfitLoss contextRef="From2023-06-072023-08-31" decimals="0" id="Fact000234" unitRef="USD">-979</us-gaap:ProfitLoss>
+	<us-gaap:IncreaseDecreaseInAccountsPayable contextRef="From2023-09-01to2024-08-31" decimals="0" id="Fact000236" unitRef="USD">-1500</us-gaap:IncreaseDecreaseInAccountsPayable>
+	<us-gaap:IncreaseDecreaseInAccountsPayable contextRef="From2023-06-072023-08-31" decimals="0" id="Fact000237" unitRef="USD">1500</us-gaap:IncreaseDecreaseInAccountsPayable>
+	<us-gaap:InterestExpenseOther contextRef="From2023-06-072023-08-31" id="xdx2ixbrl0240" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:InterestExpenseOther contextRef="From2023-09-01to2024-08-31" decimals="0" id="Fact000239" unitRef="USD">6905</us-gaap:InterestExpenseOther>
+	<us-gaap:NetCashProvidedByUsedInOperatingActivities contextRef="From2023-09-01to2024-08-31" decimals="0" id="Fact000242" unitRef="USD">-10973</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+	<us-gaap:NetCashProvidedByUsedInOperatingActivities contextRef="From2023-06-072023-08-31" decimals="0" id="Fact000243" unitRef="USD">521</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+	<us-gaap:IncreaseDecreaseInIntangibleAssetsCurrent contextRef="From2023-09-01to2024-08-31" decimals="0" id="Fact000248" unitRef="USD">157300</us-gaap:IncreaseDecreaseInIntangibleAssetsCurrent>
+	<us-gaap:IncreaseDecreaseInIntangibleAssetsCurrent contextRef="From2023-06-072023-08-31" decimals="0" id="Fact000249" unitRef="USD">16500</us-gaap:IncreaseDecreaseInIntangibleAssetsCurrent>
+	<us-gaap:NetCashProvidedByUsedInInvestingActivities contextRef="From2023-09-01to2024-08-31" decimals="0" id="Fact000251" unitRef="USD">-157300</us-gaap:NetCashProvidedByUsedInInvestingActivities>
+	<us-gaap:NetCashProvidedByUsedInInvestingActivities contextRef="From2023-06-072023-08-31" decimals="0" id="Fact000252" unitRef="USD">-16500</us-gaap:NetCashProvidedByUsedInInvestingActivities>
+	<us-gaap:ProceedsFromRelatedPartyDebt contextRef="From2023-09-01to2024-08-31" decimals="0" id="Fact000257" unitRef="USD">168594</us-gaap:ProceedsFromRelatedPartyDebt>
+	<us-gaap:ProceedsFromRelatedPartyDebt contextRef="From2023-06-072023-08-31" decimals="0" id="Fact000258" unitRef="USD">11703</us-gaap:ProceedsFromRelatedPartyDebt>
+	<us-gaap:ProceedsFromStockPlans contextRef="From2023-09-01to2024-08-31" id="xdx2ixbrl0260" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:ProceedsFromStockPlans contextRef="From2023-06-072023-08-31" decimals="0" id="Fact000261" unitRef="USD">4500</us-gaap:ProceedsFromStockPlans>
+	<us-gaap:NetCashProvidedByUsedInFinancingActivities contextRef="From2023-09-01to2024-08-31" decimals="0" id="Fact000263" unitRef="USD">168594</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+	<us-gaap:NetCashProvidedByUsedInFinancingActivities contextRef="From2023-06-072023-08-31" decimals="0" id="Fact000264" unitRef="USD">16203</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect contextRef="From2023-09-01to2024-08-31" decimals="0" id="Fact000266" unitRef="USD">321</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect contextRef="From2023-06-072023-08-31" decimals="0" id="Fact000267" unitRef="USD">225</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2023-06-06" id="xdx2ixbrl0270" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2023-08-31" decimals="0" id="Fact000269" unitRef="USD">225</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2024-08-31" decimals="0" id="Fact000272" unitRef="USD">546</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2023-08-31" decimals="0" id="Fact000273" unitRef="USD">225</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:InterestPaidNet contextRef="From2023-09-01to2024-08-31" id="xdx2ixbrl0275" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:InterestPaidNet contextRef="From2023-06-072023-08-31" id="xdx2ixbrl0276" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:IncomeTaxesPaid contextRef="From2023-09-01to2024-08-31" id="xdx2ixbrl0278" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:IncomeTaxesPaid contextRef="From2023-06-072023-08-31" id="xdx2ixbrl0279" unitRef="USD" xsi:nil="true"/>
+	</xbrl>
+

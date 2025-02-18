@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://lake.com/role/CondensedConsolidatedStatementsOfComprehensiveIncomeLossUnaudited" xlink:href="lake-20241031.xsd#CondensedConsolidatedStatementsOfComprehensiveIncomeLossUnaudited" xlink:type="simple"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://lake.com/role/CondensedConsolidatedStatementsOfComprehensiveIncomeLossUnaudited" xlink:title="000003 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (LOSS) (UNAUDITED)">
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ComprehensiveIncomeNetOfTax" xlink:label="loc_us-gaapComprehensiveIncomeNetOfTax"/>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetIncomeLoss" xlink:label="loc_us-gaapNetIncomeLoss"/>
+    <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapComprehensiveIncomeNetOfTax" xlink:to="loc_us-gaapNetIncomeLoss" xlink:type="arc" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax" xlink:label="loc_us-gaapOtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax"/>
+    <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapComprehensiveIncomeNetOfTax" xlink:to="loc_us-gaapOtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax" xlink:type="arc" weight="1"/>
+  </link:calculationLink>
+  </link:linkbase>

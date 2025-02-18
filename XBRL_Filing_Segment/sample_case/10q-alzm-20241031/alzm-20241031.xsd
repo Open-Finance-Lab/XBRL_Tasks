@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+    <!-- Field: Doc-Info; Name: Generator; Value: GoFiler Complete; Version: 5.24a -->
+    <!-- Field: Doc-Info; Name: VendorURI; Value: https://www.novaworks.com -->
+    <!-- Field: Doc-Info; Name: Status; Value: 0x00000000 -->
+    <!-- Field: Doc-Info; Name: Misc; Value: 96Qpo7xRiXgOn8uPaXcsSaSIGbP9xpJ7iZkhtGl0fanaLy4hoQ5XLCbBoVk2AVIM -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:srt="http://fasb.org/srt/2024" xmlns:srt-types="http://fasb.org/srt-types/2024" xmlns:ecd="http://xbrl.sec.gov/ecd/2024" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2022-03-31" xmlns:alzm="http://alzamend.com/20241031" elementFormDefault="qualified" targetNamespace="http://alzamend.com/20241031">
+    <annotation>
+      <appinfo>
+        <link:roleType roleURI="http://alzamend.com/role/Cover" id="Cover">
+          <link:definition>00000001 - Document - Cover</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/BalanceSheets" id="BalanceSheets">
+          <link:definition>00000002 - Statement - Condensed Balance Sheets (Unaudited)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/BalanceSheetsParenthetical" id="BalanceSheetsParenthetical">
+          <link:definition>00000003 - Statement - Condensed Balance Sheets (Unaudited) (Parenthetical)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/StatementsOfOperations" id="StatementsOfOperations">
+          <link:definition>00000004 - Statement - Condensed Statements of Operations (Unaudited)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/StatementsOfStockholdersDeficitEquity" id="StatementsOfStockholdersDeficitEquity">
+          <link:definition>00000005 - Statement - Condensed Statements of Stockholders' (Deficit) Equity (Unaudited)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/StatementsOfCashFlows" id="StatementsOfCashFlows">
+          <link:definition>00000006 - Statement - Condensed Statements of Cash Flows (Unaudited)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/DescriptionOfBusiness" id="DescriptionOfBusiness">
+          <link:definition>995612 - Disclosure - DESCRIPTION OF BUSINESS</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/LiquidityAndGoingConcern" id="LiquidityAndGoingConcern">
+          <link:definition>995613 - Disclosure - LIQUIDITY AND GOING CONCERN</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/SignificantAccountingPolicies" id="SignificantAccountingPolicies">
+          <link:definition>995614 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/PrepaidExpensesAndOtherCurrentAssets" id="PrepaidExpensesAndOtherCurrentAssets">
+          <link:definition>995615 - Disclosure - PREPAID EXPENSES AND OTHER CURRENT ASSETS</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/Stock-basedCompensation" id="Stock-basedCompensation">
+          <link:definition>995616 - Disclosure - STOCK-BASED COMPENSATION</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/Warrants" id="Warrants">
+          <link:definition>995617 - Disclosure - WARRANTS</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/CommitmentsAndContingencies" id="CommitmentsAndContingencies">
+          <link:definition>995618 - Disclosure - COMMITMENTS AND CONTINGENCIES</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/EquityTransactions" id="EquityTransactions">
+          <link:definition>995619 - Disclosure - EQUITY TRANSACTIONS</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/RelatedPartyTransactions" id="RelatedPartyTransactions">
+          <link:definition>995620 - Disclosure - RELATED PARTY TRANSACTIONS</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/SubsequentEvents" id="SubsequentEvents">
+          <link:definition>995621 - Disclosure - SUBSEQUENT EVENTS</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/SignificantAccountingPoliciesPolicies" id="SignificantAccountingPoliciesPolicies">
+          <link:definition>995622 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Policies)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/SignificantAccountingPoliciesTables" id="SignificantAccountingPoliciesTables">
+          <link:definition>995623 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/PrepaidExpensesAndOtherCurrentAssetsTables" id="PrepaidExpensesAndOtherCurrentAssetsTables">
+          <link:definition>995624 - Disclosure - PREPAID EXPENSES AND OTHER CURRENT ASSETS (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/Stock-basedCompensationTables" id="Stock-basedCompensationTables">
+          <link:definition>995625 - Disclosure - STOCK-BASED COMPENSATION (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/WarrantsTables" id="WarrantsTables">
+          <link:definition>995626 - Disclosure - WARRANTS (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/CommitmentsAndContingenciesTables" id="CommitmentsAndContingenciesTables">
+          <link:definition>995627 - Disclosure - COMMITMENTS AND CONTINGENCIES (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/DescriptionOfBusinessDetailsNarrative" id="DescriptionOfBusinessDetailsNarrative">
+          <link:definition>995628 - Disclosure - DESCRIPTION OF BUSINESS (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/LiquidityAndGoingConcernDetailsNarrative" id="LiquidityAndGoingConcernDetailsNarrative">
+          <link:definition>995629 - Disclosure - LIQUIDITY AND GOING CONCERN (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/SignificantAccountingPoliciesDetails" id="SignificantAccountingPoliciesDetails">
+          <link:definition>995630 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/SignificantAccountingPoliciesDetailsNarrative" id="SignificantAccountingPoliciesDetailsNarrative">
+          <link:definition>995631 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/PrepaidExpensesAndOtherCurrentAssetsDetails" id="PrepaidExpensesAndOtherCurrentAssetsDetails">
+          <link:definition>995632 - Disclosure - PREPAID EXPENSES AND OTHER CURRENT ASSETS (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/PrepaidExpensesAndOtherCurrentAssetsDetailsNarrative" id="PrepaidExpensesAndOtherCurrentAssetsDetailsNarrative">
+          <link:definition>995633 - Disclosure - PREPAID EXPENSES AND OTHER CURRENT ASSETS (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/Stock-basedCompensationDetails" id="Stock-basedCompensationDetails">
+          <link:definition>995634 - Disclosure - STOCK-BASED COMPENSATION (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/Stock-basedCompensationDetails1" id="Stock-basedCompensationDetails1">
+          <link:definition>995635 - Disclosure - STOCK-BASED COMPENSATION (Details 1)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/Stock-basedCompensationDetails2" id="Stock-basedCompensationDetails2">
+          <link:definition>995636 - Disclosure - STOCK-BASED COMPENSATION (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/Stock-basedCompensationDetailsNarrative" id="Stock-basedCompensationDetailsNarrative">
+          <link:definition>995637 - Disclosure - STOCK-BASED COMPENSATION (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/WarrantsDetails" id="WarrantsDetails">
+          <link:definition>995638 - Disclosure - WARRANTS (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/WarrantsDetails1" id="WarrantsDetails1">
+          <link:definition>995639 - Disclosure - WARRANTS (Details 1)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/WarrantsDetailsNarrative" id="WarrantsDetailsNarrative">
+          <link:definition>995640 - Disclosure - WARRANTS (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/CommitmentsAndContingenciesDetails" id="CommitmentsAndContingenciesDetails">
+          <link:definition>995641 - Disclosure - COMMITMENTS AND CONTINGENCIES (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/CommitmentsAndContingenciesDetailsNarrative" id="CommitmentsAndContingenciesDetailsNarrative">
+          <link:definition>995642 - Disclosure - COMMITMENTS AND CONTINGENCIES (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/EquityTransactionsDetailsNarrative" id="EquityTransactionsDetailsNarrative">
+          <link:definition>995643 - Disclosure - EQUITY TRANSACTIONS (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/RelatedPartyTransactionsDetailsNarrative" id="RelatedPartyTransactionsDetailsNarrative">
+          <link:definition>995644 - Disclosure - RELATED PARTY TRANSACTIONS (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://alzamend.com/role/SubsequentEventsDetailsNarrative" id="SubsequentEventsDetailsNarrative">
+          <link:definition>995645 - Disclosure - SUBSEQUENT EVENTS (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:linkbaseRef xlink:type="simple" xlink:href="alzm-20241031_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Presentation Links" />
+        <link:linkbaseRef xlink:type="simple" xlink:href="alzm-20241031_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links" />
+        <link:linkbaseRef xlink:type="simple" xlink:href="alzm-20241031_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Calculation Links" />
+        <link:linkbaseRef xlink:type="simple" xlink:href="alzm-20241031_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links" />
+      </appinfo>
+    </annotation>
+    <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+    <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+    <import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+    <import namespace="http://xbrl.sec.gov/dei/2024" schemaLocation="https://xbrl.sec.gov/dei/2024/dei-2024.xsd" />
+    <import namespace="http://fasb.org/us-gaap/2024" schemaLocation="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd" />
+    <import namespace="http://fasb.org/us-types/2024" schemaLocation="https://xbrl.fasb.org/us-gaap/2024/elts/us-types-2024.xsd" />
+    <import namespace="http://www.xbrl.org/dtr/type/2022-03-31" schemaLocation="https://www.xbrl.org/dtr/type/2022-03-31/types.xsd" />
+    <import namespace="http://xbrl.sec.gov/ecd/2024" schemaLocation="https://xbrl.sec.gov/ecd/2024/ecd-2024.xsd" />
+    <import namespace="http://xbrl.sec.gov/country/2024" schemaLocation="https://xbrl.sec.gov/country/2024/country-2024.xsd" />
+    <import namespace="http://fasb.org/srt/2024" schemaLocation="https://xbrl.fasb.org/srt/2024/elts/srt-2024.xsd" />
+    <import namespace="http://fasb.org/srt-types/2024" schemaLocation="https://xbrl.fasb.org/srt/2024/elts/srt-types-2024.xsd" />
+    <element id="alzm_SeriesAConvertiblePreferredStockMember" name="SeriesAConvertiblePreferredStockMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_SeriesBConvertiblePreferredStockMember" name="SeriesBConvertiblePreferredStockMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_NoteRecievableForCommonStockRelatedPartyMember" name="NoteRecievableForCommonStockRelatedPartyMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_AL001LicenseMember" name="AL001LicenseMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_StockIncentivePlan2016Member" name="StockIncentivePlan2016Member" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_PerformanceContingentStockOptionsMember" name="PerformanceContingentStockOptionsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_KeyEmployeesAndDirectorMember" name="KeyEmployeesAndDirectorMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_UnamortizedStockBasedCompensationMember" name="UnamortizedStockBasedCompensationMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_StockBasedCompensationMember" name="StockBasedCompensationMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_Warrant2024Member" name="Warrant2024Member" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ExercisePrice1Member" name="ExercisePrice1Member" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ExercisePrice3Member" name="ExercisePrice3Member" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ExercisePrice4Member" name="ExercisePrice4Member" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ExercisePrice5Member" name="ExercisePrice5Member" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_FirstAnniversaryMember" name="FirstAnniversaryMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_SecondAnniversaryMember" name="SecondAnniversaryMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ThirdAnniversaryMember" name="ThirdAnniversaryMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ALZN002LicenseMember" name="ALZN002LicenseMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_AdditionalAL001LicenseMember" name="AdditionalAL001LicenseMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_PreIndMeetingMember" name="PreIndMeetingMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_IndApplicationFilingMember" name="IndApplicationFilingMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_UponFirstDosingOfPatientInClinicalTrialMember" name="UponFirstDosingOfPatientInClinicalTrialMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_UponCompletionOfFirstClinicalTrialMember" name="UponCompletionOfFirstClinicalTrialMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_UponFirstPatientTreatedInAPhaseIIIClinicalMember" name="UponFirstPatientTreatedInAPhaseIIIClinicalMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_UponFdaApprovalMember" name="UponFdaApprovalMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_UponINDApplicationFilingMember" name="UponINDApplicationFilingMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_UponFirstDosingOfPatientInFirstPhaseIClinicalTrialMember" name="UponFirstDosingOfPatientInFirstPhaseIClinicalTrialMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_UponCompletionOfFirstPhaseIIClinicalTrialMember" name="UponCompletionOfFirstPhaseIIClinicalTrialMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_UponFirstPatientTreatedInPhaseIIIClinicalTrialMember" name="UponFirstPatientTreatedInPhaseIIIClinicalTrialMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_UponFDABLAApprovalMember" name="UponFDABLAApprovalMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_FirstCommercialSaleMember" name="FirstCommercialSaleMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_SecuritiesPurchaseAgreementsMember" name="SecuritiesPurchaseAgreementsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_AultLendingMember" name="AultLendingMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_PreferredStockSharesDesignated" name="PreferredStockSharesDesignated" nillable="true" xbrli:periodType="instant" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_DividendsOnPreferredShares" name="DividendsOnPreferredShares" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_IssuanceOfCommonStockForCashNetOfIssuanceCosts" name="IssuanceOfCommonStockForCashNetOfIssuanceCosts" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_IssuanceOfCommonStockForCashNetOfIssuanceCostsShares" name="IssuanceOfCommonStockForCashNetOfIssuanceCostsShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_SubscriptionReceivablePaymentReceived" name="SubscriptionReceivablePaymentReceived" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_IssuanceOfPreferredStockForCashNetOfIssuanceCosts" name="IssuanceOfPreferredStockForCashNetOfIssuanceCosts" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_IssuanceOfPreferredStockForCashNetOfIssuanceCostsShares" name="IssuanceOfPreferredStockForCashNetOfIssuanceCostsShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ConversionOfPreferredStockToCommonStock" name="ConversionOfPreferredStockToCommonStock" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ConversionOfPreferredStockToCommonStockShares" name="ConversionOfPreferredStockToCommonStockShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ConversionOfNotePayableAndInterestToPreferredStock" name="ConversionOfNotePayableAndInterestToPreferredStock" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_StockbasedCompensationToEmployeesAndConsultants" name="StockbasedCompensationToEmployeesAndConsultants" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_IncreaseDecreaseInPrepaidExpensesRelatedParty" name="IncreaseDecreaseInPrepaidExpensesRelatedParty" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_NoncashFinancingActivitiesAbstract" name="NoncashFinancingActivitiesAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ConversionOfSeriesConvertiblePreferredStock" name="ConversionOfSeriesConvertiblePreferredStock" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_FairValueOfWarrantsIssuedInConnectionWithSeriesConvertiblePreferredStock" name="FairValueOfWarrantsIssuedInConnectionWithSeriesConvertiblePreferredStock" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ConversionOfNotePayableAndAccruedInterestIntoSeriesBConvertiblePreferredStock" name="ConversionOfNotePayableAndAccruedInterestIntoSeriesBConvertiblePreferredStock" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ScheduleOfPrepaidExpensesAndOtherCurrentAssetsTableTextBlock" name="ScheduleOfPrepaidExpensesAndOtherCurrentAssetsTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ScheduleOfWarrantActivityTableTextBlock" name="ScheduleOfWarrantActivityTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_WorkingCapitalDeficiency" name="WorkingCapitalDeficiency" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_CashUsedInOperatingActivities" name="CashUsedInOperatingActivities" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_PrepaidClinicalTrialExpenses" name="PrepaidClinicalTrialExpenses" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_PrepaidClinicalTrialFees" name="PrepaidClinicalTrialFees" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_InsurancePurchased" name="InsurancePurchased" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_SharesAvailableForGrantOptionsGranted" name="SharesAvailableForGrantOptionsGranted" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_SharesAvailableForGrantOptionsExercised" name="SharesAvailableForGrantOptionsExercised" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_SharesAvailableForGrantOptionsExpired" name="SharesAvailableForGrantOptionsExpired" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm" name="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm" nillable="true" xbrli:periodType="duration" type="xbrli:durationItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ClassOfWarrantOrRightOutstandingGranted" name="ClassOfWarrantOrRightOutstandingGranted" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_WeightedAverageExercisesPriceGranted" name="WeightedAverageExercisesPriceGranted" nillable="true" xbrli:periodType="duration" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_ClassOfWarrantOrRightOutstandingCancelledexpired" name="ClassOfWarrantOrRightOutstandingCancelledexpired" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_WeightedAverageExercisePriceCancelledexpired" name="WeightedAverageExercisePriceCancelledexpired" nillable="true" xbrli:periodType="duration" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_WarrantOutstandingWeightedAverageExercisePrice" name="WarrantOutstandingWeightedAverageExercisePrice" nillable="true" xbrli:periodType="instant" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_NumberOfWarrantExercisable" name="NumberOfWarrantExercisable" nillable="true" xbrli:periodType="instant" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_WarrantExercisableWeightedAverageExercisePriceInDollarsPerShare" name="WarrantExercisableWeightedAverageExercisePriceInDollarsPerShare" nillable="true" xbrli:periodType="instant" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_AggregateNumberOfStockRepurchase" name="AggregateNumberOfStockRepurchase" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_LicenseEventsAxis" name="LicenseEventsAxis" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" />
+    <element id="alzm_LicenseEventsDomain" name="LicenseEventsDomain" abstract="true" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_PercentageOfRoyaltyPaymentsOnNetSalesOfProduct." name="PercentageOfRoyaltyPaymentsOnNetSalesOfProduct." nillable="true" xbrli:periodType="duration" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_DescriptionOfLicensesAgreements" name="DescriptionOfLicensesAgreements" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_InitialLicenseFees" name="InitialLicenseFees" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_NumberOfSharesPurchase" name="NumberOfSharesPurchase" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_SharesPurchasePrice" name="SharesPurchasePrice" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_NetCash" name="NetCash" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_CancellationsOfCashAdvances" name="CancellationsOfCashAdvances" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="alzm_OriginationFees" name="OriginationFees" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+</schema>

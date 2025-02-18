@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:boxxy="http://boxxy.com/20241031" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2024" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink"><link:schemaRef xlink:href="boxxy-20241031.xsd" xlink:type="simple"/>
+	<context id="AsOf2024-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-04-30">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+        </entity>
+        <period>
+            <instant>2024-04-30</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-10-31_boxxy_FebruaryTwoThousandTwentyTwoMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PlanNameAxis">boxxy:FebruaryTwoThousandTwentyTwoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-04-30_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-04-30</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-04-30_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-04-30</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-04-30_boxxy_AccumulatedDeficitMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">boxxy:AccumulatedDeficitMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-04-30</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-07-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-07-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-07-31_boxxy_AccumulatedDeficitMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">boxxy:AccumulatedDeficitMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-07-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-10-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-10-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-10-31_boxxy_AccumulatedDeficitMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">boxxy:AccumulatedDeficitMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-04-30_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-04-30</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-04-30_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-04-30</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-04-30_boxxy_AccumulatedDeficitMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">boxxy:AccumulatedDeficitMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-04-30</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-04-30">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+        </entity>
+        <period>
+            <instant>2023-04-30</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-07-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-07-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-07-31_boxxy_AccumulatedDeficitMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">boxxy:AccumulatedDeficitMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-07-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-10-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-10-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-10-31_boxxy_AccumulatedDeficitMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">boxxy:AccumulatedDeficitMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:AssetsCurrent contextRef="AsOf2024-10-31" decimals="0" id="fid_417" unitRef="USD">0</us-gaap:AssetsCurrent>
+	<us-gaap:AssetsCurrent contextRef="AsOf2024-04-30" decimals="0" id="fid_416" unitRef="USD">0</us-gaap:AssetsCurrent>
+	<boxxy:MiningPropertyRightsNet contextRef="AsOf2024-10-31" decimals="0" id="fid_420" unitRef="USD">37766</boxxy:MiningPropertyRightsNet>
+	<boxxy:MiningPropertyRightsNet contextRef="AsOf2024-04-30" decimals="0" id="fid_419" unitRef="USD">38747</boxxy:MiningPropertyRightsNet>
+	<us-gaap:Assets contextRef="AsOf2024-10-31" decimals="0" id="fid_422" unitRef="USD">37766</us-gaap:Assets>
+	<us-gaap:Assets contextRef="AsOf2024-04-30" decimals="0" id="fid_421" unitRef="USD">38747</us-gaap:Assets>
+	<us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent contextRef="AsOf2024-10-31" decimals="0" id="fid_426" unitRef="USD">24237</us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent>
+	<us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent contextRef="AsOf2024-04-30" decimals="0" id="fid_425" unitRef="USD">30427</us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent>
+	<us-gaap:InterestPayableCurrent contextRef="AsOf2024-10-31" decimals="0" id="fid_428" unitRef="USD">13799</us-gaap:InterestPayableCurrent>
+	<us-gaap:InterestPayableCurrent contextRef="AsOf2024-04-30" decimals="0" id="fid_427" unitRef="USD">12170</us-gaap:InterestPayableCurrent>
+	<us-gaap:LoansPayableCurrent contextRef="AsOf2024-10-31" decimals="0" id="fid_587" unitRef="USD">6973</us-gaap:LoansPayableCurrent>
+	<us-gaap:LoansPayableCurrent contextRef="AsOf2024-04-30" decimals="0" id="fid_588" unitRef="USD">6973</us-gaap:LoansPayableCurrent>
+	<boxxy:IncomeTaxInterestAndPenaltyPayableCurrent contextRef="AsOf2024-04-30" decimals="0" id="fid_429" unitRef="USD">125000</boxxy:IncomeTaxInterestAndPenaltyPayableCurrent>
+	<boxxy:IncomeTaxInterestAndPenaltyPayableCurrent contextRef="AsOf2024-10-31" decimals="0" id="fid_430" unitRef="USD">125000</boxxy:IncomeTaxInterestAndPenaltyPayableCurrent>
+	<us-gaap:LiabilitiesCurrent contextRef="AsOf2024-10-31" decimals="0" id="fid_432" unitRef="USD">170009</us-gaap:LiabilitiesCurrent>
+	<us-gaap:LiabilitiesCurrent contextRef="AsOf2024-04-30" decimals="0" id="fid_431" unitRef="USD">174570</us-gaap:LiabilitiesCurrent>
+	<us-gaap:ConvertibleLongTermNotesPayable contextRef="AsOf2024-10-31" decimals="0" id="fid_435" unitRef="USD">147853</us-gaap:ConvertibleLongTermNotesPayable>
+	<us-gaap:ConvertibleLongTermNotesPayable contextRef="AsOf2024-04-30" decimals="0" id="fid_434" unitRef="USD">124859</us-gaap:ConvertibleLongTermNotesPayable>
+	<us-gaap:ConvertibleLongTermNotesPayable contextRef="AsOf2024-10-31" decimals="0" id="fid_294" unitRef="USD">147853</us-gaap:ConvertibleLongTermNotesPayable>
+	<us-gaap:ConvertibleLongTermNotesPayable contextRef="AsOf2024-04-30" decimals="0" id="fid_293" unitRef="USD">124859</us-gaap:ConvertibleLongTermNotesPayable>
+	<us-gaap:ConvertibleLongTermNotesPayable contextRef="AsOf2024-10-31_boxxy_FebruaryTwoThousandTwentyTwoMember" decimals="0" id="fid_318" unitRef="USD">175000</us-gaap:ConvertibleLongTermNotesPayable>
+	<us-gaap:Liabilities contextRef="AsOf2024-10-31" decimals="0" id="fid_439" unitRef="USD">317862</us-gaap:Liabilities>
+	<us-gaap:Liabilities contextRef="AsOf2024-04-30" decimals="0" id="fid_438" unitRef="USD">299429</us-gaap:Liabilities>
+	<us-gaap:CommonStockValue contextRef="AsOf2024-04-30" decimals="0" id="fid_441" unitRef="USD">5710</us-gaap:CommonStockValue>
+	<us-gaap:CommonStockValue contextRef="AsOf2024-10-31" decimals="0" id="fid_442" unitRef="USD">5710</us-gaap:CommonStockValue>
+	<us-gaap:AdditionalPaidInCapital contextRef="AsOf2024-10-31" decimals="0" id="fid_444" unitRef="USD">2196090</us-gaap:AdditionalPaidInCapital>
+	<us-gaap:AdditionalPaidInCapital contextRef="AsOf2024-04-30" decimals="0" id="fid_443" unitRef="USD">2196090</us-gaap:AdditionalPaidInCapital>
+	<us-gaap:RetainedEarningsAccumulatedDeficit contextRef="AsOf2024-10-31" decimals="0" id="fid_446" unitRef="USD">-2481896</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:RetainedEarningsAccumulatedDeficit contextRef="AsOf2024-04-30" decimals="0" id="fid_445" unitRef="USD">-2462482</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:RetainedEarningsAccumulatedDeficit contextRef="AsOf2024-10-31" decimals="0" id="fid_263" unitRef="USD">-2481896</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31" decimals="0" id="fid_448" unitRef="USD">-280096</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-04-30" decimals="0" id="fid_447" unitRef="USD">-260682</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-04-30_us-gaap_CommonStockMember" decimals="0" id="fid_641" unitRef="USD">5710</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-04-30_us-gaap_AdditionalPaidInCapitalMember" decimals="0" id="fid_642" unitRef="USD">2196090</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-04-30_boxxy_AccumulatedDeficitMember" decimals="0" id="fid_643" unitRef="USD">2462482</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-04-30" decimals="0" id="fid_644" unitRef="USD">-260682</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-07-31_us-gaap_CommonStockMember" decimals="0" id="fid_650" unitRef="USD">5710</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-07-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" id="fid_651" unitRef="USD">2196090</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-07-31_boxxy_AccumulatedDeficitMember" decimals="0" id="fid_652" unitRef="USD">2471644</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-07-31" decimals="0" id="fid_653" unitRef="USD">269844</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31_us-gaap_CommonStockMember" decimals="0" id="fid_659" unitRef="USD">5710</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" id="fid_660" unitRef="USD">2196090</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31_boxxy_AccumulatedDeficitMember" decimals="0" id="fid_661" unitRef="USD">2481896</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31" decimals="0" id="fid_662" unitRef="USD">-280096</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-04-30_us-gaap_CommonStockMember" decimals="0" id="fid_664" unitRef="USD">210</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-04-30_us-gaap_AdditionalPaidInCapitalMember" decimals="0" id="fid_665" unitRef="USD">26590</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-04-30_boxxy_AccumulatedDeficitMember" decimals="0" id="fid_666" unitRef="USD">415124</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-04-30" decimals="0" id="fid_667" unitRef="USD">388324</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-07-31_us-gaap_CommonStockMember" decimals="0" id="fid_678" unitRef="USD">5210</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-07-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" id="fid_679" unitRef="USD">2021590</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-07-31_boxxy_AccumulatedDeficitMember" decimals="0" id="fid_680" unitRef="USD">2425380</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-07-31" decimals="0" id="fid_681" unitRef="USD">398580</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31_us-gaap_CommonStockMember" decimals="0" id="fid_692" unitRef="USD">5710</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" id="fid_693" unitRef="USD">2196090</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31_boxxy_AccumulatedDeficitMember" decimals="0" id="fid_694" unitRef="USD">2434857</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-10-31" decimals="0" id="fid_695" unitRef="USD">233057</us-gaap:StockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity contextRef="AsOf2024-10-31" decimals="0" id="fid_451" unitRef="USD">37766</us-gaap:LiabilitiesAndStockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity contextRef="AsOf2024-04-30" decimals="0" id="fid_450" unitRef="USD">38747</us-gaap:LiabilitiesAndStockholdersEquity>
+	</xbrl>
+

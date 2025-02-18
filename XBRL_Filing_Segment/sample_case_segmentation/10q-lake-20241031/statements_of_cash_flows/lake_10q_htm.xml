@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:lake="http://lake.com/20241031" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2024" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink"><link:schemaRef xlink:href="lake-20241031.xsd" xlink:type="simple"/>
+	<context id="From2024-02-01to2024-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+        </entity>
+        <period>
+            <startDate>2024-02-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<context id="From2023-02-01to2023-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+        </entity>
+        <period>
+            <startDate>2023-02-01</startDate>
+            <endDate>2023-10-31</endDate>
+        </period>
+    </context>
+	<context id="From2024-07-01to2024-07-02_lake_AcquisitionOfLHDMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BusinessCombinationSeparatelyRecognizedTransactionsAxis">lake:AcquisitionOfLHDMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-07-01</startDate>
+            <endDate>2024-07-02</endDate>
+        </period>
+    </context>
+	<context id="AsOf2024-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-01-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+        </entity>
+        <period>
+            <instant>2024-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-01-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+        </entity>
+        <period>
+            <instant>2023-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000798081</identifier>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:ProfitLoss contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3040" unitRef="USD">363000</us-gaap:ProfitLoss>
+	<us-gaap:ProfitLoss contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3041" unitRef="USD">6402000</us-gaap:ProfitLoss>
+	<us-gaap:DeferredIncomeTaxesAndTaxCredits contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3043" unitRef="USD">-431000</us-gaap:DeferredIncomeTaxesAndTaxCredits>
+	<us-gaap:DeferredIncomeTaxesAndTaxCredits contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3044" unitRef="USD">-1783000</us-gaap:DeferredIncomeTaxesAndTaxCredits>
+	<us-gaap:DepreciationAndAmortization contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3045" unitRef="USD">3011000</us-gaap:DepreciationAndAmortization>
+	<us-gaap:DepreciationAndAmortization contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3046" unitRef="USD">1609000</us-gaap:DepreciationAndAmortization>
+	<us-gaap:ShareBasedCompensation contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3047" unitRef="USD">1081000</us-gaap:ShareBasedCompensation>
+	<us-gaap:ShareBasedCompensation contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3048" unitRef="USD">747000</us-gaap:ShareBasedCompensation>
+	<us-gaap:GainLossOnSaleOfPropertyPlantEquipment contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3390" unitRef="USD">75000</us-gaap:GainLossOnSaleOfPropertyPlantEquipment>
+	<us-gaap:GainLossOnSaleOfPropertyPlantEquipment contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3391" unitRef="USD">-1000</us-gaap:GainLossOnSaleOfPropertyPlantEquipment>
+	<lake:EquityInEarningsLossOfEquityInvestment contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3049" unitRef="USD">-384000</lake:EquityInEarningsLossOfEquityInvestment>
+	<lake:EquityInEarningsLossOfEquityInvestment contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3050" unitRef="USD">-354000</lake:EquityInEarningsLossOfEquityInvestment>
+	<lake:RevaluationOfEarnoutConsiderationAdjustment contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3051" unitRef="USD">711000</lake:RevaluationOfEarnoutConsiderationAdjustment>
+	<lake:RevaluationOfEarnoutConsiderationAdjustment contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3052" unitRef="USD">2689000</lake:RevaluationOfEarnoutConsiderationAdjustment>
+	<us-gaap:IncreaseDecreaseInAccountsReceivable contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3054" unitRef="USD">3219000</us-gaap:IncreaseDecreaseInAccountsReceivable>
+	<us-gaap:IncreaseDecreaseInAccountsReceivable contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3055" unitRef="USD">994000</us-gaap:IncreaseDecreaseInAccountsReceivable>
+	<us-gaap:IncreaseDecreaseInInventories contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3056" unitRef="USD">11958000</us-gaap:IncreaseDecreaseInInventories>
+	<us-gaap:IncreaseDecreaseInInventories contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_4124" unitRef="USD">-3211000</us-gaap:IncreaseDecreaseInInventories>
+	<us-gaap:IncreaseDecreaseInPrepaidTaxes contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3058" unitRef="USD">218000</us-gaap:IncreaseDecreaseInPrepaidTaxes>
+	<us-gaap:IncreaseDecreaseInPrepaidTaxes contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3059" unitRef="USD">670000</us-gaap:IncreaseDecreaseInPrepaidTaxes>
+	<us-gaap:IncreaseDecreaseInOtherCurrentAssets contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3060" unitRef="USD">2019000</us-gaap:IncreaseDecreaseInOtherCurrentAssets>
+	<us-gaap:IncreaseDecreaseInOtherCurrentAssets contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_4123" unitRef="USD">-285000</us-gaap:IncreaseDecreaseInOtherCurrentAssets>
+	<us-gaap:IncreaseDecreaseInAccountsPayable contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3063" unitRef="USD">7197000</us-gaap:IncreaseDecreaseInAccountsPayable>
+	<us-gaap:IncreaseDecreaseInAccountsPayable contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3064" unitRef="USD">141000</us-gaap:IncreaseDecreaseInAccountsPayable>
+	<us-gaap:IncreaseDecreaseInAccruedLiabilitiesAndOtherOperatingLiabilities contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3065" unitRef="USD">-4147000</us-gaap:IncreaseDecreaseInAccruedLiabilitiesAndOtherOperatingLiabilities>
+	<us-gaap:IncreaseDecreaseInAccruedLiabilitiesAndOtherOperatingLiabilities contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3066" unitRef="USD">235000</us-gaap:IncreaseDecreaseInAccruedLiabilitiesAndOtherOperatingLiabilities>
+	<us-gaap:IncreaseDecreaseInOperatingLeaseLiability contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3067" unitRef="USD">-1902000</us-gaap:IncreaseDecreaseInOperatingLeaseLiability>
+	<us-gaap:IncreaseDecreaseInOperatingLeaseLiability contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3068" unitRef="USD">886000</us-gaap:IncreaseDecreaseInOperatingLeaseLiability>
+	<us-gaap:NetCashProvidedByUsedInOperatingActivities contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3069" unitRef="USD">-12494000</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+	<us-gaap:NetCashProvidedByUsedInOperatingActivities contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3070" unitRef="USD">7733000</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+	<us-gaap:PaymentsToAcquirePropertyPlantAndEquipment contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3072" unitRef="USD">1485000</us-gaap:PaymentsToAcquirePropertyPlantAndEquipment>
+	<us-gaap:PaymentsToAcquirePropertyPlantAndEquipment contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3073" unitRef="USD">1505000</us-gaap:PaymentsToAcquirePropertyPlantAndEquipment>
+	<us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3074" unitRef="USD">22950000</us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired>
+	<us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3075" unitRef="USD">0</us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired>
+	<us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired contextRef="From2024-07-01to2024-07-02_lake_AcquisitionOfLHDMember" decimals="-5" id="fid_3345" unitRef="USD">1500000</us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired>
+	<us-gaap:PaymentsToAcquireInvestments contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3076" unitRef="USD">0</us-gaap:PaymentsToAcquireInvestments>
+	<us-gaap:PaymentsToAcquireInvestments contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3077" unitRef="USD">1510000</us-gaap:PaymentsToAcquireInvestments>
+	<lake:PaymentToAcquireInvestmntInConvertibleDebtInstrument contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3111" unitRef="USD">952000</lake:PaymentToAcquireInvestmntInConvertibleDebtInstrument>
+	<lake:PaymentToAcquireInvestmntInConvertibleDebtInstrument contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3112" unitRef="USD">0</lake:PaymentToAcquireInvestmntInConvertibleDebtInstrument>
+	<us-gaap:NetCashProvidedByUsedInInvestingActivities contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3078" unitRef="USD">-25387000</us-gaap:NetCashProvidedByUsedInInvestingActivities>
+	<us-gaap:NetCashProvidedByUsedInInvestingActivities contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3079" unitRef="USD">-3015000</us-gaap:NetCashProvidedByUsedInInvestingActivities>
+	<us-gaap:ProceedsFromShortTermDebt contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3081" unitRef="USD">29900000</us-gaap:ProceedsFromShortTermDebt>
+	<us-gaap:ProceedsFromShortTermDebt contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3082" unitRef="USD">0</us-gaap:ProceedsFromShortTermDebt>
+	<lake:TermLoanBorrowings contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3083" unitRef="USD">2880000</lake:TermLoanBorrowings>
+	<lake:TermLoanBorrowings contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3084" unitRef="USD">0</lake:TermLoanBorrowings>
+	<us-gaap:RepaymentsOfLongTermLinesOfCredit contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3085" unitRef="USD">3418000</us-gaap:RepaymentsOfLongTermLinesOfCredit>
+	<us-gaap:RepaymentsOfLongTermLinesOfCredit contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3086" unitRef="USD">405000</us-gaap:RepaymentsOfLongTermLinesOfCredit>
+	<lake:PurchaseOfTreasuryStockUnderStockRepurchaseProgram contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3087" unitRef="USD">0</lake:PurchaseOfTreasuryStockUnderStockRepurchaseProgram>
+	<lake:PurchaseOfTreasuryStockUnderStockRepurchaseProgram contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3088" unitRef="USD">333000</lake:PurchaseOfTreasuryStockUnderStockRepurchaseProgram>
+	<us-gaap:PaymentsOfDividends contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3089" unitRef="USD">664000</us-gaap:PaymentsOfDividends>
+	<us-gaap:PaymentsOfDividends contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3090" unitRef="USD">687000</us-gaap:PaymentsOfDividends>
+	<lake:SharesReturnedToPayEmployeeTaxesUnderRestrictedStockProgram contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3091" unitRef="USD">447000</lake:SharesReturnedToPayEmployeeTaxesUnderRestrictedStockProgram>
+	<lake:SharesReturnedToPayEmployeeTaxesUnderRestrictedStockProgram contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3092" unitRef="USD">420000</lake:SharesReturnedToPayEmployeeTaxesUnderRestrictedStockProgram>
+	<us-gaap:NetCashProvidedByUsedInFinancingActivities contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3093" unitRef="USD">28251000</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+	<us-gaap:NetCashProvidedByUsedInFinancingActivities contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3094" unitRef="USD">-1845000</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+	<us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3095" unitRef="USD">247000</us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3096" unitRef="USD">-1087000</us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3097" unitRef="USD">-9383000</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3098" unitRef="USD">-1786000</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2024-10-31" decimals="-3" id="fid_2709" unitRef="USD">15839000</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2024-01-31" decimals="-3" id="fid_2710" unitRef="USD">25222000</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2024-01-31" decimals="-3" id="fid_3099" unitRef="USD">25222000</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2023-01-31" decimals="-3" id="fid_3100" unitRef="USD">24639000</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2024-10-31" decimals="-3" id="fid_3389" unitRef="USD">15839000</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents contextRef="AsOf2023-10-31" decimals="-3" id="fid_3102" unitRef="USD">26425000</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents>
+	<us-gaap:InterestPaidNet contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3104" unitRef="USD">1032000</us-gaap:InterestPaidNet>
+	<us-gaap:InterestPaidNet contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3105" unitRef="USD">22000</us-gaap:InterestPaidNet>
+	<us-gaap:IncomeTaxesPaid contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3106" unitRef="USD">2631000</us-gaap:IncomeTaxesPaid>
+	<us-gaap:IncomeTaxesPaid contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3107" unitRef="USD">1745000</us-gaap:IncomeTaxesPaid>
+	<lake:LeasedAssetsObtainedInExchangeForOperatingLeaseLiabilities contextRef="From2024-02-01to2024-10-31" decimals="-3" id="fid_3109" unitRef="USD">1601000</lake:LeasedAssetsObtainedInExchangeForOperatingLeaseLiabilities>
+	<lake:LeasedAssetsObtainedInExchangeForOperatingLeaseLiabilities contextRef="From2023-02-01to2023-10-31" decimals="-3" id="fid_3110" unitRef="USD">4099000</lake:LeasedAssetsObtainedInExchangeForOperatingLeaseLiabilities>
+	</xbrl>
+

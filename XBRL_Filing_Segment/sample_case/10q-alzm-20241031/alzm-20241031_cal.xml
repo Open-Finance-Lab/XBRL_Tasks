@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+    <!-- Field: Doc-Info; Name: Generator; Value: GoFiler Complete; Version: 5.24a -->
+    <!-- Field: Doc-Info; Name: VendorURI; Value: https://www.novaworks.com -->
+    <!-- Field: Doc-Info; Name: Status; Value: 0x00000000 -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <link:roleRef roleURI="http://alzamend.com/role/Cover" xlink:href="alzm-20241031.xsd#Cover" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/BalanceSheets" xlink:href="alzm-20241031.xsd#BalanceSheets" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/BalanceSheetsParenthetical" xlink:href="alzm-20241031.xsd#BalanceSheetsParenthetical" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/StatementsOfOperations" xlink:href="alzm-20241031.xsd#StatementsOfOperations" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/StatementsOfStockholdersDeficitEquity" xlink:href="alzm-20241031.xsd#StatementsOfStockholdersDeficitEquity" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/StatementsOfCashFlows" xlink:href="alzm-20241031.xsd#StatementsOfCashFlows" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/DescriptionOfBusiness" xlink:href="alzm-20241031.xsd#DescriptionOfBusiness" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/LiquidityAndGoingConcern" xlink:href="alzm-20241031.xsd#LiquidityAndGoingConcern" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/SignificantAccountingPolicies" xlink:href="alzm-20241031.xsd#SignificantAccountingPolicies" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/PrepaidExpensesAndOtherCurrentAssets" xlink:href="alzm-20241031.xsd#PrepaidExpensesAndOtherCurrentAssets" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/Stock-basedCompensation" xlink:href="alzm-20241031.xsd#Stock-basedCompensation" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/Warrants" xlink:href="alzm-20241031.xsd#Warrants" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/CommitmentsAndContingencies" xlink:href="alzm-20241031.xsd#CommitmentsAndContingencies" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/EquityTransactions" xlink:href="alzm-20241031.xsd#EquityTransactions" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/RelatedPartyTransactions" xlink:href="alzm-20241031.xsd#RelatedPartyTransactions" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/SubsequentEvents" xlink:href="alzm-20241031.xsd#SubsequentEvents" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/SignificantAccountingPoliciesPolicies" xlink:href="alzm-20241031.xsd#SignificantAccountingPoliciesPolicies" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/SignificantAccountingPoliciesTables" xlink:href="alzm-20241031.xsd#SignificantAccountingPoliciesTables" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/PrepaidExpensesAndOtherCurrentAssetsTables" xlink:href="alzm-20241031.xsd#PrepaidExpensesAndOtherCurrentAssetsTables" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/Stock-basedCompensationTables" xlink:href="alzm-20241031.xsd#Stock-basedCompensationTables" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/WarrantsTables" xlink:href="alzm-20241031.xsd#WarrantsTables" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/CommitmentsAndContingenciesTables" xlink:href="alzm-20241031.xsd#CommitmentsAndContingenciesTables" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/DescriptionOfBusinessDetailsNarrative" xlink:href="alzm-20241031.xsd#DescriptionOfBusinessDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/LiquidityAndGoingConcernDetailsNarrative" xlink:href="alzm-20241031.xsd#LiquidityAndGoingConcernDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/SignificantAccountingPoliciesDetails" xlink:href="alzm-20241031.xsd#SignificantAccountingPoliciesDetails" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/SignificantAccountingPoliciesDetailsNarrative" xlink:href="alzm-20241031.xsd#SignificantAccountingPoliciesDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/PrepaidExpensesAndOtherCurrentAssetsDetails" xlink:href="alzm-20241031.xsd#PrepaidExpensesAndOtherCurrentAssetsDetails" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/PrepaidExpensesAndOtherCurrentAssetsDetailsNarrative" xlink:href="alzm-20241031.xsd#PrepaidExpensesAndOtherCurrentAssetsDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/Stock-basedCompensationDetails" xlink:href="alzm-20241031.xsd#Stock-basedCompensationDetails" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/Stock-basedCompensationDetails1" xlink:href="alzm-20241031.xsd#Stock-basedCompensationDetails1" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/Stock-basedCompensationDetails2" xlink:href="alzm-20241031.xsd#Stock-basedCompensationDetails2" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/Stock-basedCompensationDetailsNarrative" xlink:href="alzm-20241031.xsd#Stock-basedCompensationDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/WarrantsDetails" xlink:href="alzm-20241031.xsd#WarrantsDetails" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/WarrantsDetails1" xlink:href="alzm-20241031.xsd#WarrantsDetails1" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/WarrantsDetailsNarrative" xlink:href="alzm-20241031.xsd#WarrantsDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/CommitmentsAndContingenciesDetails" xlink:href="alzm-20241031.xsd#CommitmentsAndContingenciesDetails" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/CommitmentsAndContingenciesDetailsNarrative" xlink:href="alzm-20241031.xsd#CommitmentsAndContingenciesDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/EquityTransactionsDetailsNarrative" xlink:href="alzm-20241031.xsd#EquityTransactionsDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/RelatedPartyTransactionsDetailsNarrative" xlink:href="alzm-20241031.xsd#RelatedPartyTransactionsDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://alzamend.com/role/SubsequentEventsDetailsNarrative" xlink:href="alzm-20241031.xsd#SubsequentEventsDetailsNarrative" xlink:type="simple" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/Cover" xlink:title="00000001 - Document - Cover" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/BalanceSheets" xlink:title="00000002 - Statement - Condensed Balance Sheets (Unaudited)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AssetsCurrent" xlink:label="loc_us-gaapAssetsCurrent" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CashAndCashEquivalentsAtCarryingValue" xlink:label="loc_us-gaapCashAndCashEquivalentsAtCarryingValue" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssetsCurrent" xlink:to="loc_us-gaapCashAndCashEquivalentsAtCarryingValue" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_PrepaidExpenseAndOtherAssetsCurrent" xlink:label="loc_us-gaapPrepaidExpenseAndOtherAssetsCurrent" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssetsCurrent" xlink:to="loc_us-gaapPrepaidExpenseAndOtherAssetsCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_Assets" xlink:label="loc_us-gaapAssets" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssets" xlink:to="loc_us-gaapAssetsCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_PropertyPlantAndEquipmentNet" xlink:label="loc_us-gaapPropertyPlantAndEquipmentNet" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssets" xlink:to="loc_us-gaapPropertyPlantAndEquipmentNet" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_Liabilities" xlink:label="loc_us-gaapLiabilities" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AccountsPayableCurrent" xlink:label="loc_us-gaapAccountsPayableCurrent" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilities" xlink:to="loc_us-gaapAccountsPayableCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NotesPayableCurrent" xlink:label="loc_us-gaapNotesPayableCurrent" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilities" xlink:to="loc_us-gaapNotesPayableCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StockholdersEquity" xlink:label="loc_us-gaapStockholdersEquity" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_PreferredStockValue" xlink:label="loc_us-gaapPreferredStockValue" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapPreferredStockValue" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CommonStockValue" xlink:label="loc_us-gaapCommonStockValue" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapCommonStockValue" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AdditionalPaidInCapital" xlink:label="loc_us-gaapAdditionalPaidInCapital" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapAdditionalPaidInCapital" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_RetainedEarningsAccumulatedDeficit" xlink:label="loc_us-gaapRetainedEarningsAccumulatedDeficit" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapRetainedEarningsAccumulatedDeficit" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_LiabilitiesAndStockholdersEquity" xlink:label="loc_us-gaapLiabilitiesAndStockholdersEquity" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesAndStockholdersEquity" xlink:to="loc_us-gaapLiabilities" xlink:type="arc" weight="1" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesAndStockholdersEquity" xlink:to="loc_us-gaapStockholdersEquity" xlink:type="arc" weight="1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/BalanceSheetsParenthetical" xlink:title="00000003 - Statement - Condensed Balance Sheets (Unaudited) (Parenthetical)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/StatementsOfOperations" xlink:title="00000004 - Statement - Condensed Statements of Operations (Unaudited)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OperatingExpenses" xlink:label="loc_us-gaapOperatingExpenses" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ResearchAndDevelopmentExpense" xlink:label="loc_us-gaapResearchAndDevelopmentExpense" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingExpenses" xlink:to="loc_us-gaapResearchAndDevelopmentExpense" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_GeneralAndAdministrativeExpense" xlink:label="loc_us-gaapGeneralAndAdministrativeExpense" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingExpenses" xlink:to="loc_us-gaapGeneralAndAdministrativeExpense" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OperatingIncomeLoss" xlink:label="loc_us-gaapOperatingIncomeLoss" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingIncomeLoss" xlink:to="loc_us-gaapOperatingExpenses" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NonoperatingIncomeExpense" xlink:label="loc_us-gaapNonoperatingIncomeExpense" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_InterestExpense" xlink:label="loc_us-gaapInterestExpense" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNonoperatingIncomeExpense" xlink:to="loc_us-gaapInterestExpense" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ProfitLoss" xlink:label="loc_us-gaapProfitLoss" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapProfitLoss" xlink:to="loc_us-gaapOperatingIncomeLoss" xlink:type="arc" weight="1" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapProfitLoss" xlink:to="loc_us-gaapNonoperatingIncomeExpense" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetIncomeLossAvailableToCommonStockholdersBasic" xlink:label="loc_us-gaapNetIncomeLossAvailableToCommonStockholdersBasic" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetIncomeLossAvailableToCommonStockholdersBasic" xlink:to="loc_us-gaapProfitLoss" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="alzm-20241031.xsd#alzm_DividendsOnPreferredShares" xlink:label="loc_alzmDividendsOnPreferredShares" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetIncomeLossAvailableToCommonStockholdersBasic" xlink:to="loc_alzmDividendsOnPreferredShares" xlink:type="arc" weight="-1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/StatementsOfStockholdersDeficitEquity" xlink:title="00000005 - Statement - Condensed Statements of Stockholders&apos; (Deficit) Equity (Unaudited)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/StatementsOfCashFlows" xlink:title="00000006 - Statement - Condensed Statements of Cash Flows (Unaudited)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivities" xlink:label="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetIncomeLoss" xlink:label="loc_us-gaapNetIncomeLoss" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapNetIncomeLoss" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_Depreciation" xlink:label="loc_us-gaapDepreciation" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapDepreciation" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AmortizationOfDebtDiscountPremium" xlink:label="loc_us-gaapAmortizationOfDebtDiscountPremium" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapAmortizationOfDebtDiscountPremium" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ShareBasedCompensation" xlink:label="loc_us-gaapShareBasedCompensation" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapShareBasedCompensation" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets" xlink:label="loc_us-gaapIncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets" />
+      <link:calculationArc order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapIncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="alzm-20241031.xsd#alzm_IncreaseDecreaseInPrepaidExpensesRelatedParty" xlink:label="loc_alzmIncreaseDecreaseInPrepaidExpensesRelatedParty" />
+      <link:calculationArc order="6" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_alzmIncreaseDecreaseInPrepaidExpensesRelatedParty" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncreaseDecreaseInAccountsPayableAndAccruedLiabilities" xlink:label="loc_us-gaapIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" />
+      <link:calculationArc order="7" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetCashProvidedByUsedInInvestingActivities" xlink:label="loc_us-gaapNetCashProvidedByUsedInInvestingActivities" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_PaymentsToAcquireMachineryAndEquipment" xlink:label="loc_us-gaapPaymentsToAcquireMachineryAndEquipment" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInInvestingActivities" xlink:to="loc_us-gaapPaymentsToAcquireMachineryAndEquipment" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivities" xlink:label="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ProceedsFromIssuanceOfCommonStock" xlink:label="loc_us-gaapProceedsFromIssuanceOfCommonStock" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_us-gaapProceedsFromIssuanceOfCommonStock" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ProceedsFromIssuanceOfPreferredStockAndPreferenceStock" xlink:label="loc_us-gaapProceedsFromIssuanceOfPreferredStockAndPreferenceStock" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_us-gaapProceedsFromIssuanceOfPreferredStockAndPreferenceStock" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect" xlink:label="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect" xlink:to="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:type="arc" weight="1" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect" xlink:to="loc_us-gaapNetCashProvidedByUsedInInvestingActivities" xlink:type="arc" weight="1" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect" xlink:to="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:type="arc" weight="1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/DescriptionOfBusiness" xlink:title="995612 - Disclosure - DESCRIPTION OF BUSINESS" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/LiquidityAndGoingConcern" xlink:title="995613 - Disclosure - LIQUIDITY AND GOING CONCERN" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/SignificantAccountingPolicies" xlink:title="995614 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/PrepaidExpensesAndOtherCurrentAssets" xlink:title="995615 - Disclosure - PREPAID EXPENSES AND OTHER CURRENT ASSETS" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/Stock-basedCompensation" xlink:title="995616 - Disclosure - STOCK-BASED COMPENSATION" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/Warrants" xlink:title="995617 - Disclosure - WARRANTS" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/CommitmentsAndContingencies" xlink:title="995618 - Disclosure - COMMITMENTS AND CONTINGENCIES" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/EquityTransactions" xlink:title="995619 - Disclosure - EQUITY TRANSACTIONS" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/RelatedPartyTransactions" xlink:title="995620 - Disclosure - RELATED PARTY TRANSACTIONS" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/SubsequentEvents" xlink:title="995621 - Disclosure - SUBSEQUENT EVENTS" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/SignificantAccountingPoliciesPolicies" xlink:title="995622 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Policies)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/SignificantAccountingPoliciesTables" xlink:title="995623 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/PrepaidExpensesAndOtherCurrentAssetsTables" xlink:title="995624 - Disclosure - PREPAID EXPENSES AND OTHER CURRENT ASSETS (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/Stock-basedCompensationTables" xlink:title="995625 - Disclosure - STOCK-BASED COMPENSATION (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/WarrantsTables" xlink:title="995626 - Disclosure - WARRANTS (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/CommitmentsAndContingenciesTables" xlink:title="995627 - Disclosure - COMMITMENTS AND CONTINGENCIES (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/DescriptionOfBusinessDetailsNarrative" xlink:title="995628 - Disclosure - DESCRIPTION OF BUSINESS (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/LiquidityAndGoingConcernDetailsNarrative" xlink:title="995629 - Disclosure - LIQUIDITY AND GOING CONCERN (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/SignificantAccountingPoliciesDetails" xlink:title="995630 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/SignificantAccountingPoliciesDetailsNarrative" xlink:title="995631 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/PrepaidExpensesAndOtherCurrentAssetsDetails" xlink:title="995632 - Disclosure - PREPAID EXPENSES AND OTHER CURRENT ASSETS (Details)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_PrepaidExpenseAndOtherAssets" xlink:label="loc_us-gaapPrepaidExpenseAndOtherAssets" />
+      <link:loc xlink:type="locator" xlink:href="alzm-20241031.xsd#alzm_PrepaidClinicalTrialExpenses" xlink:label="loc_alzmPrepaidClinicalTrialExpenses" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapPrepaidExpenseAndOtherAssets" xlink:to="loc_alzmPrepaidClinicalTrialExpenses" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_PrepaidInsurance" xlink:label="loc_us-gaapPrepaidInsurance" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapPrepaidExpenseAndOtherAssets" xlink:to="loc_us-gaapPrepaidInsurance" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OtherPrepaidExpenseCurrent" xlink:label="loc_us-gaapOtherPrepaidExpenseCurrent" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapPrepaidExpenseAndOtherAssets" xlink:to="loc_us-gaapOtherPrepaidExpenseCurrent" xlink:type="arc" weight="1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/PrepaidExpensesAndOtherCurrentAssetsDetailsNarrative" xlink:title="995633 - Disclosure - PREPAID EXPENSES AND OTHER CURRENT ASSETS (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/Stock-basedCompensationDetails" xlink:title="995634 - Disclosure - STOCK-BASED COMPENSATION (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/Stock-basedCompensationDetails1" xlink:title="995635 - Disclosure - STOCK-BASED COMPENSATION (Details 1)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/Stock-basedCompensationDetails2" xlink:title="995636 - Disclosure - STOCK-BASED COMPENSATION (Details 2)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/Stock-basedCompensationDetailsNarrative" xlink:title="995637 - Disclosure - STOCK-BASED COMPENSATION (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/WarrantsDetails" xlink:title="995638 - Disclosure - WARRANTS (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/WarrantsDetails1" xlink:title="995639 - Disclosure - WARRANTS (Details 1)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/WarrantsDetailsNarrative" xlink:title="995640 - Disclosure - WARRANTS (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/CommitmentsAndContingenciesDetails" xlink:title="995641 - Disclosure - COMMITMENTS AND CONTINGENCIES (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/CommitmentsAndContingenciesDetailsNarrative" xlink:title="995642 - Disclosure - COMMITMENTS AND CONTINGENCIES (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/EquityTransactionsDetailsNarrative" xlink:title="995643 - Disclosure - EQUITY TRANSACTIONS (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/RelatedPartyTransactionsDetailsNarrative" xlink:title="995644 - Disclosure - RELATED PARTY TRANSACTIONS (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://alzamend.com/role/SubsequentEventsDetailsNarrative" xlink:title="995645 - Disclosure - SUBSEQUENT EVENTS (Details Narrative)" />
+</link:linkbase>

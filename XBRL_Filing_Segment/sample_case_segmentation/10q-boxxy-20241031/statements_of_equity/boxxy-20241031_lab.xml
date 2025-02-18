@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel" roleURI="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <link:roleRef xlink:type="simple" roleURI="http://www.xbrl.org/2009/role/negatedPeriodEndLabel" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodEndLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodStartLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodStartLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel" roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedNetLabel" roleURI="http://www.xbrl.org/2009/role/negatedNetLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel" roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel" roleURI="http://www.xbrl.org/2009/role/netLabel"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link"><link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CommonStockMember" xlink:label="us-gaap_CommonStockMember"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_CommonStockMember" xlink:to="us-gaap_CommonStockMember_lbl_8d7e9d" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_CommonStockMember_lbl_8d7e9d" xml:lang="en-US">Common Stock</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StatementTable" xlink:label="us-gaap_StatementTable"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StatementTable" xlink:to="us-gaap_StatementTable_lbl_c4880a" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_StatementTable_lbl_c4880a" xml:lang="en-US">Statement [Table]</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StatementLineItems" xlink:label="us-gaap_StatementLineItems"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StatementLineItems_lbl_d2ee01" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_StatementLineItems_lbl_d2ee01" xml:lang="en-US">Statement [Line Items]</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StatementEquityComponentsAxis" xlink:label="us-gaap_StatementEquityComponentsAxis"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StatementEquityComponentsAxis" xlink:to="us-gaap_StatementEquityComponentsAxis_lbl_073010" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_StatementEquityComponentsAxis_lbl_073010" xml:lang="en-US">Equity Components [Axis]</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_SharesIssued" xlink:label="us-gaap_SharesIssued"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_SharesIssued" xlink:to="us-gaap_SharesIssued_lbl_cb3bcb" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_SharesIssued" xlink:to="us-gaap_SharesIssued_lbl_2" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_SharesIssued" xlink:to="us-gaap_SharesIssued_lbl_645ac5" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:label="us-gaap_SharesIssued_lbl_cb3bcb" xml:lang="en-US">Balance, shares</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_SharesIssued_lbl_2" xml:lang="en-US">[Shares, Issued]</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:label="us-gaap_SharesIssued_lbl_645ac5" xml:lang="en-US">Balance, shares</link:label>
+    <link:loc xlink:type="locator" xlink:href="boxxy-20241031.xsd#boxxy_IssuanceOfCommonStockForManagementSalariesShares" xlink:label="boxxy_IssuanceOfCommonStockForManagementSalariesShares"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="boxxy_IssuanceOfCommonStockForManagementSalariesShares" xlink:to="boxxy_IssuanceOfCommonStockForManagementSalariesShares_lbl_beccc6" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="boxxy_IssuanceOfCommonStockForManagementSalariesShares_lbl_beccc6" xml:lang="en-US">Issuance of common stock for management salaries, shares</link:label>
+    <link:loc xlink:type="locator" xlink:href="boxxy-20241031.xsd#boxxy_AccumulatedDeficitMember" xlink:label="boxxy_AccumulatedDeficitMember"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="boxxy_AccumulatedDeficitMember" xlink:to="boxxy_AccumulatedDeficitMember_lbl_d51a82" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="boxxy_AccumulatedDeficitMember_lbl_d51a82" xml:lang="en-US">Accumulated Deficit</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StockholdersEquity" xlink:label="us-gaap_StockholdersEquity"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StockholdersEquity" xlink:to="us-gaap_StockholdersEquity_lbl_4c25b7" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StockholdersEquity" xlink:to="us-gaap_StockholdersEquity_lbl_22" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StockholdersEquity" xlink:to="us-gaap_StockholdersEquity_lbl_dcb2f2" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StockholdersEquity" xlink:to="us-gaap_StockholdersEquity_lbl_1de62e" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xlink:label="us-gaap_StockholdersEquity_lbl_4c25b7" xml:lang="en-US">Total Stockholders' Deficit</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_StockholdersEquity_lbl_22" xml:lang="en-US">[Equity, Attributable to Parent]</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:label="us-gaap_StockholdersEquity_lbl_dcb2f2" xml:lang="en-US">Balance, amount</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:label="us-gaap_StockholdersEquity_lbl_1de62e" xml:lang="en-US">Balance, amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="boxxy-20241031.xsd#boxxy_IssuanceOfCommonStockForManagementSalariesAmount" xlink:label="boxxy_IssuanceOfCommonStockForManagementSalariesAmount"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="boxxy_IssuanceOfCommonStockForManagementSalariesAmount" xlink:to="boxxy_IssuanceOfCommonStockForManagementSalariesAmount_lbl_e8aa1b" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="boxxy_IssuanceOfCommonStockForManagementSalariesAmount_lbl_e8aa1b" xml:lang="en-US">Issuance of common stock for management salaries, amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StatementOfStockholdersEquityAbstract" xlink:label="us-gaap_StatementOfStockholdersEquityAbstract"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StatementOfStockholdersEquityAbstract" xlink:to="us-gaap_StatementOfStockholdersEquityAbstract_lbl_bdc853" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_StatementOfStockholdersEquityAbstract_lbl_bdc853" xml:lang="en-US">STATEMENTS OF STOCKHOLDERS DEFICIT (Unaudited)</link:label>
+    <link:loc xlink:type="locator" xlink:href="boxxy-20241031.xsd#boxxy_IssuanceOfCommonStockForConversionOfDebtsShares" xlink:label="boxxy_IssuanceOfCommonStockForConversionOfDebtsShares"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="boxxy_IssuanceOfCommonStockForConversionOfDebtsShares" xlink:to="boxxy_IssuanceOfCommonStockForConversionOfDebtsShares_lbl_5055da" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="boxxy_IssuanceOfCommonStockForConversionOfDebtsShares_lbl_5055da" xml:lang="en-US">Issuance of common stock for conversion of debts, shares</link:label>
+    <link:loc xlink:type="locator" xlink:href="boxxy-20241031.xsd#boxxy_IssuanceOfCommonStockForConversionOfDebtsAmount" xlink:label="boxxy_IssuanceOfCommonStockForConversionOfDebtsAmount"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="boxxy_IssuanceOfCommonStockForConversionOfDebtsAmount" xlink:to="boxxy_IssuanceOfCommonStockForConversionOfDebtsAmount_lbl_02c83b" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="boxxy_IssuanceOfCommonStockForConversionOfDebtsAmount_lbl_02c83b" xml:lang="en-US">Issuance of common stock for conversion of debts, amount</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AdditionalPaidInCapitalMember" xlink:label="us-gaap_AdditionalPaidInCapitalMember"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_AdditionalPaidInCapitalMember" xlink:to="us-gaap_AdditionalPaidInCapitalMember_lbl_9bc50c" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_AdditionalPaidInCapitalMember_lbl_9bc50c" xml:lang="en-US">Additional Paid-in Capital</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ProfitLoss" xlink:label="us-gaap_ProfitLoss"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_ProfitLoss" xlink:to="us-gaap_ProfitLoss_lbl_bfc0f8" xlink:type="arc"/>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_ProfitLoss_lbl_bfc0f8" xml:lang="en-US">Net loss</link:label>
+    </link:labelLink>
+</link:linkbase>
+

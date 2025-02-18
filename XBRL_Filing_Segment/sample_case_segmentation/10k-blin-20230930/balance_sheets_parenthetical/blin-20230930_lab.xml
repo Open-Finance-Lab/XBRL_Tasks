@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedLabel" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel" xlink:type="simple"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedPeriodEndLabel" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodEndLabel" xlink:type="simple"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedPeriodStartLabel" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodStartLabel" xlink:type="simple"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel" xlink:type="simple"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel" xlink:type="simple"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedNetLabel" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedNetLabel" xlink:type="simple"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/netLabel" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel" xlink:type="simple"/>
+  <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended"><link:loc xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ClassOfStockDomain" xlink:label="us-gaap_ClassOfStockDomain" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_ClassOfStockDomain" xlink:to="us-gaap_ClassOfStockDomain-label" xlink:type="arc"/>
+    <link:label xlink:label="us-gaap_ClassOfStockDomain-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Class of Stock [Domain]</link:label>
+    <link:loc xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_PreferredStockSharesIssued" xlink:label="us-gaap_PreferredStockSharesIssued" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_PreferredStockSharesIssued" xlink:to="us-gaap_PreferredStockSharesIssued-label" xlink:type="arc"/>
+    <link:label xlink:label="us-gaap_PreferredStockSharesIssued-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Preferred stock, shares issued (in shares)</link:label>
+    <link:loc xlink:href="blin-20230930.xsd#blin_SeriesCConvertiblePreferredStockMember" xlink:label="blin_SeriesCConvertiblePreferredStockMember" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="blin_SeriesCConvertiblePreferredStockMember" xlink:to="blin_SeriesCConvertiblePreferredStockMember-label" xlink:type="arc"/>
+    <link:label xlink:label="blin_SeriesCConvertiblePreferredStockMember-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Series C Convertible Preferred Stock [Member]</link:label>
+    <link:label xlink:label="blin_SeriesCConvertiblePreferredStockMember-label" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:type="resource" xml:lang="en-US">Reprsents information pertaining to Series A Convertible Preferred Stock.</link:label>
+    <link:loc xlink:href="blin-20230930.xsd#blin_SeriesDConvertiblePreferredStockMember" xlink:label="blin_SeriesDConvertiblePreferredStockMember" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="blin_SeriesDConvertiblePreferredStockMember" xlink:to="blin_SeriesDConvertiblePreferredStockMember-label" xlink:type="arc"/>
+    <link:label xlink:label="blin_SeriesDConvertiblePreferredStockMember-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Series D Convertible Preferred Stock [Member]</link:label>
+    <link:label xlink:label="blin_SeriesDConvertiblePreferredStockMember-label" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:type="resource" xml:lang="en-US">Related to Series D convertible preferred stock.</link:label>
+    <link:loc xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_PreferredStockSharesOutstanding" xlink:label="us-gaap_PreferredStockSharesOutstanding" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_PreferredStockSharesOutstanding" xlink:to="us-gaap_PreferredStockSharesOutstanding-label" xlink:type="arc"/>
+    <link:label xlink:label="us-gaap_PreferredStockSharesOutstanding-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Preferred stock, shares outstanding (in shares)</link:label>
+    <link:label xlink:label="us-gaap_PreferredStockSharesOutstanding-label" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xlink:type="resource" xml:lang="en-US">Preferred Stock, Shares Outstanding, Ending Balance (in shares)</link:label>
+    <link:loc xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_CommonStockParOrStatedValuePerShare" xlink:label="us-gaap_CommonStockParOrStatedValuePerShare" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_CommonStockParOrStatedValuePerShare" xlink:to="us-gaap_CommonStockParOrStatedValuePerShare-label" xlink:type="arc"/>
+    <link:label xlink:label="us-gaap_CommonStockParOrStatedValuePerShare-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Common stock, par value (in dollars per share)</link:label>
+    <link:loc xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_StatementTable" xlink:label="us-gaap_StatementTable" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StatementTable" xlink:to="us-gaap_StatementTable-label" xlink:type="arc"/>
+    <link:label xlink:label="us-gaap_StatementTable-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Statement [Table]</link:label>
+    <link:loc xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_CommonStockSharesOutstanding" xlink:label="us-gaap_CommonStockSharesOutstanding" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_CommonStockSharesOutstanding" xlink:to="us-gaap_CommonStockSharesOutstanding-label" xlink:type="arc"/>
+    <link:label xlink:label="us-gaap_CommonStockSharesOutstanding-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Common stock, shares outstanding (in shares)</link:label>
+    <link:loc xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_StatementOfFinancialPositionAbstract" xlink:label="us-gaap_StatementOfFinancialPositionAbstract" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StatementOfFinancialPositionAbstract" xlink:to="us-gaap_StatementOfFinancialPositionAbstract-label" xlink:type="arc"/>
+    <link:label xlink:label="us-gaap_StatementOfFinancialPositionAbstract-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Statement of Financial Position [Abstract]</link:label>
+    <link:loc xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_StatementClassOfStockAxis" xlink:label="us-gaap_StatementClassOfStockAxis" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StatementClassOfStockAxis" xlink:to="us-gaap_StatementClassOfStockAxis-label" xlink:type="arc"/>
+    <link:label xlink:label="us-gaap_StatementClassOfStockAxis-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Class of Stock [Axis]</link:label>
+    <link:loc xlink:href="blin-20230930.xsd#blin_SeriesAConvertiblePreferredStockMember" xlink:label="blin_SeriesAConvertiblePreferredStockMember" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="blin_SeriesAConvertiblePreferredStockMember" xlink:to="blin_SeriesAConvertiblePreferredStockMember-label" xlink:type="arc"/>
+    <link:label xlink:label="blin_SeriesAConvertiblePreferredStockMember-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Series A Convertible Preferred Stock [Member]</link:label>
+    <link:label xlink:label="blin_SeriesAConvertiblePreferredStockMember-label" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:type="resource" xml:lang="en-US">Information about Series A convertible preferred stock.</link:label>
+    <link:loc xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_PreferredStockSharesAuthorized" xlink:label="us-gaap_PreferredStockSharesAuthorized" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_PreferredStockSharesAuthorized" xlink:to="us-gaap_PreferredStockSharesAuthorized-label" xlink:type="arc"/>
+    <link:label xlink:label="us-gaap_PreferredStockSharesAuthorized-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Preferred stock, shares authorized (in shares)</link:label>
+    <link:label xlink:label="us-gaap_PreferredStockSharesAuthorized-label" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xlink:type="resource" xml:lang="en-US">Preferred Stock, Shares Authorized (in shares)</link:label>
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2023/dei-2023.xsd#dei_EntityDomain" xlink:label="dei_EntityDomain" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dei_EntityDomain" xlink:to="dei_EntityDomain-label" xlink:type="arc"/>
+    <link:label xlink:label="dei_EntityDomain-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Entity [Domain]</link:label>
+    <link:loc xlink:href="https://xbrl.sec.gov/dei/2023/dei-2023.xsd#dei_LegalEntityAxis" xlink:label="dei_LegalEntityAxis" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dei_LegalEntityAxis" xlink:to="dei_LegalEntityAxis-label" xlink:type="arc"/>
+    <link:label xlink:label="dei_LegalEntityAxis-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Legal Entity [Axis]</link:label>
+    <link:loc xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_StatementLineItems" xlink:label="us-gaap_StatementLineItems" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StatementLineItems-label" xlink:type="arc"/>
+    <link:label xlink:label="us-gaap_StatementLineItems-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Statement [Line Items]</link:label>
+    <link:loc xlink:href="blin-20230930.xsd#blin_SeriesBConvertiblePreferredStockMember" xlink:label="blin_SeriesBConvertiblePreferredStockMember" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="blin_SeriesBConvertiblePreferredStockMember" xlink:to="blin_SeriesBConvertiblePreferredStockMember-label" xlink:type="arc"/>
+    <link:label xlink:label="blin_SeriesBConvertiblePreferredStockMember-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Series B Convertible Preferred Stock [Member]</link:label>
+    <link:label xlink:label="blin_SeriesBConvertiblePreferredStockMember-label" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:type="resource" xml:lang="en-US">Information about Series B convertible preferred stock.</link:label>
+    <link:loc xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_PreferredStockParOrStatedValuePerShare" xlink:label="us-gaap_PreferredStockParOrStatedValuePerShare" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_PreferredStockParOrStatedValuePerShare" xlink:to="us-gaap_PreferredStockParOrStatedValuePerShare-label" xlink:type="arc"/>
+    <link:label xlink:label="us-gaap_PreferredStockParOrStatedValuePerShare-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Preferred stock, Par Value (in dollars per share)</link:label>
+    <link:label xlink:label="us-gaap_PreferredStockParOrStatedValuePerShare-label" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xlink:type="resource" xml:lang="en-US">Preferred Stock, Par or Stated Value Per Share (in dollars per share)</link:label>
+    <link:loc xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_CommonStockSharesIssued" xlink:label="us-gaap_CommonStockSharesIssued" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_CommonStockSharesIssued" xlink:to="us-gaap_CommonStockSharesIssued-label" xlink:type="arc"/>
+    <link:label xlink:label="us-gaap_CommonStockSharesIssued-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Common stock, shares issued (in shares)</link:label>
+    <link:loc xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_CommonStockSharesAuthorized" xlink:label="us-gaap_CommonStockSharesAuthorized" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_CommonStockSharesAuthorized" xlink:to="us-gaap_CommonStockSharesAuthorized-label" xlink:type="arc"/>
+    <link:label xlink:label="us-gaap_CommonStockSharesAuthorized-label" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Common stock, shares authorized (in shares)</link:label>
+    </link:labelLink>
+</link:linkbase>
+

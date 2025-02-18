@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:odc="http://www.oildri.com/20241031" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en-US"><link:schemaRef xlink:href="odc-20241031.xsd" xlink:type="simple"/>
+	<context id="c-1">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+        </entity>
+        <period>
+            <startDate>2024-08-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-10">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+        </entity>
+        <period>
+            <startDate>2023-08-01</startDate>
+            <endDate>2023-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-21">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-08-01</startDate>
+            <endDate>2023-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-22">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-08-01</startDate>
+            <endDate>2023-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-23">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-08-01</startDate>
+            <endDate>2023-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-24">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockCommonMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-08-01</startDate>
+            <endDate>2023-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-25">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-08-01</startDate>
+            <endDate>2023-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-37">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-08-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-38">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-08-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-39">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-08-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-40">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockCommonMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-08-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-41">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-08-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-11">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-08-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-13">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonClassBMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-08-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-12">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-08-01</startDate>
+            <endDate>2023-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-14">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonClassBMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-08-01</startDate>
+            <endDate>2023-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-118">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-08-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<context id="c-119">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedTranslationAdjustmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-08-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>odc:segment</measure>
+    </unit>
+	<us-gaap:NetIncomeLoss contextRef="c-1" decimals="-3" id="f-198" unitRef="usd">16376000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-10" decimals="-3" id="f-199" unitRef="usd">10742000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-1" decimals="-3" id="f-220" unitRef="usd">16376000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-10" decimals="-3" id="f-221" unitRef="usd">10742000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-1" decimals="-3" id="f-144" unitRef="usd">16376000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-10" decimals="-3" id="f-145" unitRef="usd">10742000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-1" decimals="-3" id="f-166" unitRef="usd">16376000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-10" decimals="-3" id="f-167" unitRef="usd">10742000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-21" decimals="-3" id="f-238" unitRef="usd">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-22" decimals="-3" id="f-239" unitRef="usd">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-23" decimals="-3" id="f-240" unitRef="usd">10742000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-24" decimals="-3" id="f-241" unitRef="usd">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-25" decimals="-3" id="f-242" unitRef="usd">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-10" decimals="-3" id="f-243" unitRef="usd">10742000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-37" decimals="-3" id="f-293" unitRef="usd">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-38" decimals="-3" id="f-294" unitRef="usd">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-39" decimals="-3" id="f-295" unitRef="usd">16376000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-40" decimals="-3" id="f-296" unitRef="usd">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-41" decimals="-3" id="f-297" unitRef="usd">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-1" decimals="-3" id="f-298" unitRef="usd">16376000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-1" decimals="-3" id="f-341" unitRef="usd">16376000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-10" decimals="-3" id="f-342" unitRef="usd">10742000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-1" decimals="-3" id="f-442" unitRef="usd">16376000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-11" decimals="-3" id="f-443" unitRef="usd">12456000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-13" decimals="-3" id="f-444" unitRef="usd">3920000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-10" decimals="-3" id="f-469" unitRef="usd">10742000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-12" decimals="-3" id="f-470" unitRef="usd">8236000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-14" decimals="-3" id="f-471" unitRef="usd">2506000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-1" decimals="-3" id="f-666" unitRef="usd">16376000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="c-10" decimals="-3" id="f-667" unitRef="usd">10742000</us-gaap:NetIncomeLoss>
+	<us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax contextRef="c-1" decimals="-3" id="f-222" unitRef="usd">21000</us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax contextRef="c-10" decimals="-3" id="f-223" unitRef="usd">19000</us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax contextRef="c-1" decimals="-3" id="f-168" unitRef="usd">21000</us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax contextRef="c-10" decimals="-3" id="f-169" unitRef="usd">19000</us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax contextRef="c-1" decimals="-3" id="f-224" unitRef="usd">-21000</us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax contextRef="c-10" decimals="-3" id="f-225" unitRef="usd">-166000</us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax contextRef="c-1" decimals="-3" id="f-170" unitRef="usd">-21000</us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax contextRef="c-10" decimals="-3" id="f-171" unitRef="usd">-166000</us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-1" decimals="-3" id="f-226" unitRef="usd">-42000</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-10" decimals="-3" id="f-227" unitRef="usd">-185000</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-1" decimals="-3" id="f-172" unitRef="usd">-42000</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-10" decimals="-3" id="f-173" unitRef="usd">-185000</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-21" decimals="-3" id="f-244" unitRef="usd">0</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-22" decimals="-3" id="f-245" unitRef="usd">0</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-23" decimals="-3" id="f-246" unitRef="usd">0</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-24" decimals="-3" id="f-247" unitRef="usd">0</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-25" decimals="-3" id="f-248" unitRef="usd">-185000</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-10" decimals="-3" id="f-249" unitRef="usd">-185000</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-37" decimals="-3" id="f-299" unitRef="usd">0</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-38" decimals="-3" id="f-300" unitRef="usd">0</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-39" decimals="-3" id="f-301" unitRef="usd">0</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-40" decimals="-3" id="f-302" unitRef="usd">0</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-41" decimals="-3" id="f-303" unitRef="usd">-42000</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-1" decimals="-3" id="f-304" unitRef="usd">-42000</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-118" decimals="-3" id="f-701" unitRef="usd">-21000</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-119" decimals="-3" id="f-702" unitRef="usd">-21000</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:OtherComprehensiveIncomeLossNetOfTax contextRef="c-1" decimals="-3" id="f-703" unitRef="usd">-42000</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+	<us-gaap:ComprehensiveIncomeNetOfTax contextRef="c-1" decimals="-3" id="f-228" unitRef="usd">16334000</us-gaap:ComprehensiveIncomeNetOfTax>
+	<us-gaap:ComprehensiveIncomeNetOfTax contextRef="c-10" decimals="-3" id="f-229" unitRef="usd">10557000</us-gaap:ComprehensiveIncomeNetOfTax>
+	<us-gaap:ComprehensiveIncomeNetOfTax contextRef="c-1" decimals="-3" id="f-174" unitRef="usd">16334000</us-gaap:ComprehensiveIncomeNetOfTax>
+	<us-gaap:ComprehensiveIncomeNetOfTax contextRef="c-10" decimals="-3" id="f-175" unitRef="usd">10557000</us-gaap:ComprehensiveIncomeNetOfTax>
+	</xbrl>
+

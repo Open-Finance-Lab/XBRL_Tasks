@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:none="http://e-smart.io/20240831" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="none-20240831.xsd" xlink:type="simple"/>
+	<context id="AsOf2023-06-06_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-06-06</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-06-06_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-06-06</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-06-06_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-06-06</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-06-06">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+        </entity>
+        <period>
+            <instant>2023-06-06</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+        </entity>
+        <period>
+            <instant>2024-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-08-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-08-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-08-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-08-31</instant>
+        </period>
+    </context>
+	<context id="From2023-06-072023-08-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-06-07</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2023-06-072023-08-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-06-07</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2023-06-072023-08-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-06-07</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2023-06-072023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+        </entity>
+        <period>
+            <startDate>2023-06-07</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2023-09-012024-08-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-09-01</startDate>
+            <endDate>2024-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2023-09-012024-08-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-09-01</startDate>
+            <endDate>2024-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2023-09-012024-08-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-09-01</startDate>
+            <endDate>2024-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2023-09-01to2024-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001995920</identifier>
+        </entity>
+        <period>
+            <startDate>2023-09-01</startDate>
+            <endDate>2024-08-31</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-06-06_us-gaap_CommonStockMember" id="xdx2ixbrl0189" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-06-06_us-gaap_AdditionalPaidInCapitalMember" id="xdx2ixbrl0190" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-06-06_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0191" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-06-06" id="xdx2ixbrl0192" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31_us-gaap_AdditionalPaidInCapitalMember" id="xdx2ixbrl0207" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-08-31" decimals="0" id="Fact000141" unitRef="USD">-30810</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31" decimals="0" id="Fact000142" unitRef="USD">3521</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31_us-gaap_CommonStockMember" decimals="0" id="Fact000206" unitRef="USD">4500</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31_us-gaap_RetainedEarningsMember" decimals="0" id="Fact000208" unitRef="USD">-979</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31" decimals="0" id="Fact000209" unitRef="USD">3521</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-08-31_us-gaap_CommonStockMember" decimals="0" id="Fact000223" unitRef="USD">4500</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" id="Fact000224" unitRef="USD">6905</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-08-31_us-gaap_RetainedEarningsMember" decimals="0" id="Fact000225" unitRef="USD">-42215</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-08-31" decimals="0" id="Fact000226" unitRef="USD">-30810</us-gaap:StockholdersEquity>
+	<us-gaap:ProceedsFromIssuanceOfCommonStock contextRef="From2023-06-072023-08-31_us-gaap_AdditionalPaidInCapitalMember" id="xdx2ixbrl0195" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:ProceedsFromIssuanceOfCommonStock contextRef="From2023-06-072023-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0196" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:ProceedsFromIssuanceOfCommonStock contextRef="From2023-06-072023-08-31_us-gaap_CommonStockMember" decimals="0" id="Fact000194" unitRef="USD">4500</us-gaap:ProceedsFromIssuanceOfCommonStock>
+	<us-gaap:ProceedsFromIssuanceOfCommonStock contextRef="From2023-06-072023-08-31" decimals="0" id="Fact000197" unitRef="USD">4500</us-gaap:ProceedsFromIssuanceOfCommonStock>
+	<us-gaap:StockIssuedDuringPeriodSharesNewIssues contextRef="From2023-06-072023-08-31" decimals="INF" id="Fact000199" unitRef="Shares">4500000</us-gaap:StockIssuedDuringPeriodSharesNewIssues>
+	<us-gaap:NetIncomeLoss contextRef="From2023-06-072023-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0201" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLoss contextRef="From2023-06-072023-08-31_us-gaap_AdditionalPaidInCapitalMember" id="xdx2ixbrl0202" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLoss contextRef="From2023-09-012024-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0218" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLoss contextRef="From2023-09-012024-08-31_us-gaap_AdditionalPaidInCapitalMember" id="xdx2ixbrl0219" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLoss contextRef="From2023-06-072023-08-31_us-gaap_RetainedEarningsMember" decimals="0" id="Fact000203" unitRef="USD">-979</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="From2023-06-072023-08-31" decimals="0" id="Fact000204" unitRef="USD">-979</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="From2023-09-012024-08-31_us-gaap_RetainedEarningsMember" decimals="0" id="Fact000220" unitRef="USD">41236</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="From2023-09-01to2024-08-31" decimals="0" id="Fact000221" unitRef="USD">41236</us-gaap:NetIncomeLoss>
+	<us-gaap:SharesOutstanding contextRef="AsOf2023-08-31" decimals="INF" id="Fact000211" unitRef="Shares">4500000</us-gaap:SharesOutstanding>
+	<us-gaap:SharesOutstanding contextRef="AsOf2024-08-31" decimals="INF" id="Fact000228" unitRef="Shares">4500000</us-gaap:SharesOutstanding>
+	<us-gaap:InterestExpenseDebt contextRef="From2023-09-012024-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0213" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:InterestExpenseDebt contextRef="From2023-09-012024-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0215" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:InterestExpenseDebt contextRef="From2023-09-012024-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" id="Fact000214" unitRef="USD">6905</us-gaap:InterestExpenseDebt>
+	<us-gaap:InterestExpenseDebt contextRef="From2023-09-01to2024-08-31" decimals="0" id="Fact000216" unitRef="USD">6905</us-gaap:InterestExpenseDebt>
+	</xbrl>
+

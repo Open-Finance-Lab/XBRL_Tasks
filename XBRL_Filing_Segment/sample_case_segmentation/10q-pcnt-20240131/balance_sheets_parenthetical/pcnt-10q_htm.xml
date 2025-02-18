@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:pcnt="http://pointofcarenano.com/20240131" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="pcnt-20240131.xsd" xlink:type="simple"/>
+	<context id="AsOf2024-01-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001504239</identifier>
+        </entity>
+        <period>
+            <instant>2024-01-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-07-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001504239</identifier>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-08-02">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001504239</identifier>
+        </entity>
+        <period>
+            <instant>2021-08-02</instant>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:PreferredStockParOrStatedValuePerShare contextRef="AsOf2024-01-31" decimals="INF" id="Fact000074" unitRef="USDPShares">0.0001</us-gaap:PreferredStockParOrStatedValuePerShare>
+	<us-gaap:PreferredStockParOrStatedValuePerShare contextRef="AsOf2023-07-31" decimals="INF" id="Fact000075" unitRef="USDPShares">0.0001</us-gaap:PreferredStockParOrStatedValuePerShare>
+	<us-gaap:PreferredStockParOrStatedValuePerShare contextRef="AsOf2024-01-31" decimals="INF" id="Fact000386" unitRef="USDPShares">0.0001</us-gaap:PreferredStockParOrStatedValuePerShare>
+	<us-gaap:PreferredStockSharesAuthorized contextRef="AsOf2024-01-31" decimals="INF" id="Fact000076" unitRef="Shares">10000000</us-gaap:PreferredStockSharesAuthorized>
+	<us-gaap:PreferredStockSharesAuthorized contextRef="AsOf2023-07-31" decimals="INF" id="Fact000077" unitRef="Shares">10000000</us-gaap:PreferredStockSharesAuthorized>
+	<us-gaap:PreferredStockSharesAuthorized contextRef="AsOf2024-01-31" decimals="INF" id="Fact000385" unitRef="Shares">10000000</us-gaap:PreferredStockSharesAuthorized>
+	<us-gaap:PreferredStockSharesIssued contextRef="AsOf2024-01-31" decimals="INF" id="Fact000078" unitRef="Shares">1000</us-gaap:PreferredStockSharesIssued>
+	<us-gaap:PreferredStockSharesIssued contextRef="AsOf2023-07-31" decimals="INF" id="Fact000080" unitRef="Shares">1000</us-gaap:PreferredStockSharesIssued>
+	<us-gaap:PreferredStockSharesIssued contextRef="AsOf2021-08-02" decimals="INF" id="Fact000388" unitRef="Shares">1000</us-gaap:PreferredStockSharesIssued>
+	<us-gaap:PreferredStockSharesOutstanding contextRef="AsOf2024-01-31" decimals="INF" id="Fact000079" unitRef="Shares">1000</us-gaap:PreferredStockSharesOutstanding>
+	<us-gaap:PreferredStockSharesOutstanding contextRef="AsOf2023-07-31" decimals="INF" id="Fact000081" unitRef="Shares">1000</us-gaap:PreferredStockSharesOutstanding>
+	<us-gaap:CommonStockParOrStatedValuePerShare contextRef="AsOf2024-01-31" decimals="INF" id="Fact000085" unitRef="USDPShares">0.0001</us-gaap:CommonStockParOrStatedValuePerShare>
+	<us-gaap:CommonStockParOrStatedValuePerShare contextRef="AsOf2023-07-31" decimals="INF" id="Fact000086" unitRef="USDPShares">0.0001</us-gaap:CommonStockParOrStatedValuePerShare>
+	<us-gaap:CommonStockParOrStatedValuePerShare contextRef="AsOf2024-01-31" decimals="INF" id="Fact000384" unitRef="USDPShares">0.0001</us-gaap:CommonStockParOrStatedValuePerShare>
+	<us-gaap:CommonStockSharesAuthorized contextRef="AsOf2024-01-31" decimals="INF" id="Fact000087" unitRef="Shares">100000000</us-gaap:CommonStockSharesAuthorized>
+	<us-gaap:CommonStockSharesAuthorized contextRef="AsOf2023-07-31" decimals="INF" id="Fact000088" unitRef="Shares">100000000</us-gaap:CommonStockSharesAuthorized>
+	<us-gaap:CommonStockSharesAuthorized contextRef="AsOf2024-01-31" decimals="INF" id="Fact000383" unitRef="Shares">100000000</us-gaap:CommonStockSharesAuthorized>
+	<us-gaap:CommonStockSharesIssued contextRef="AsOf2024-01-31" decimals="INF" id="Fact000089" unitRef="Shares">420621</us-gaap:CommonStockSharesIssued>
+	<us-gaap:CommonStockSharesIssued contextRef="AsOf2023-07-31" decimals="INF" id="Fact000091" unitRef="Shares">420621</us-gaap:CommonStockSharesIssued>
+	<us-gaap:CommonStockSharesOutstanding contextRef="AsOf2024-01-31" decimals="INF" id="Fact000090" unitRef="Shares">420621</us-gaap:CommonStockSharesOutstanding>
+	<us-gaap:CommonStockSharesOutstanding contextRef="AsOf2023-07-31" decimals="INF" id="Fact000092" unitRef="Shares">420621</us-gaap:CommonStockSharesOutstanding>
+	</xbrl>
+

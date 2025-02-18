@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:alzm="http://alzamend.com/20241031" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:ecd="http://xbrl.sec.gov/ecd/2024" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2024" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="alzm-20241031.xsd" xlink:type="simple"/>
+	<context id="AsOf2024-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001677077</identifier>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-04-30">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001677077</identifier>
+        </entity>
+        <period>
+            <instant>2024-04-30</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-10-31_us-gaap_SeriesAPreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001677077</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesAPreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-04-30_us-gaap_SeriesAPreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001677077</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesAPreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-04-30</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-10-31_us-gaap_SeriesBPreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001677077</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesBPreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2024-04-30_us-gaap_SeriesBPreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001677077</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesBPreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-04-30</instant>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue contextRef="AsOf2024-10-31" decimals="0" id="Fact000047" unitRef="USD">4093073</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue contextRef="AsOf2024-04-30" decimals="0" id="Fact000048" unitRef="USD">376048</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:PrepaidExpenseAndOtherAssetsCurrent contextRef="AsOf2024-10-31" decimals="0" id="Fact000050" unitRef="USD">673669</us-gaap:PrepaidExpenseAndOtherAssetsCurrent>
+	<us-gaap:PrepaidExpenseAndOtherAssetsCurrent contextRef="AsOf2024-04-30" decimals="0" id="Fact000051" unitRef="USD">79194</us-gaap:PrepaidExpenseAndOtherAssetsCurrent>
+	<us-gaap:AssetsCurrent contextRef="AsOf2024-10-31" decimals="0" id="Fact000053" unitRef="USD">4766742</us-gaap:AssetsCurrent>
+	<us-gaap:AssetsCurrent contextRef="AsOf2024-04-30" decimals="0" id="Fact000054" unitRef="USD">455242</us-gaap:AssetsCurrent>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="AsOf2024-10-31" decimals="0" id="Fact000056" unitRef="USD">240976</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="AsOf2024-04-30" decimals="0" id="Fact000057" unitRef="USD">176346</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:Assets contextRef="AsOf2024-10-31" decimals="0" id="Fact000059" unitRef="USD">5007718</us-gaap:Assets>
+	<us-gaap:Assets contextRef="AsOf2024-04-30" decimals="0" id="Fact000060" unitRef="USD">631588</us-gaap:Assets>
+	<us-gaap:AccountsPayableCurrent contextRef="AsOf2024-10-31" decimals="0" id="Fact000068" unitRef="USD">1254750</us-gaap:AccountsPayableCurrent>
+	<us-gaap:AccountsPayableCurrent contextRef="AsOf2024-04-30" decimals="0" id="Fact000069" unitRef="USD">2925059</us-gaap:AccountsPayableCurrent>
+	<us-gaap:NotesPayableCurrent contextRef="AsOf2024-10-31" id="xdx2ixbrl0071" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NotesPayableCurrent contextRef="AsOf2024-04-30" decimals="0" id="Fact000072" unitRef="USD">300714</us-gaap:NotesPayableCurrent>
+	<us-gaap:Liabilities contextRef="AsOf2024-10-31" decimals="0" id="Fact000074" unitRef="USD">1254750</us-gaap:Liabilities>
+	<us-gaap:Liabilities contextRef="AsOf2024-04-30" decimals="0" id="Fact000075" unitRef="USD">3225773</us-gaap:Liabilities>
+	<us-gaap:PreferredStockValue contextRef="AsOf2024-10-31_us-gaap_SeriesAPreferredStockMember" id="xdx2ixbrl0099" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:PreferredStockValue contextRef="AsOf2024-04-30_us-gaap_SeriesAPreferredStockMember" id="xdx2ixbrl0101" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:PreferredStockValue contextRef="AsOf2024-10-31_us-gaap_SeriesBPreferredStockMember" id="xdx2ixbrl0119" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:PreferredStockValue contextRef="AsOf2024-04-30_us-gaap_SeriesBPreferredStockMember" id="xdx2ixbrl0121" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:CommonStockValue contextRef="AsOf2024-10-31" decimals="0" id="Fact000123" unitRef="USD">523</us-gaap:CommonStockValue>
+	<us-gaap:CommonStockValue contextRef="AsOf2024-04-30" decimals="0" id="Fact000124" unitRef="USD">69</us-gaap:CommonStockValue>
+	<us-gaap:AdditionalPaidInCapital contextRef="AsOf2024-10-31" decimals="0" id="Fact000142" unitRef="USD">60162478</us-gaap:AdditionalPaidInCapital>
+	<us-gaap:AdditionalPaidInCapital contextRef="AsOf2024-04-30" decimals="0" id="Fact000143" unitRef="USD">51426154</us-gaap:AdditionalPaidInCapital>
+	<us-gaap:RetainedEarningsAccumulatedDeficit contextRef="AsOf2024-10-31" decimals="0" id="Fact000145" unitRef="USD">-56410033</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:RetainedEarningsAccumulatedDeficit contextRef="AsOf2024-04-30" decimals="0" id="Fact000146" unitRef="USD">-54020408</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-10-31" decimals="0" id="Fact000148" unitRef="USD">3752968</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2024-04-30" decimals="0" id="Fact000149" unitRef="USD">-2594185</us-gaap:StockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity contextRef="AsOf2024-10-31" decimals="0" id="Fact000151" unitRef="USD">5007718</us-gaap:LiabilitiesAndStockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity contextRef="AsOf2024-04-30" decimals="0" id="Fact000152" unitRef="USD">631588</us-gaap:LiabilitiesAndStockholdersEquity>
+	</xbrl>
+

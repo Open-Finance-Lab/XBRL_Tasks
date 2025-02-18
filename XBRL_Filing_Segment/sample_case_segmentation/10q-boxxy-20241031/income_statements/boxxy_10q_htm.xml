@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:boxxy="http://boxxy.com/20241031" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2024" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink"><link:schemaRef xlink:href="boxxy-20241031.xsd" xlink:type="simple"/>
+	<context id="From2024-08-01to2024-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+        </entity>
+        <period>
+            <startDate>2024-08-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<context id="From2023-08-01to2023-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+        </entity>
+        <period>
+            <startDate>2023-08-01</startDate>
+            <endDate>2023-10-31</endDate>
+        </period>
+    </context>
+	<context id="From2024-05-01to2024-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+        </entity>
+        <period>
+            <startDate>2024-05-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<context id="From2023-05-01to2023-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+        </entity>
+        <period>
+            <startDate>2023-05-01</startDate>
+            <endDate>2023-10-31</endDate>
+        </period>
+    </context>
+	<context id="From2023-06-01to2023-06-07_srt_DirectorMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001680689</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">srt:DirectorMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-06-01</startDate>
+            <endDate>2023-06-07</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:SellingGeneralAndAdministrativeExpense contextRef="From2024-08-01to2024-10-31" decimals="0" id="fid_591" unitRef="USD">8044</us-gaap:SellingGeneralAndAdministrativeExpense>
+	<us-gaap:SellingGeneralAndAdministrativeExpense contextRef="From2023-08-01to2023-10-31" decimals="0" id="fid_592" unitRef="USD">7752</us-gaap:SellingGeneralAndAdministrativeExpense>
+	<us-gaap:SellingGeneralAndAdministrativeExpense contextRef="From2024-05-01to2024-10-31" decimals="0" id="fid_593" unitRef="USD">15082</us-gaap:SellingGeneralAndAdministrativeExpense>
+	<us-gaap:SellingGeneralAndAdministrativeExpense contextRef="From2023-05-01to2023-10-31" decimals="0" id="fid_594" unitRef="USD">15890</us-gaap:SellingGeneralAndAdministrativeExpense>
+	<us-gaap:SalariesAndWages contextRef="From2024-08-01to2024-10-31" decimals="0" id="fid_595" unitRef="USD">0</us-gaap:SalariesAndWages>
+	<us-gaap:SalariesAndWages contextRef="From2023-08-01to2023-10-31" decimals="0" id="fid_596" unitRef="USD">0</us-gaap:SalariesAndWages>
+	<us-gaap:SalariesAndWages contextRef="From2024-05-01to2024-10-31" decimals="0" id="fid_597" unitRef="USD">0</us-gaap:SalariesAndWages>
+	<us-gaap:SalariesAndWages contextRef="From2023-05-01to2023-10-31" decimals="0" id="fid_598" unitRef="USD">2000000</us-gaap:SalariesAndWages>
+	<us-gaap:SalariesAndWages contextRef="From2023-06-01to2023-06-07_srt_DirectorMember" decimals="0" id="fid_63" unitRef="USD">2000000</us-gaap:SalariesAndWages>
+	<boxxy:AmortizationOnMiningPropertyRights contextRef="From2024-08-01to2024-10-31" decimals="0" id="fid_599" unitRef="USD">491</boxxy:AmortizationOnMiningPropertyRights>
+	<boxxy:AmortizationOnMiningPropertyRights contextRef="From2023-08-01to2023-10-31" decimals="0" id="fid_600" unitRef="USD">0</boxxy:AmortizationOnMiningPropertyRights>
+	<boxxy:AmortizationOnMiningPropertyRights contextRef="From2024-05-01to2024-10-31" decimals="0" id="fid_601" unitRef="USD">981</boxxy:AmortizationOnMiningPropertyRights>
+	<boxxy:AmortizationOnMiningPropertyRights contextRef="From2023-05-01to2023-10-31" decimals="0" id="fid_602" unitRef="USD">0</boxxy:AmortizationOnMiningPropertyRights>
+	<boxxy:AmortizationOnMiningPropertyRights contextRef="From2024-05-01to2024-10-31" decimals="0" id="fid_499" unitRef="USD">981</boxxy:AmortizationOnMiningPropertyRights>
+	<boxxy:AmortizationOnMiningPropertyRights contextRef="From2023-05-01to2023-10-31" decimals="0" id="fid_500" unitRef="USD">0</boxxy:AmortizationOnMiningPropertyRights>
+	<us-gaap:OperatingExpenses contextRef="From2024-08-01to2024-10-31" decimals="0" id="fid_603" unitRef="USD">8535</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingExpenses contextRef="From2023-08-01to2023-10-31" decimals="0" id="fid_604" unitRef="USD">7752</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingExpenses contextRef="From2024-05-01to2024-10-31" decimals="0" id="fid_605" unitRef="USD">16063</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingExpenses contextRef="From2023-05-01to2023-10-31" decimals="0" id="fid_606" unitRef="USD">2015890</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingIncomeLoss contextRef="From2024-08-01to2024-10-31" decimals="0" id="fid_607" unitRef="USD">-8535</us-gaap:OperatingIncomeLoss>
+	<us-gaap:OperatingIncomeLoss contextRef="From2023-08-01to2023-10-31" decimals="0" id="fid_608" unitRef="USD">-7752</us-gaap:OperatingIncomeLoss>
+	<us-gaap:OperatingIncomeLoss contextRef="From2024-05-01to2024-10-31" decimals="0" id="fid_609" unitRef="USD">-16063</us-gaap:OperatingIncomeLoss>
+	<us-gaap:OperatingIncomeLoss contextRef="From2023-05-01to2023-10-31" decimals="0" id="fid_610" unitRef="USD">-2015890</us-gaap:OperatingIncomeLoss>
+	<us-gaap:InterestExpense contextRef="From2024-08-01to2024-10-31" decimals="0" id="fid_612" unitRef="USD">1717</us-gaap:InterestExpense>
+	<us-gaap:InterestExpense contextRef="From2023-08-01to2023-10-31" decimals="0" id="fid_613" unitRef="USD">1725</us-gaap:InterestExpense>
+	<us-gaap:InterestExpense contextRef="From2024-05-01to2024-10-31" decimals="0" id="fid_614" unitRef="USD">3351</us-gaap:InterestExpense>
+	<us-gaap:InterestExpense contextRef="From2023-05-01to2023-10-31" decimals="0" id="fid_615" unitRef="USD">3843</us-gaap:InterestExpense>
+	<us-gaap:OtherNonoperatingIncomeExpense contextRef="From2024-08-01to2024-10-31" decimals="0" id="fid_616" unitRef="USD">-1717</us-gaap:OtherNonoperatingIncomeExpense>
+	<us-gaap:OtherNonoperatingIncomeExpense contextRef="From2023-08-01to2023-10-31" decimals="0" id="fid_617" unitRef="USD">-1725</us-gaap:OtherNonoperatingIncomeExpense>
+	<us-gaap:OtherNonoperatingIncomeExpense contextRef="From2024-05-01to2024-10-31" decimals="0" id="fid_618" unitRef="USD">-3351</us-gaap:OtherNonoperatingIncomeExpense>
+	<us-gaap:OtherNonoperatingIncomeExpense contextRef="From2023-05-01to2023-10-31" decimals="0" id="fid_619" unitRef="USD">-3843</us-gaap:OtherNonoperatingIncomeExpense>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest contextRef="From2024-08-01to2024-10-31" decimals="0" id="fid_620" unitRef="USD">-10252</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest contextRef="From2023-08-01to2023-10-31" decimals="0" id="fid_621" unitRef="USD">-9477</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest contextRef="From2024-05-01to2024-10-31" decimals="0" id="fid_622" unitRef="USD">-19414</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest contextRef="From2023-05-01to2023-10-31" decimals="0" id="fid_623" unitRef="USD">-2019733</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="From2024-08-01to2024-10-31" decimals="0" id="fid_624" unitRef="USD">0</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="From2023-08-01to2023-10-31" decimals="0" id="fid_625" unitRef="USD">0</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="From2024-05-01to2024-10-31" decimals="0" id="fid_626" unitRef="USD">0</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="From2023-05-01to2023-10-31" decimals="0" id="fid_627" unitRef="USD">0</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:NetIncomeLoss contextRef="From2024-08-01to2024-10-31" decimals="0" id="fid_628" unitRef="USD">-10252</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="From2023-08-01to2023-10-31" decimals="0" id="fid_629" unitRef="USD">-9477</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="From2024-05-01to2024-10-31" decimals="0" id="fid_630" unitRef="USD">-19414</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="From2023-05-01to2023-10-31" decimals="0" id="fid_631" unitRef="USD">-2019733</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="From2024-05-01to2024-10-31" decimals="0" id="fid_494" unitRef="USD">-19414</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="From2023-05-01to2023-10-31" decimals="0" id="fid_495" unitRef="USD">-2019733</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="From2024-05-01to2024-10-31" decimals="0" id="fid_265" unitRef="USD">-19414</us-gaap:NetIncomeLoss>
+	<us-gaap:EarningsPerShareDiluted contextRef="From2024-08-01to2024-10-31" decimals="INF" id="fid_632" unitRef="USDPShares">-0.00</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="From2023-08-01to2023-10-31" decimals="INF" id="fid_633" unitRef="USDPShares">-0.00</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="From2024-05-01to2024-10-31" decimals="INF" id="fid_634" unitRef="USDPShares">-0.00</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="From2023-05-01to2023-10-31" decimals="INF" id="fid_635" unitRef="USDPShares">-0.46</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="From2024-08-01to2024-10-31" decimals="0" id="fid_636" unitRef="Shares">5709891</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="From2023-08-01to2023-10-31" decimals="0" id="fid_637" unitRef="Shares">5479122</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="From2024-05-01to2024-10-31" decimals="0" id="fid_638" unitRef="Shares">5709891</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="From2023-05-01to2023-10-31" decimals="0" id="fid_639" unitRef="Shares">4360164</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	</xbrl>
+

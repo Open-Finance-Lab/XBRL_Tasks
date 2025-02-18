@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:blin="http://www.bridgelinedigital.com/20230930" xmlns:country="http://xbrl.sec.gov/country/2023" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:thunderdome="http://www.RDGFilings.com" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="blin-20230930.xsd" xlink:type="simple"/>
+	<context id="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="i_2021-09-30_StatementEquityComponentsAxis-PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2021-09-30_StatementEquityComponentsAxis-CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2022-09-30_StatementEquityComponentsAxis-CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2023-09-30_StatementEquityComponentsAxis-PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2023-09-30_StatementEquityComponentsAxis-CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-09-30</instant>
+        </period>
+    </context>
+	<context id="d_2021-10-01_2022-09-30_AwardTypeAxis-EmployeeStockOptionMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:AwardTypeAxis">us-gaap:EmployeeStockOptionMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-10-01</startDate>
+            <endDate>2022-09-30</endDate>
+        </period>
+    </context>
+	<context id="d_2022-10-01_2023-09-30_AwardTypeAxis-EmployeeStockOptionMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:AwardTypeAxis">us-gaap:EmployeeStockOptionMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-10-01</startDate>
+            <endDate>2023-09-30</endDate>
+        </period>
+    </context>
+	<context id="i_2023-09-30">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+        </entity>
+        <period>
+            <instant>2023-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2022-09-30">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+        </entity>
+        <period>
+            <instant>2022-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2021-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2021-09-30_StatementEquityComponentsAxis-RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2021-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2021-09-30">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+        </entity>
+        <period>
+            <instant>2021-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2022-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2022-09-30_StatementEquityComponentsAxis-RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2022-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2023-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2023-09-30_StatementEquityComponentsAxis-RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-09-30</instant>
+        </period>
+    </context>
+	<context id="i_2023-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001378590</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-09-30</instant>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Share">
+        <measure>shares</measure>
+    </unit>
+	<unit id="NonApplicable">
+        <measure>thunderdome:item</measure>
+    </unit>
+	<unit id="USDPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Year">
+        <measure>utr:Y</measure>
+    </unit>
+	<unit id="Day">
+        <measure>utr:D</measure>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<unit id="Month">
+        <measure>utr:M</measure>
+    </unit>
+	<unit id="Rate">
+        <measure>utr:Rate</measure>
+    </unit>
+	<blin:StockIssuedDuringPeriodValueWarrantsExercised contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742510" unitRef="USD">0</blin:StockIssuedDuringPeriodValueWarrantsExercised>
+	<blin:StockIssuedDuringPeriodValueWarrantsExercised contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-3" id="c105742512" unitRef="USD">0</blin:StockIssuedDuringPeriodValueWarrantsExercised>
+	<blin:StockIssuedDuringPeriodValueWarrantsExercised contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember" decimals="-3" id="c105742513" unitRef="USD">0</blin:StockIssuedDuringPeriodValueWarrantsExercised>
+	<blin:StockIssuedDuringPeriodValueWarrantsExercised contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-RetainedEarningsMember" decimals="-3" id="c105742514" unitRef="USD">0</blin:StockIssuedDuringPeriodValueWarrantsExercised>
+	<blin:StockIssuedDuringPeriodValueWarrantsExercised contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="c105742515" unitRef="USD">0</blin:StockIssuedDuringPeriodValueWarrantsExercised>
+	<blin:StockIssuedDuringPeriodValueWarrantsExercised contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742516" unitRef="USD">0</blin:StockIssuedDuringPeriodValueWarrantsExercised>
+	<blin:StockissuedDuringPeriodSharesWarrantsExercised contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="INF" id="c105742509" unitRef="Share">0</blin:StockissuedDuringPeriodSharesWarrantsExercised>
+	<blin:StockissuedDuringPeriodSharesWarrantsExercised contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="INF" id="c105742511" unitRef="Share">17148</blin:StockissuedDuringPeriodSharesWarrantsExercised>
+	<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742494" unitRef="USD">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+	<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-3" id="c105742496" unitRef="USD">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+	<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember" decimals="-3" id="c105742497" unitRef="USD">478000</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+	<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-RetainedEarningsMember" decimals="-3" id="c105742498" unitRef="USD">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+	<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="c105742499" unitRef="USD">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+	<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742500" unitRef="USD">478000</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+	<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742550" unitRef="USD">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+	<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-3" id="c105742552" unitRef="USD">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+	<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember" decimals="-3" id="c105742553" unitRef="USD">571000</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+	<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-RetainedEarningsMember" decimals="-3" id="c105742554" unitRef="USD">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+	<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="c105742555" unitRef="USD">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+	<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742556" unitRef="USD">571000</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742430" unitRef="USD">-9435000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742431" unitRef="USD">2145000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742446" unitRef="USD">-9435000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742447" unitRef="USD">2145000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742526" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-3" id="c105742528" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember" decimals="-3" id="c105742529" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-RetainedEarningsMember" decimals="-3" id="c105742530" unitRef="USD">2145000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="c105742531" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742532" unitRef="USD">2145000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742557" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742558" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-3" id="c105742559" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-3" id="c105742560" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember" decimals="-3" id="c105742561" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-RetainedEarningsMember" decimals="-3" id="c105742562" unitRef="USD">-9435000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="c105742563" unitRef="USD">0</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742564" unitRef="USD">-9435000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742586" unitRef="USD">-9435000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742587" unitRef="USD">2145000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105743693" unitRef="USD">-9435000</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105743694" unitRef="USD">2145000</us-gaap:NetIncomeLoss>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742449" unitRef="USD">-28000</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742450" unitRef="USD">133000</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742534" unitRef="USD">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-3" id="c105742536" unitRef="USD">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember" decimals="-3" id="c105742537" unitRef="USD">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-RetainedEarningsMember" decimals="-3" id="c105742538" unitRef="USD">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="c105742539" unitRef="USD">133000</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742540" unitRef="USD">133000</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742566" unitRef="USD">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-3" id="c105742568" unitRef="USD">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember" decimals="-3" id="c105742569" unitRef="USD">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-RetainedEarningsMember" decimals="-3" id="c105742570" unitRef="USD">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2022-10-01_2023-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="c105742571" unitRef="USD">-28000</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742572" unitRef="USD">-28000</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2022-10-01_2023-09-30" decimals="-3" id="c105742787" unitRef="USD">-28000</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742788" unitRef="USD">133000</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+	<us-gaap:SharesOutstanding contextRef="i_2021-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="INF" id="c105742485" unitRef="Share">350</us-gaap:SharesOutstanding>
+	<us-gaap:SharesOutstanding contextRef="i_2021-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="INF" id="c105742487" unitRef="Share">10187128</us-gaap:SharesOutstanding>
+	<us-gaap:SharesOutstanding contextRef="i_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="INF" id="c105742541" unitRef="Share">350</us-gaap:SharesOutstanding>
+	<us-gaap:SharesOutstanding contextRef="i_2022-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="INF" id="c105742543" unitRef="Share">10417609</us-gaap:SharesOutstanding>
+	<us-gaap:SharesOutstanding contextRef="i_2023-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="INF" id="c105742573" unitRef="Share">350</us-gaap:SharesOutstanding>
+	<us-gaap:SharesOutstanding contextRef="i_2023-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="INF" id="c105742575" unitRef="Share">10417609</us-gaap:SharesOutstanding>
+	<us-gaap:StockIssuedDuringPeriodSharesRestrictedStockAwardNetOfForfeitures contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="INF" id="c105742517" unitRef="Share">0</us-gaap:StockIssuedDuringPeriodSharesRestrictedStockAwardNetOfForfeitures>
+	<us-gaap:StockIssuedDuringPeriodSharesRestrictedStockAwardNetOfForfeitures contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="INF" id="c105742519" unitRef="Share">200000</us-gaap:StockIssuedDuringPeriodSharesRestrictedStockAwardNetOfForfeitures>
+	<us-gaap:StockIssuedDuringPeriodSharesStockOptionsExercised contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="INF" id="c105742501" unitRef="Share">0</us-gaap:StockIssuedDuringPeriodSharesStockOptionsExercised>
+	<us-gaap:StockIssuedDuringPeriodSharesStockOptionsExercised contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="INF" id="c105742503" unitRef="Share">13333</us-gaap:StockIssuedDuringPeriodSharesStockOptionsExercised>
+	<us-gaap:StockIssuedDuringPeriodSharesStockOptionsExercised contextRef="d_2021-10-01_2022-09-30_AwardTypeAxis-EmployeeStockOptionMember" decimals="INF" id="c105743615" unitRef="Share">13334</us-gaap:StockIssuedDuringPeriodSharesStockOptionsExercised>
+	<us-gaap:StockIssuedDuringPeriodSharesStockOptionsExercised contextRef="d_2022-10-01_2023-09-30_AwardTypeAxis-EmployeeStockOptionMember" decimals="INF" id="c105743640" unitRef="Share">-0</us-gaap:StockIssuedDuringPeriodSharesStockOptionsExercised>
+	<us-gaap:StockIssuedDuringPeriodValueRestrictedStockAwardNetOfForfeitures contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742518" unitRef="USD">0</us-gaap:StockIssuedDuringPeriodValueRestrictedStockAwardNetOfForfeitures>
+	<us-gaap:StockIssuedDuringPeriodValueRestrictedStockAwardNetOfForfeitures contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-3" id="c105742520" unitRef="USD">0</us-gaap:StockIssuedDuringPeriodValueRestrictedStockAwardNetOfForfeitures>
+	<us-gaap:StockIssuedDuringPeriodValueRestrictedStockAwardNetOfForfeitures contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember" decimals="-3" id="c105742521" unitRef="USD">0</us-gaap:StockIssuedDuringPeriodValueRestrictedStockAwardNetOfForfeitures>
+	<us-gaap:StockIssuedDuringPeriodValueRestrictedStockAwardNetOfForfeitures contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-RetainedEarningsMember" decimals="-3" id="c105742522" unitRef="USD">0</us-gaap:StockIssuedDuringPeriodValueRestrictedStockAwardNetOfForfeitures>
+	<us-gaap:StockIssuedDuringPeriodValueRestrictedStockAwardNetOfForfeitures contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="c105742523" unitRef="USD">0</us-gaap:StockIssuedDuringPeriodValueRestrictedStockAwardNetOfForfeitures>
+	<us-gaap:StockIssuedDuringPeriodValueRestrictedStockAwardNetOfForfeitures contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742524" unitRef="USD">0</us-gaap:StockIssuedDuringPeriodValueRestrictedStockAwardNetOfForfeitures>
+	<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742502" unitRef="USD">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+	<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-3" id="c105742504" unitRef="USD">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+	<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember" decimals="-3" id="c105742505" unitRef="USD">19000</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+	<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-RetainedEarningsMember" decimals="-3" id="c105742506" unitRef="USD">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+	<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised contextRef="d_2021-10-01_2022-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="c105742507" unitRef="USD">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+	<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised contextRef="d_2021-10-01_2022-09-30" decimals="-3" id="c105742508" unitRef="USD">19000</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+	<us-gaap:StockholdersEquity contextRef="i_2023-09-30" decimals="-4" id="c105742381" unitRef="USD">11460000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2022-09-30" decimals="-3" id="c105742382" unitRef="USD">20352000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2021-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742486" unitRef="USD">0</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2021-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-4" id="c105742488" unitRef="USD">10000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2021-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember" decimals="-3" id="c105742489" unitRef="USD">100207000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2021-09-30_StatementEquityComponentsAxis-RetainedEarningsMember" decimals="-3" id="c105742490" unitRef="USD">-82287000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2021-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="c105742491" unitRef="USD">-353000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2021-09-30" decimals="-3" id="c105742492" unitRef="USD">17577000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2022-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742542" unitRef="USD">0</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2022-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-4" id="c105742544" unitRef="USD">10000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2022-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember" decimals="-3" id="c105742545" unitRef="USD">100704000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2022-09-30_StatementEquityComponentsAxis-RetainedEarningsMember" decimals="-3" id="c105742546" unitRef="USD">-80142000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2022-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember" decimals="-4" id="c105742547" unitRef="USD">-220000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2022-09-30" decimals="-3" id="c105742548" unitRef="USD">20352000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2023-09-30_StatementEquityComponentsAxis-PreferredStockMember" decimals="-3" id="c105742574" unitRef="USD">0</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2023-09-30_StatementEquityComponentsAxis-CommonStockMember" decimals="-4" id="c105742576" unitRef="USD">10000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2023-09-30_StatementEquityComponentsAxis-AdditionalPaidInCapitalMember" decimals="-3" id="c105742577" unitRef="USD">101275000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2023-09-30_StatementEquityComponentsAxis-RetainedEarningsMember" decimals="-3" id="c105742578" unitRef="USD">-89577000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2023-09-30_StatementEquityComponentsAxis-AccumulatedOtherComprehensiveIncomeMember" decimals="-3" id="c105742579" unitRef="USD">-248000</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="i_2023-09-30" decimals="-4" id="c105742580" unitRef="USD">11460000</us-gaap:StockholdersEquity>
+	</xbrl>
+

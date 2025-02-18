@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+    <!-- Field: Doc-Info; Name: Generator; Value: GoFiler Complete; Version: 5.24c -->
+    <!-- Field: Doc-Info; Name: VendorURI; Value: https://www.novaworks.com -->
+    <!-- Field: Doc-Info; Name: Status; Value: 0x00000000 -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <link:roleRef roleURI="http://e-smart.io/role/Cover" xlink:href="none-20240831.xsd#Cover" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/BalanceSheets" xlink:href="none-20240831.xsd#BalanceSheets" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/BalanceSheetsParenthetical" xlink:href="none-20240831.xsd#BalanceSheetsParenthetical" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/StatementsOfOperations" xlink:href="none-20240831.xsd#StatementsOfOperations" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/StatementsOfStockholdersEquity" xlink:href="none-20240831.xsd#StatementsOfStockholdersEquity" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/StatementsOfCashFlows" xlink:href="none-20240831.xsd#StatementsOfCashFlows" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/OrganizationAndNatureOfBusiness" xlink:href="none-20240831.xsd#OrganizationAndNatureOfBusiness" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/GoingConcern" xlink:href="none-20240831.xsd#GoingConcern" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/SummaryOfSignificantAccountingPolicies" xlink:href="none-20240831.xsd#SummaryOfSignificantAccountingPolicies" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/IntangibleAssets" xlink:href="none-20240831.xsd#IntangibleAssets" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/CommonStock" xlink:href="none-20240831.xsd#CommonStock" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/RelatedParty" xlink:href="none-20240831.xsd#RelatedParty" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/IncomeTaxes" xlink:href="none-20240831.xsd#IncomeTaxes" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/CommitmentsAndContingencies" xlink:href="none-20240831.xsd#CommitmentsAndContingencies" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/SubsequentEvents" xlink:href="none-20240831.xsd#SubsequentEvents" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/SummaryOfSignificantAccountingPoliciesPolicies" xlink:href="none-20240831.xsd#SummaryOfSignificantAccountingPoliciesPolicies" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/IncomeTaxesTables" xlink:href="none-20240831.xsd#IncomeTaxesTables" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/IntangibleAssetsDetailsNarrative" xlink:href="none-20240831.xsd#IntangibleAssetsDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/CommonStockDetailsNarrative" xlink:href="none-20240831.xsd#CommonStockDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/RelatedPartyDetailsNarrative" xlink:href="none-20240831.xsd#RelatedPartyDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://e-smart.io/role/IncomeTaxDetails" xlink:href="none-20240831.xsd#IncomeTaxDetails" xlink:type="simple" />
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" />
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" />
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" />
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all" />
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#notAll" arcroleURI="http://xbrl.org/int/dim/arcrole/notAll" />
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/Cover" xlink:title="00000001 - Document - Cover" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/BalanceSheets" xlink:title="00000002 - Statement - BALANCE SHEETS" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/BalanceSheetsParenthetical" xlink:title="00000003 - Statement - BALANCE SHEETS (Parenthetical)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/StatementsOfOperations" xlink:title="00000004 - Statement - STATEMENTS OF OPERATIONS" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/StatementsOfStockholdersEquity" xlink:title="00000005 - Statement - Statements of Stockholders&apos; Equity">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StatementLineItems" xlink:label="loc_us-gaapStatementLineItems" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StatementTable" xlink:label="loc_us-gaapStatementTable" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xbrldt:contextElement="segment" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapStatementTable" xlink:type="arc" order="10" xbrldt:closed="true" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StatementEquityComponentsAxis" xlink:label="loc_us-gaapStatementEquityComponentsAxis" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_us-gaapStatementTable" xlink:to="loc_us-gaapStatementEquityComponentsAxis" xlink:type="arc" order="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_EquityComponentDomain" xlink:label="loc_us-gaapEquityComponentDomain" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_us-gaapStatementEquityComponentsAxis" xlink:to="loc_us-gaapEquityComponentDomain" xlink:type="arc" order="20" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_EquityComponentDomain" xlink:label="loc_us-gaapEquityComponentDomain_10" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xbrldt:contextElement="segment" xlink:from="loc_us-gaapStatementEquityComponentsAxis" xlink:to="loc_us-gaapEquityComponentDomain_10" xlink:type="arc" order="30" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CommonStockMember" xlink:label="loc_us-gaapCommonStockMember_0" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapEquityComponentDomain" xlink:to="loc_us-gaapCommonStockMember_0" xlink:type="arc" order="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AdditionalPaidInCapitalMember" xlink:label="loc_us-gaapAdditionalPaidInCapitalMember_10" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapEquityComponentDomain" xlink:to="loc_us-gaapAdditionalPaidInCapitalMember_10" xlink:type="arc" order="11" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_RetainedEarningsMember" xlink:label="loc_us-gaapRetainedEarningsMember_20" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapEquityComponentDomain" xlink:to="loc_us-gaapRetainedEarningsMember_20" xlink:type="arc" order="21" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StockholdersEquity" xlink:label="loc_us-gaapStockholdersEquity_50" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapStockholdersEquity_50" xlink:type="arc" order="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ProceedsFromIssuanceOfCommonStock" xlink:label="loc_us-gaapProceedsFromIssuanceOfCommonStock_50" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapProceedsFromIssuanceOfCommonStock_50" xlink:type="arc" order="2" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StockIssuedDuringPeriodSharesNewIssues" xlink:label="loc_us-gaapStockIssuedDuringPeriodSharesNewIssues_50" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapStockIssuedDuringPeriodSharesNewIssues_50" xlink:type="arc" order="3" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetIncomeLoss" xlink:label="loc_us-gaapNetIncomeLoss_50" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapNetIncomeLoss_50" xlink:type="arc" order="4" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_SharesOutstanding" xlink:label="loc_us-gaapSharesOutstanding_50" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapSharesOutstanding_50" xlink:type="arc" order="5" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_InterestExpenseDebt" xlink:label="loc_us-gaapInterestExpenseDebt_50" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapInterestExpenseDebt_50" xlink:type="arc" order="6" />
+    </link:definitionLink>
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/StatementsOfCashFlows" xlink:title="00000006 - Statement - STATEMENTS OF CASH FLOWS" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/OrganizationAndNatureOfBusiness" xlink:title="00000007 - Disclosure - ORGANIZATION AND NATURE OF BUSINESS" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/GoingConcern" xlink:title="00000008 - Disclosure - GOING CONCERN" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/SummaryOfSignificantAccountingPolicies" xlink:title="00000009 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/IntangibleAssets" xlink:title="00000010 - Disclosure - INTANGIBLE ASSETS" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/CommonStock" xlink:title="00000011 - Disclosure - COMMON STOCK" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/RelatedParty" xlink:title="00000012 - Disclosure - RELATED PARTY" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/IncomeTaxes" xlink:title="00000013 - Disclosure - INCOME TAXES" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/CommitmentsAndContingencies" xlink:title="00000014 - Disclosure - COMMITMENTS AND CONTINGENCIES" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/SubsequentEvents" xlink:title="00000015 - Disclosure - SUBSEQUENT EVENTS" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/SummaryOfSignificantAccountingPoliciesPolicies" xlink:title="00000016 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (Policies)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/IncomeTaxesTables" xlink:title="00000017 - Disclosure - INCOME TAXES (Tables)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/IntangibleAssetsDetailsNarrative" xlink:title="00000018 - Disclosure - INTANGIBLE ASSETS (Details Narrative)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/CommonStockDetailsNarrative" xlink:title="00000019 - Disclosure - COMMON STOCK (Details Narrative)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/RelatedPartyDetailsNarrative" xlink:title="00000020 - Disclosure - RELATED PARTY (Details Narrative)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://e-smart.io/role/IncomeTaxDetails" xlink:title="00000021 - Disclosure - income tax (Details)" />
+</link:linkbase>

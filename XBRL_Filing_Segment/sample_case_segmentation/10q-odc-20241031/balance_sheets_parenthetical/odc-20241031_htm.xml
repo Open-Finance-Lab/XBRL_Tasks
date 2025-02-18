@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:odc="http://www.oildri.com/20241031" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en-US"><link:schemaRef xlink:href="odc-20241031.xsd" xlink:type="simple"/>
+	<context id="c-4">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-5">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-6">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-7">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-8">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonClassBMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<context id="c-9">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonClassBMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-16">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockCommonMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-07-31</instant>
+        </period>
+    </context>
+	<context id="c-27">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockCommonMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-10-31</instant>
+        </period>
+    </context>
+	<context id="c-33">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockCommonMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-07-31</instant>
+        </period>
+    </context>
+	<context id="c-43">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000074046</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockCommonMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-10-31</instant>
+        </period>
+    </context>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>odc:segment</measure>
+    </unit>
+	<us-gaap:AllowanceForDoubtfulAccountsReceivableCurrent contextRef="c-4" decimals="-3" id="f-36" unitRef="usd">1562000</us-gaap:AllowanceForDoubtfulAccountsReceivableCurrent>
+	<us-gaap:AllowanceForDoubtfulAccountsReceivableCurrent contextRef="c-5" decimals="-3" id="f-37" unitRef="usd">934000</us-gaap:AllowanceForDoubtfulAccountsReceivableCurrent>
+	<odc:TrademarksandpatentsaccumulatedAmortization contextRef="c-4" decimals="-3" id="f-50" unitRef="usd">647000</odc:TrademarksandpatentsaccumulatedAmortization>
+	<odc:TrademarksandpatentsaccumulatedAmortization contextRef="c-5" decimals="-3" id="f-51" unitRef="usd">625000</odc:TrademarksandpatentsaccumulatedAmortization>
+	<us-gaap:FiniteLivedIntangibleAssetsAccumulatedAmortization contextRef="c-4" decimals="-3" id="f-54" unitRef="usd">8431000</us-gaap:FiniteLivedIntangibleAssetsAccumulatedAmortization>
+	<us-gaap:FiniteLivedIntangibleAssetsAccumulatedAmortization contextRef="c-5" decimals="-3" id="f-55" unitRef="usd">8149000</us-gaap:FiniteLivedIntangibleAssetsAccumulatedAmortization>
+	<us-gaap:DeferredFinanceCostsNoncurrentNet contextRef="c-4" decimals="-3" id="f-80" unitRef="usd">223000</us-gaap:DeferredFinanceCostsNoncurrentNet>
+	<us-gaap:DeferredFinanceCostsNoncurrentNet contextRef="c-5" decimals="-3" id="f-81" unitRef="usd">226000</us-gaap:DeferredFinanceCostsNoncurrentNet>
+	<us-gaap:CommonStockParOrStatedValuePerShare contextRef="c-6" decimals="2" id="f-94" unitRef="usdPerShare">0.10</us-gaap:CommonStockParOrStatedValuePerShare>
+	<us-gaap:CommonStockParOrStatedValuePerShare contextRef="c-7" decimals="2" id="f-95" unitRef="usdPerShare">0.10</us-gaap:CommonStockParOrStatedValuePerShare>
+	<us-gaap:CommonStockParOrStatedValuePerShare contextRef="c-8" decimals="2" id="f-100" unitRef="usdPerShare">0.10</us-gaap:CommonStockParOrStatedValuePerShare>
+	<us-gaap:CommonStockParOrStatedValuePerShare contextRef="c-9" decimals="2" id="f-101" unitRef="usdPerShare">0.10</us-gaap:CommonStockParOrStatedValuePerShare>
+	<us-gaap:CommonStockSharesIssued contextRef="c-6" decimals="INF" id="f-96" unitRef="shares">8884473</us-gaap:CommonStockSharesIssued>
+	<us-gaap:CommonStockSharesIssued contextRef="c-7" decimals="INF" id="f-97" unitRef="shares">8843673</us-gaap:CommonStockSharesIssued>
+	<us-gaap:CommonStockSharesIssued contextRef="c-8" decimals="INF" id="f-102" unitRef="shares">2518056</us-gaap:CommonStockSharesIssued>
+	<us-gaap:CommonStockSharesIssued contextRef="c-9" decimals="INF" id="f-103" unitRef="shares">2518056</us-gaap:CommonStockSharesIssued>
+	<us-gaap:TreasuryStockCommonShares contextRef="c-6" decimals="INF" id="f-112" unitRef="shares">3723947</us-gaap:TreasuryStockCommonShares>
+	<us-gaap:TreasuryStockCommonShares contextRef="c-8" decimals="INF" id="f-113" unitRef="shares">380628</us-gaap:TreasuryStockCommonShares>
+	<us-gaap:TreasuryStockCommonShares contextRef="c-7" decimals="INF" id="f-114" unitRef="shares">3702185</us-gaap:TreasuryStockCommonShares>
+	<us-gaap:TreasuryStockCommonShares contextRef="c-9" decimals="INF" id="f-115" unitRef="shares">362649</us-gaap:TreasuryStockCommonShares>
+	<us-gaap:TreasuryStockCommonShares contextRef="c-16" decimals="0" id="f-231" unitRef="shares">-4010630</us-gaap:TreasuryStockCommonShares>
+	<us-gaap:TreasuryStockCommonShares contextRef="c-27" decimals="0" id="f-278" unitRef="shares">-4026459</us-gaap:TreasuryStockCommonShares>
+	<us-gaap:TreasuryStockCommonShares contextRef="c-33" decimals="0" id="f-286" unitRef="shares">-4064834</us-gaap:TreasuryStockCommonShares>
+	<us-gaap:TreasuryStockCommonShares contextRef="c-43" decimals="0" id="f-334" unitRef="shares">-4104575</us-gaap:TreasuryStockCommonShares>
+	</xbrl>
+

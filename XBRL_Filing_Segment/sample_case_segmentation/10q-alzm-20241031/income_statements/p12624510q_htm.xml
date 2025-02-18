@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:alzm="http://alzamend.com/20241031" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:ecd="http://xbrl.sec.gov/ecd/2024" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2024" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="alzm-20241031.xsd" xlink:type="simple"/>
+	<context id="From2024-08-012024-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001677077</identifier>
+        </entity>
+        <period>
+            <startDate>2024-08-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<context id="From2023-08-012023-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001677077</identifier>
+        </entity>
+        <period>
+            <startDate>2023-08-01</startDate>
+            <endDate>2023-10-31</endDate>
+        </period>
+    </context>
+	<context id="From2024-05-01to2024-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001677077</identifier>
+        </entity>
+        <period>
+            <startDate>2024-05-01</startDate>
+            <endDate>2024-10-31</endDate>
+        </period>
+    </context>
+	<context id="From2023-05-012023-10-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001677077</identifier>
+        </entity>
+        <period>
+            <startDate>2023-05-01</startDate>
+            <endDate>2023-10-31</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:ResearchAndDevelopmentExpense contextRef="From2024-08-012024-10-31" decimals="0" id="Fact000159" unitRef="USD">311088</us-gaap:ResearchAndDevelopmentExpense>
+	<us-gaap:ResearchAndDevelopmentExpense contextRef="From2023-08-012023-10-31" decimals="0" id="Fact000160" unitRef="USD">1996783</us-gaap:ResearchAndDevelopmentExpense>
+	<us-gaap:ResearchAndDevelopmentExpense contextRef="From2024-05-01to2024-10-31" decimals="0" id="Fact000161" unitRef="USD">517659</us-gaap:ResearchAndDevelopmentExpense>
+	<us-gaap:ResearchAndDevelopmentExpense contextRef="From2023-05-012023-10-31" decimals="0" id="Fact000162" unitRef="USD">4362920</us-gaap:ResearchAndDevelopmentExpense>
+	<us-gaap:GeneralAndAdministrativeExpense contextRef="From2024-08-012024-10-31" decimals="0" id="Fact000164" unitRef="USD">1046980</us-gaap:GeneralAndAdministrativeExpense>
+	<us-gaap:GeneralAndAdministrativeExpense contextRef="From2023-08-012023-10-31" decimals="0" id="Fact000165" unitRef="USD">904939</us-gaap:GeneralAndAdministrativeExpense>
+	<us-gaap:GeneralAndAdministrativeExpense contextRef="From2024-05-01to2024-10-31" decimals="0" id="Fact000166" unitRef="USD">1802814</us-gaap:GeneralAndAdministrativeExpense>
+	<us-gaap:GeneralAndAdministrativeExpense contextRef="From2023-05-012023-10-31" decimals="0" id="Fact000167" unitRef="USD">2064732</us-gaap:GeneralAndAdministrativeExpense>
+	<us-gaap:OperatingExpenses contextRef="From2024-08-012024-10-31" decimals="0" id="Fact000169" unitRef="USD">1358068</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingExpenses contextRef="From2023-08-012023-10-31" decimals="0" id="Fact000170" unitRef="USD">2901722</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingExpenses contextRef="From2024-05-01to2024-10-31" decimals="0" id="Fact000171" unitRef="USD">2320473</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingExpenses contextRef="From2023-05-012023-10-31" decimals="0" id="Fact000172" unitRef="USD">6427652</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingIncomeLoss contextRef="From2024-08-012024-10-31" decimals="0" id="Fact000174" unitRef="USD">-1358068</us-gaap:OperatingIncomeLoss>
+	<us-gaap:OperatingIncomeLoss contextRef="From2023-08-012023-10-31" decimals="0" id="Fact000175" unitRef="USD">-2901722</us-gaap:OperatingIncomeLoss>
+	<us-gaap:OperatingIncomeLoss contextRef="From2024-05-01to2024-10-31" decimals="0" id="Fact000176" unitRef="USD">-2320473</us-gaap:OperatingIncomeLoss>
+	<us-gaap:OperatingIncomeLoss contextRef="From2023-05-012023-10-31" decimals="0" id="Fact000177" unitRef="USD">-6427652</us-gaap:OperatingIncomeLoss>
+	<us-gaap:InterestExpense contextRef="From2024-08-012024-10-31" decimals="0" id="Fact000184" unitRef="USD">3495</us-gaap:InterestExpense>
+	<us-gaap:InterestExpense contextRef="From2023-08-012023-10-31" decimals="0" id="Fact000185" unitRef="USD">4311</us-gaap:InterestExpense>
+	<us-gaap:InterestExpense contextRef="From2024-05-01to2024-10-31" decimals="0" id="Fact000186" unitRef="USD">15501</us-gaap:InterestExpense>
+	<us-gaap:InterestExpense contextRef="From2023-05-012023-10-31" decimals="0" id="Fact000187" unitRef="USD">6147</us-gaap:InterestExpense>
+	<us-gaap:NonoperatingIncomeExpense contextRef="From2024-08-012024-10-31" decimals="0" id="Fact000189" unitRef="USD">-3495</us-gaap:NonoperatingIncomeExpense>
+	<us-gaap:NonoperatingIncomeExpense contextRef="From2023-08-012023-10-31" decimals="0" id="Fact000190" unitRef="USD">-4311</us-gaap:NonoperatingIncomeExpense>
+	<us-gaap:NonoperatingIncomeExpense contextRef="From2024-05-01to2024-10-31" decimals="0" id="Fact000191" unitRef="USD">-15501</us-gaap:NonoperatingIncomeExpense>
+	<us-gaap:NonoperatingIncomeExpense contextRef="From2023-05-012023-10-31" decimals="0" id="Fact000192" unitRef="USD">-6147</us-gaap:NonoperatingIncomeExpense>
+	<us-gaap:ProfitLoss contextRef="From2024-08-012024-10-31" decimals="0" id="Fact000194" unitRef="USD">-1361563</us-gaap:ProfitLoss>
+	<us-gaap:ProfitLoss contextRef="From2023-08-012023-10-31" decimals="0" id="Fact000195" unitRef="USD">-2906033</us-gaap:ProfitLoss>
+	<us-gaap:ProfitLoss contextRef="From2024-05-01to2024-10-31" decimals="0" id="Fact000196" unitRef="USD">-2335974</us-gaap:ProfitLoss>
+	<us-gaap:ProfitLoss contextRef="From2023-05-012023-10-31" decimals="0" id="Fact000197" unitRef="USD">-6433799</us-gaap:ProfitLoss>
+	<alzm:DividendsOnPreferredShares contextRef="From2023-08-012023-10-31" id="xdx2ixbrl0200" unitRef="USD" xsi:nil="true"/>
+	<alzm:DividendsOnPreferredShares contextRef="From2023-05-012023-10-31" id="xdx2ixbrl0202" unitRef="USD" xsi:nil="true"/>
+	<alzm:DividendsOnPreferredShares contextRef="From2024-08-012024-10-31" decimals="0" id="Fact000199" unitRef="USD">53651</alzm:DividendsOnPreferredShares>
+	<alzm:DividendsOnPreferredShares contextRef="From2024-05-01to2024-10-31" decimals="0" id="Fact000201" unitRef="USD">53651</alzm:DividendsOnPreferredShares>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2024-08-012024-10-31" decimals="0" id="Fact000204" unitRef="USD">-1415214</us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2023-08-012023-10-31" decimals="0" id="Fact000205" unitRef="USD">-2906033</us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2024-05-01to2024-10-31" decimals="0" id="Fact000206" unitRef="USD">-2389625</us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2023-05-012023-10-31" decimals="0" id="Fact000207" unitRef="USD">-6433799</us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic>
+	<us-gaap:EarningsPerShareBasic contextRef="From2024-08-012024-10-31" decimals="INF" id="Fact000209" unitRef="USDPShares">-0.40</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareBasic contextRef="From2023-08-012023-10-31" decimals="INF" id="Fact000213" unitRef="USDPShares">-4.43</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareBasic contextRef="From2024-05-01to2024-10-31" decimals="INF" id="Fact000217" unitRef="USDPShares">-1.11</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareBasic contextRef="From2023-05-012023-10-31" decimals="INF" id="Fact000221" unitRef="USDPShares">-9.80</us-gaap:EarningsPerShareBasic>
+	<us-gaap:EarningsPerShareDiluted contextRef="From2024-08-012024-10-31" decimals="INF" id="Fact000211" unitRef="USDPShares">-0.40</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="From2023-08-012023-10-31" decimals="INF" id="Fact000215" unitRef="USDPShares">-4.43</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="From2024-05-01to2024-10-31" decimals="INF" id="Fact000219" unitRef="USDPShares">-1.11</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:EarningsPerShareDiluted contextRef="From2023-05-012023-10-31" decimals="INF" id="Fact000223" unitRef="USDPShares">-9.80</us-gaap:EarningsPerShareDiluted>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="From2024-08-012024-10-31" decimals="INF" id="Fact000225" unitRef="Shares">3531702</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="From2023-08-012023-10-31" decimals="INF" id="Fact000229" unitRef="Shares">656378</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="From2024-05-01to2024-10-31" decimals="INF" id="Fact000233" unitRef="Shares">2154761</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfSharesOutstandingBasic contextRef="From2023-05-012023-10-31" decimals="INF" id="Fact000237" unitRef="Shares">656323</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="From2024-08-012024-10-31" decimals="INF" id="Fact000227" unitRef="Shares">3531702</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="From2023-08-012023-10-31" decimals="INF" id="Fact000231" unitRef="Shares">656378</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="From2024-05-01to2024-10-31" decimals="INF" id="Fact000235" unitRef="Shares">2154761</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	<us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding contextRef="From2023-05-012023-10-31" decimals="INF" id="Fact000239" unitRef="Shares">656323</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+	</xbrl>
+
